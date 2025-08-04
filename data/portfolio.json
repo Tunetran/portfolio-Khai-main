@@ -6,12 +6,14 @@
     "university": "Ho Chi Minh City University of Foreign Languages – Information Technology",
     "description": "Sinh viên ngành An Ninh Mạng với đam mê về Cybersecurity, Network Security và Information Security.",
     "location": "279 Phan Anh, Bình Trị Đông, Bình Tân, TP. Hồ Chí Minh",
-    "email": "tranvankhai@example.com",
+    "email": "trankhair2004@gmail.com",
     "phone": "+84 xxx xxx xxx",
     "socialLinks": [
-      { "label": "GitHub", "href": "#" },
-      { "label": "LinkedIn", "href": "#" },
-      { "label": "Email", "href": "mailto:tranvankhai@example.com" }
+      { "label": "GitHub", "href": "https://github.com/TranVanKhai", "icon": "github" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/in/tranvankhai", "icon": "linkedin" },
+      { "label": "Facebook", "href": "https://facebook.com/tranvankhai", "icon": "facebook" },
+      { "label": "Twitter", "href": "https://twitter.com/tranvankhai", "icon": "twitter" },
+      { "label": "Email", "href": "mailto:trankhair2004@gmail.com", "icon": "mail" }
     ]
   },
   "navigation": [
@@ -20,6 +22,7 @@
     { "name": "Kinh nghiệm", "href": "#experience" },
     { "name": "Thành tựu", "href": "#achievements" },
     { "name": "Dự án", "href": "#projects" },
+    { "name": "Blog", "href": "#blog" },
     { "name": "Liên hệ", "href": "#contact" }
   ],
   "experiences": [
@@ -141,11 +144,57 @@
       "category": "Tình nguyện"
     }
   ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "Tổng quan về Penetration Testing",
+      "excerpt": "Hướng dẫn cơ bản về penetration testing và các công cụ phổ biến trong lĩnh vực cybersecurity.",
+      "content": "Penetration testing là một phương pháp đánh giá bảo mật hệ thống bằng cách mô phỏng các cuộc tấn công...",
+      "image": "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["Penetration Testing", "Cybersecurity", "Ethical Hacking"],
+      "publishedAt": "2024-07-15",
+      "readTime": "5 phút đọc",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Bảo mật mạng IoT - Thách thức và giải pháp",
+      "excerpt": "Phân tích các lỗ hổng bảo mật thường gặp trong hệ thống IoT và cách phòng chống hiệu quả.",
+      "content": "Internet of Things (IoT) đang phát triển mạnh mẽ nhưng cũng mang theo nhiều rủi ro bảo mật...",
+      "image": "https://images.pexels.com/photos/5380641/pexels-photo-5380641.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["IoT Security", "Network Security", "Device Management"],
+      "publishedAt": "2024-07-10",
+      "readTime": "7 phút đọc",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Cryptography cơ bản cho developer",
+      "excerpt": "Tìm hiểu về các thuật toán mã hóa cơ bản và cách áp dụng trong phát triển ứng dụng bảo mật.",
+      "content": "Cryptography là nền tảng của bảo mật thông tin hiện đại. Bài viết này sẽ giới thiệu các khái niệm cơ bản...",
+      "image": "https://images.pexels.com/photos/5380617/pexels-photo-5380617.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["Cryptography", "Encryption", "Security Development"],
+      "publishedAt": "2024-07-05",
+      "readTime": "6 phút đọc",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "title": "Web Application Security - OWASP Top 10",
+      "excerpt": "Phân tích chi tiết OWASP Top 10 và cách bảo vệ ứng dụng web khỏi các lỗ hổng phổ biến.",
+      "content": "OWASP Top 10 là danh sách các lỗ hổng bảo mật nghiêm trọng nhất trong ứng dụng web...",
+      "image": "https://images.pexels.com/photos/5380589/pexels-photo-5380589.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["Web Security", "OWASP", "Application Security"],
+      "publishedAt": "2024-06-28",
+      "readTime": "8 phút đọc",
+      "featured": false
+    }
+  ],
   "contact": [
     {
       "title": "Email",
-      "value": "tranvankhai@example.com",
-      "href": "mailto:tranvankhai@example.com"
+      "value": "trankhair2004@gmail.com",
+      "href": "mailto:trankhair2004@gmail.com"
     },
     {
       "title": "Điện thoại",
