@@ -16,6 +16,7 @@ import ExperienceSection from '@/components/ExperienceSection';
 import AchievementsSection from '@/components/AchievementsSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import BlogSection from '@/components/BlogSection';
+import TarotSection from '@/components/TarotSection';
 import ContactSection from '@/components/ContactSection';
 import portfolioData from '@/lib/portfolioData';
 
@@ -39,6 +40,9 @@ export default function Home() {
           <AchievementsSection />
           <ProjectsSection />
           <BlogSection blogs={portfolioData.blog} />
+          <div id="tarot">
+            <TarotSection />
+          </div>
           <ContactSection />
         </div>
       </PageTransition>

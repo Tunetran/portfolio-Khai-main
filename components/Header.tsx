@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Home, User, Briefcase, Award, FolderOpen, Mail, BookOpen } from 'lucide-react';
+import { Menu, X, Home, User, Briefcase, Award, FolderOpen, Mail, BookOpen, Sparkles } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
 
 const navItems = [
@@ -12,6 +12,7 @@ const navItems = [
   { name: 'Thành tựu', href: '#achievements', icon: Award },
   { name: 'Dự án', href: '#projects', icon: FolderOpen },
   { name: 'Blog', href: '#blog', icon: BookOpen },
+  { name: 'Tarot', href: '#tarot', icon: Sparkles },
   { name: 'Liên hệ', href: '#contact', icon: Mail },
 ];
 
