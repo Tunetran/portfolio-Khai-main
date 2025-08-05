@@ -152,16 +152,6 @@ export default function ProfessionalExperienceSection() {
                             </div>
                           </div>
                         )}
-
-                        {/* Special Recognition */}
-                        {exp.achievements && exp.achievements.some(a => a.includes('điểm tối đa')) && (
-                          <div className="mt-6 p-4 bg-professional-green/5 border border-professional-green/20 rounded-xl">
-                            <div className="flex items-center text-professional-green">
-                              <Award className="w-5 h-5 mr-2" />
-                              <span className="font-semibold text-sm">Đạt điểm tối đa - Xuất sắc</span>
-                            </div>
-                          </div>
-                        )}
                       </div>
                     </div>
                     
@@ -181,24 +171,24 @@ export default function ProfessionalExperienceSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-center mt-20"
         >
-          <div className="professional-card bg-gradient-to-r from-professional-blue to-professional-navy rounded-2xl p-8 lg:p-12 text-white max-w-4xl mx-auto">
-            <h3 className="text-2xl lg:text-3xl font-bold mb-4">
+          <div className="professional-card bg-gradient-to-r from-emerald-600 to-emerald-700 dark:from-emerald-500 dark:to-emerald-600 rounded-2xl p-8 lg:p-12 text-white max-w-4xl mx-auto shadow-2xl hover:shadow-emerald-500/25 transition-all duration-500">
+            <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-white">
               Tiếp tục hành trình phát triển
             </h3>
-            <p className="text-xl mb-8 opacity-90">
+            <p className="text-xl mb-8 text-emerald-50">
               Luôn học hỏi, không ngừng cải thiện và sẵn sàng đóng góp vào dự án của bạn
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="#projects"
-                className="inline-flex items-center px-8 py-4 bg-white text-professional-blue font-semibold rounded-xl hover:bg-gray-50 transition-all duration-300 hover:scale-105"
+                className="inline-flex items-center px-8 py-4 bg-white text-emerald-700 font-semibold rounded-xl hover:bg-emerald-50 transition-all duration-300 hover:scale-105 shadow-lg"
               >
                 <span>Xem dự án</span>
                 <TrendingUp className="w-5 h-5 ml-2" />
               </a>
               <a
                 href="#contact"
-                className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white/10 transition-all duration-300"
+                className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white/20 transition-all duration-300 hover:scale-105"
               >
                 <span>Liên hệ ngay</span>
                 <Target className="w-5 h-5 ml-2" />

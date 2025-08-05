@@ -312,19 +312,19 @@ export default function ProfessionalAboutSection() {
             )}
           </motion.div>
 
-          {/* Call to Action */}
+          {/* Call to Action - Enhanced Contrast */}
           <motion.div variants={itemVariants} className="text-center">
-            <div className="professional-card bg-gradient-to-r from-professional-blue to-professional-navy rounded-2xl p-8 lg:p-12 text-white">
-              <h3 className="text-3xl font-bold mb-4">
+            <div className="professional-card bg-gradient-to-r from-blue-600 to-blue-700 dark:from-blue-500 dark:to-blue-600 rounded-2xl p-8 lg:p-12 text-white shadow-2xl">
+              <h3 className="text-3xl font-bold mb-4 text-white">
                 Sẵn sàng hợp tác cùng bạn!
               </h3>
-              <p className="text-xl mb-8 opacity-90">
+              <p className="text-xl mb-8 text-blue-50">
                 Tìm kiếm cơ hội thực tập và làm việc trong lĩnh vực Cybersecurity & Java Development
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
                   href={`mailto:${profile.email}`}
-                  className="inline-flex items-center px-8 py-4 bg-white text-professional-blue font-semibold rounded-xl hover:bg-gray-50 transition-all duration-300 hover:scale-105"
+                  className="inline-flex items-center px-8 py-4 bg-white text-blue-700 font-semibold rounded-xl hover:bg-blue-50 transition-all duration-300 hover:scale-105 shadow-lg"
                 >
                   <span>Liên hệ ngay</span>
                   <ChevronRight className="w-5 h-5 ml-2" />
@@ -333,7 +333,7 @@ export default function ProfessionalAboutSection() {
                   href={profile.cvDownloadUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white/10 transition-all duration-300"
+                  className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white/20 transition-all duration-300 hover:scale-105"
                 >
                   <span>Tải CV</span>
                   <ChevronRight className="w-5 h-5 ml-2" />

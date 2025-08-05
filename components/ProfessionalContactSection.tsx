@@ -89,16 +89,16 @@ export default function ProfessionalContactSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center space-x-2 bg-professional-blue/10 text-professional-blue px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <div className="inline-flex items-center space-x-2 bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 px-4 py-2 rounded-full text-sm font-medium mb-6 border border-blue-200 dark:border-blue-800">
             <Send className="w-4 h-4" />
             <span>Kết nối & Hợp tác</span>
           </div>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-corporate-navy-900 via-professional-blue to-corporate-navy-800 dark:from-white dark:via-corporate-blue-200 dark:to-white bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-slate-900 via-blue-700 to-slate-800 dark:from-white dark:via-blue-300 dark:to-gray-200 bg-clip-text text-transparent">
               Sẵn Sàng Hợp Tác
             </span>
           </h2>
-          <p className="text-xl text-corporate-navy-600 dark:text-corporate-navy-400 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-xl text-slate-700 dark:text-slate-300 max-w-4xl mx-auto leading-relaxed">
             Hãy cùng nhau thảo luận về dự án của bạn. Tôi cam kết mang đến giải pháp tối ưu và dịch vụ chuyên nghiệp nhất.
           </p>
         </motion.div>
@@ -172,9 +172,9 @@ export default function ProfessionalContactSection() {
               </div>
             </div>
 
-            {/* Why Choose Me */}
-            <div className="professional-card bg-gradient-to-br from-professional-blue to-professional-navy rounded-2xl p-8 text-white">
-              <h3 className="text-xl font-bold mb-6">Tại sao chọn tôi?</h3>
+            {/* Why Choose Me - Enhanced Contrast */}
+            <div className="professional-card bg-gradient-to-br from-red-600 to-red-700 dark:from-red-500 dark:to-red-600 rounded-2xl p-8 text-white shadow-2xl hover:shadow-red-500/25 transition-all duration-500">
+              <h3 className="text-xl font-bold mb-6 text-white">Tại sao chọn tôi?</h3>
               <div className="space-y-4">
                 {whyChooseMe.map((item, index) => {
                   const IconComponent = item.icon;
@@ -186,12 +186,12 @@ export default function ProfessionalContactSection() {
                       transition={{ duration: 0.5, delay: index * 0.1 }}
                       className="flex items-start space-x-3"
                     >
-                      <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <IconComponent className="w-5 h-5" />
+                      <div className="w-8 h-8 bg-white/30 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <IconComponent className="w-5 h-5 text-white" />
                       </div>
                       <div>
-                        <h4 className="font-semibold mb-1">{item.title}</h4>
-                        <p className="text-sm opacity-90">{item.description}</p>
+                        <h4 className="font-semibold mb-1 text-white">{item.title}</h4>
+                        <p className="text-sm text-red-50">{item.description}</p>
                       </div>
                     </motion.div>
                   );
@@ -221,31 +221,31 @@ export default function ProfessionalContactSection() {
           </motion.div>
         </div>
 
-        {/* Call to Action */}
+        {/* Call to Action - Enhanced Contrast */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-center mt-20"
         >
-          <div className="professional-card bg-gradient-to-r from-corporate-navy-100 to-corporate-blue-100 dark:from-corporate-navy-800 dark:to-corporate-navy-700 rounded-2xl p-8 lg:p-12 max-w-4xl mx-auto">
-            <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-corporate-navy-900 dark:text-white">
+          <div className="professional-card bg-gradient-to-r from-slate-50 to-blue-50 dark:from-slate-900 dark:to-slate-800 rounded-2xl p-8 lg:p-12 max-w-4xl mx-auto border border-slate-200 dark:border-slate-700 shadow-2xl">
+            <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-slate-900 dark:text-white">
               Bắt đầu dự án ngay hôm nay
             </h3>
-            <p className="text-xl mb-8 text-corporate-navy-600 dark:text-corporate-navy-400">
+            <p className="text-xl mb-8 text-slate-700 dark:text-slate-300">
               Cùng nhau biến ý tưởng thành hiện thực với công nghệ hiện đại và giải pháp tối ưu
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="mailto:khaikaito123@gmail.com"
-                className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-professional-blue to-professional-navy text-white font-semibold rounded-xl hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold rounded-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 shadow-lg"
               >
                 <Mail className="w-5 h-5 mr-2" />
                 <span>Gửi email ngay</span>
               </a>
               <a
                 href="tel:+84869696969"
-                className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-professional-blue text-professional-blue font-semibold rounded-xl hover:bg-professional-blue hover:text-white transition-all duration-300"
+                className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400 font-semibold rounded-xl hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-slate-900 transition-all duration-300 hover:scale-105"
               >
                 <Phone className="w-5 h-5 mr-2" />
                 <span>Gọi điện thoại</span>

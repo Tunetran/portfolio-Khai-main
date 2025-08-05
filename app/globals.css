@@ -29,18 +29,35 @@
   --navy-800: #1e293b;
   --navy-900: #0f172a;
   
-  /* Professional Accents */
-  --accent-blue: #3182ce;
-  --accent-green: #38a169;
-  --accent-orange: #dd6b20;
-  --accent-purple: #805ad5;
-  --accent-red: #e53e3e;
+  /* Professional Accents - High Contrast Colors */
+  --accent-blue: #2563eb;        /* Darker blue for better contrast */
+  --accent-green: #059669;       /* Darker green for better contrast */
+  --accent-orange: #dc2626;      /* Changed to red for better contrast */
+  --accent-purple: #7c3aed;      /* Darker purple for better contrast */
+  --accent-red: #dc2626;
   
-  /* Corporate Gradients */
-  --gradient-primary: linear-gradient(135deg, #1a365d 0%, #2d3748 50%, #1a202c 100%);
-  --gradient-secondary: linear-gradient(135deg, #3182ce 0%, #2b6cb0 50%, #2c5282 100%);
-  --gradient-accent: linear-gradient(135deg, #38a169 0%, #2f855a 50%, #276749 100%);
-  --gradient-hero: linear-gradient(135deg, rgba(26, 54, 93, 0.95) 0%, rgba(45, 55, 72, 0.9) 50%, rgba(26, 32, 44, 0.95) 100%);
+  /* Professional Blue Variants */
+  --professional-blue: #1d4ed8;  /* High contrast blue */
+  --professional-blue-dark: #1e40af;
+  --professional-blue-light: #3b82f6;
+  
+  /* Professional Green Variants */
+  --professional-green: #047857; /* High contrast green */
+  --professional-green-dark: #065f46;
+  --professional-green-light: #059669;
+  
+  /* Professional Orange/Red Variants */
+  --professional-orange: #dc2626; /* High contrast red */
+  --professional-orange-dark: #b91c1c;
+  --professional-orange-light: #ef4444;
+  
+  /* Corporate Gradients - Enhanced Contrast */
+  --gradient-primary: linear-gradient(135deg, #1e293b 0%, #334155 50%, #475569 100%);
+  --gradient-secondary: linear-gradient(135deg, #1d4ed8 0%, #1e40af 50%, #1e3a8a 100%);
+  --gradient-accent: linear-gradient(135deg, #047857 0%, #065f46 50%, #064e3b 100%);
+  --gradient-hero: linear-gradient(135deg, rgba(30, 41, 59, 0.95) 0%, rgba(51, 65, 85, 0.9) 50%, rgba(71, 85, 105, 0.95) 100%);
+  --gradient-cta: linear-gradient(135deg, #dc2626 0%, #b91c1c 50%, #991b1b 100%);
+  --gradient-success: linear-gradient(135deg, #047857 0%, #065f46 50%, #064e3b 100%);
   
   /* Professional Shadows */
   --shadow-soft: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -66,7 +83,7 @@
 }
 
 [data-theme="dark"] {
-  /* Dark Mode Professional Colors */
+  /* Dark Mode Professional Colors - High Contrast */
   --primary-50: #0f172a;
   --primary-100: #1e293b;
   --primary-200: #334155;
@@ -90,10 +107,33 @@
   --navy-800: #f1f5f9;
   --navy-900: #f8fafc;
   
-  /* Dark Mode Gradients */
+  /* Dark Mode Accents - Enhanced Contrast */
+  --accent-blue: #60a5fa;        /* Brighter blue for dark mode */
+  --accent-green: #10b981;       /* Brighter green for dark mode */
+  --accent-orange: #f87171;      /* Brighter red for dark mode */
+  --accent-purple: #a78bfa;      /* Brighter purple for dark mode */
+  --accent-red: #f87171;
+  
+  /* Dark Mode Professional Variants */
+  --professional-blue: #60a5fa;  /* High contrast blue for dark */
+  --professional-blue-dark: #3b82f6;
+  --professional-blue-light: #93c5fd;
+  
+  --professional-green: #10b981; /* High contrast green for dark */
+  --professional-green-dark: #059669;
+  --professional-green-light: #34d399;
+  
+  --professional-orange: #f87171; /* High contrast red for dark */
+  --professional-orange-dark: #ef4444;
+  --professional-orange-light: #fca5a5;
+  
+  /* Dark Mode Gradients - Enhanced Contrast */
   --gradient-primary: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
-  --gradient-secondary: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%);
+  --gradient-secondary: linear-gradient(135deg, #3b82f6 0%, #60a5fa 50%, #93c5fd 100%);
+  --gradient-accent: linear-gradient(135deg, #10b981 0%, #34d399 50%, #6ee7b7 100%);
   --gradient-hero: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.9) 50%, rgba(51, 65, 85, 0.95) 100%);
+  --gradient-cta: linear-gradient(135deg, #f87171 0%, #fca5a5 50%, #fecaca 100%);
+  --gradient-success: linear-gradient(135deg, #10b981 0%, #34d399 50%, #6ee7b7 100%);
 }
 
 * {

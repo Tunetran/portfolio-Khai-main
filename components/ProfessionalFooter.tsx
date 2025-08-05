@@ -61,7 +61,7 @@ export default function ProfessionalFooter() {
             </div>
             
             <p className="text-corporate-blue-200 leading-relaxed text-lg max-w-md">
-              Sinh viên ngành An Ninh Mạng với đam mê phát triển công nghệ và bảo mật thông tin. 
+              Sinh viên ngành Công nghệ Thông tin chuyên ngành An ninh mạng với đam mê phát triển công nghệ và bảo mật thông tin. 
               Chuyên về Java Development và Cybersecurity Solutions.
             </p>
 
