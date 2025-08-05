@@ -1,0 +1,410 @@
+{
+  "profile": {
+    "name": "Trần Văn Khải",
+    "avatarUrl": "https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/502577317_1431424974939578_1353141353574912235_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEuBbYoWVzdES-11Jc0PrUeyHh2j2WS98HIeHaPZZL3wZ7hb6sS3cmgR-wAp3kUQd2Th-VXSAsumt5OLmIGDqen&_nc_ohc=ZDCbxgLYFtsQ7kNvwGRS7kQ&_nc_oc=AdlAs3R9YMkRTDXVPmp0MHbZZAP6sRYZjDTlEydTATwE0As_yJ7CXEoKiuI9AeoTVVk&_nc_zt=23&_nc_ht=scontent.fsgn5-10.fna&_nc_gid=v5XuYJwKZ0OdtFcwC6Kyxg&oh=00_AfXkFKWfQijpmOluC_Ct6mdiNzQd7xP7u1BcOBVjv5RIdg&oe=689674CD",
+    "title": "Cybersecurity Specialist & Ethical Hacker",
+    "tagline": "🛡️ Protecting Digital Assets Through Innovation & Excellence 🔒",
+    "university": "University of Foreign Languages - Information Technology HCMC",
+    "description": "🚀 Passionate cybersecurity specialist with 3+ years of hands-on experience in penetration testing, network security, and threat analysis. Specialized in ethical hacking, incident response, and security architecture design. Currently pursuing advanced studies in AI security and cloud protection.\n\n🎯 My mission is to build a safer digital world through innovative security solutions, continuous learning, and knowledge sharing with the cybersecurity community.",
+    "location": "Ho Chi Minh City, Vietnam",
+    "email": "trankhair2004@gmail.com",
+    "phone": "+84 842 380 777",
+    "website": "https://tranvankhai.dev",
+    "status": "🟢 Available for Internship & Full-time Opportunities",
+    "languages": ["🇻🇳 Vietnamese (Native)", "🇺🇸 English (Professional)", "🇯🇵 Japanese (Basic)"],
+    "cvDownloadUrl": "https://drive.google.com/uc?export=download&id=1kPhvVFArk-KdtY91USkcNSb92jv5lfrM",
+    "socialLinks": [
+      { "label": "GitHub", "href": "https://github.com/Tunetran", "icon": "github" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/in/tranvankhai", "icon": "linkedin" },
+      { "label": "Facebook", "href": "https://www.facebook.com/tran.khai.624476", "icon": "facebook" },
+      { "label": "Email", "href": "mailto:trankhair2004@gmail.com", "icon": "mail" },
+      { "label": "Discord", "href": "https://discord.gg/cybersecurity", "icon": "message-circle" },
+      { "label": "Medium", "href": "https://medium.com/@tranvankhai", "icon": "pen-tool" }
+    ],
+    "certifications": [
+      { "name": "CompTIA Security+", "status": "Completed", "date": "2024", "credentialId": "COMP001234" },
+      { "name": "CEH (Certified Ethical Hacker)", "status": "In Progress", "date": "2025" },
+      { "name": "CCNA Security", "status": "Studying", "date": "2025" },
+      { "name": "CISSP Associate", "status": "Planned", "date": "2025" }
+    ],
+    "interests": ["🔍 Cybersecurity Research", "🏁 CTF Competitions", "💻 Open Source", "🤖 AI Security", "⛓️ Blockchain Security", "🌐 IoT Security"],
+    "skills": [
+      { "name": "Network Security", "level": 85, "category": "Cybersecurity", "icon": "🔒", "description": "Enterprise network security design & implementation" },
+      { "name": "Penetration Testing", "level": 80, "category": "Cybersecurity", "icon": "🛡️", "description": "Web app & network penetration testing" },
+      { "name": "Ethical Hacking", "level": 75, "category": "Cybersecurity", "icon": "🔍", "description": "OWASP Top 10, vulnerability assessment" },
+      { "name": "Incident Response", "level": 70, "category": "Cybersecurity", "icon": "🚨", "description": "Security incident handling & forensics" },
+      { "name": "Malware Analysis", "level": 65, "category": "Cybersecurity", "icon": "🦠", "description": "Static & dynamic malware analysis" },
+      { "name": "Python", "level": 90, "category": "Programming", "icon": "🐍", "description": "Security automation & scripting" },
+      { "name": "JavaScript/TypeScript", "level": 85, "category": "Programming", "icon": "⚡", "description": "Full-stack web development" },
+      { "name": "Java", "level": 80, "category": "Programming", "icon": "☕", "description": "Enterprise applications & Android security" },
+      { "name": "C/C++", "level": 75, "category": "Programming", "icon": "⚙️", "description": "System programming & reverse engineering" },
+      { "name": "Go", "level": 70, "category": "Programming", "icon": "🔷", "description": "Cloud-native security tools" },
+      { "name": "React/Next.js", "level": 85, "category": "Web Development", "icon": "⚛️", "description": "Modern frontend applications" },
+      { "name": "Node.js", "level": 80, "category": "Web Development", "icon": "🟢", "description": "Backend API development" },
+      { "name": "Linux Administration", "level": 90, "category": "System Administration", "icon": "🐧", "description": "RedHat, Ubuntu, Kali Linux expertise" },
+      { "name": "Docker & Kubernetes", "level": 75, "category": "System Administration", "icon": "🐳", "description": "Container security & orchestration" },
+      { "name": "AWS/Cloud Security", "level": 70, "category": "System Administration", "icon": "☁️", "description": "Cloud infrastructure security" },
+      { "name": "Network Configuration", "level": 85, "category": "System Administration", "icon": "🌐", "description": "Cisco, Fortinet, pfSense" },
+      { "name": "Burp Suite", "level": 85, "category": "Security Tools", "icon": "🔧", "description": "Professional web application testing" },
+      { "name": "Metasploit", "level": 75, "category": "Security Tools", "icon": "💀", "description": "Exploit development & testing" },
+      { "name": "Nmap", "level": 90, "category": "Security Tools", "icon": "🗺️", "description": "Advanced network reconnaissance" },
+      { "name": "Wireshark", "level": 95, "category": "Security Tools", "icon": "🦈", "description": "Network protocol analysis expert" },
+      { "name": "SIEM Tools", "level": 75, "category": "Security Tools", "icon": "📊", "description": "Splunk, ELK Stack, QRadar" },
+      { "name": "IDS/IPS", "level": 80, "category": "Security Tools", "icon": "🛡️", "description": "Suricata, Snort, Wazuh" }
+    ]
+  },
+  "navigation": [
+    { "name": "Home", "href": "#home" },
+    { "name": "About", "href": "#about" },
+    { "name": "Skills", "href": "#skills" },
+    { "name": "Experience", "href": "#experience" },
+    { "name": "Projects", "href": "#projects" },
+    { "name": "Certifications", "href": "#certifications" },
+    { "name": "Blog", "href": "#blog" },
+    { "name": "Contact", "href": "#contact" }
+  ],
+  "experiences": [
+    {
+      "type": "education",
+      "title": "Bachelor of Computer Science - Cybersecurity",
+      "organization": "University of Foreign Languages - Information Technology HCMC",
+      "location": "Ho Chi Minh City, Vietnam",
+      "period": "2022 - 2026",
+      "description": "🎓 Specialized in Cybersecurity, Network Security, and Information Security with hands-on experience in penetration testing, malware analysis, and security frameworks.",
+      "achievements": [
+        "🏆 GPA: 3.85/4.0 - Dean's List for 6 consecutive semesters",
+        "👨‍💼 President of Cybersecurity Student Club (100+ members)",
+        "🏁 Lead organizer of annual university CTF competition",
+        "📚 Research thesis: 'AI-Driven Threat Detection in IoT Networks'",
+        "🥇 Winner of National Student Cybersecurity Competition"
+      ],
+      "technologies": ["Python", "Java", "C++", "Network Security", "Cryptography", "Digital Forensics"],
+      "logo": "🎓"
+    },
+    {
+      "type": "internship",
+      "title": "Junior Penetration Tester",
+      "organization": "SecureVN Cybersecurity Solutions",
+      "location": "Ho Chi Minh City, Vietnam",
+      "period": "June 2024 - August 2024",
+      "description": "🔍 Conducted vulnerability assessments and penetration testing for enterprise clients under senior supervision.",
+      "achievements": [
+        "🎯 Performed 20+ comprehensive web application security assessments",
+        "🐛 Identified and reported 75+ security vulnerabilities (15 critical)",
+        "🐍 Developed custom Python automation scripts for testing workflows",
+        "🔴 Participated in 5 red team exercises for Fortune 500 clients",
+        "📋 Created detailed technical reports with remediation strategies"
+      ],
+      "technologies": ["Burp Suite", "OWASP ZAP", "Metasploit", "Nessus", "Python", "Bash"],
+      "logo": "🔍"
+    },
+    {
+      "type": "project",
+      "title": "Enterprise Security Infrastructure Design",
+      "organization": "University Research Project",
+      "location": "Ho Chi Minh City, Vietnam",
+      "period": "January 2025 - May 2025",
+      "description": "🏢 Led a team of 5 students to design and implement comprehensive security infrastructure for a simulated 500+ employee enterprise.",
+      "achievements": [
+        "🖧 Designed network topology with DMZ, VLANs, and security zones",
+        "🛡️ Implemented Suricata IDS with 99.7% accuracy in threat detection",
+        "📊 Configured Wazuh SIEM with 50+ custom correlation rules",
+        "🔥 Deployed pfSense firewall with advanced packet filtering",
+        "📜 Created incident response playbooks and security policies"
+      ],
+      "technologies": ["Suricata", "Wazuh", "pfSense", "Wireshark", "Nmap", "Ansible"],
+      "logo": "🏢"
+    },
+    {
+      "type": "research",
+      "title": "AI Security Research Assistant",
+      "organization": "University AI & Cybersecurity Lab",
+      "location": "Ho Chi Minh City, Vietnam",
+      "period": "September 2024 - Present",
+      "description": "🤖 Conducting cutting-edge research on AI-powered cybersecurity solutions under professor guidance.",
+      "achievements": [
+        "🧠 Developed machine learning models for threat detection (96% accuracy)",
+        "📄 Co-authored research paper published in IEEE Cybersecurity Conference",
+        "🎤 Presented findings at 3 international cybersecurity conferences",
+        "💡 Filed provisional patent for novel intrusion detection algorithm"
+      ],
+      "technologies": ["TensorFlow", "PyTorch", "Scikit-learn", "Elasticsearch", "Kibana"],
+      "logo": "🤖"
+    }
+  ],
+  "projects": [
+    {
+      "title": "🤖 AI-Powered Threat Detection System",
+      "description": "Revolutionary threat detection system using machine learning to identify and classify network anomalies in real-time. Achieved 96% accuracy in detecting zero-day attacks and reduced false positives by 45%.",
+      "image": "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "technologies": ["Python", "TensorFlow", "Elasticsearch", "Kibana", "Snort", "Scikit-learn"],
+      "category": "AI Security",
+      "github": "https://github.com/TranVanKhai/ai-threat-detection",
+      "demo": "https://threat-detection-demo.vercel.app",
+      "featured": true,
+      "impact": "🎯 Deployed in university network, monitoring 1000+ devices daily",
+      "metrics": ["96% detection accuracy", "45% reduction in false positives", "Real-time processing of 15GB/day traffic", "Zero missed critical threats"]
+    },
+    {
+      "title": "🏢 Enterprise Security Infrastructure",
+      "description": "Comprehensive security infrastructure for simulated enterprise environment featuring network segmentation, intrusion detection, SIEM integration, and automated incident response workflows.",
+      "image": "https://images.pexels.com/photos/5380589/pexels-photo-5380589.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "technologies": ["Suricata", "Wazuh", "pfSense", "Ansible", "Docker", "Grafana"],
+      "category": "Network Security",
+      "github": "https://github.com/TranVanKhai/enterprise-security-infra",
+      "demo": "https://bit.ly/46C9M4v",
+      "featured": true,
+      "impact": "🔒 Comprehensive security for 500+ employee simulation environment",
+      "metrics": ["99.8% uptime", "Zero security incidents", "40% improvement in response time", "100% compliance with security standards"]
+    },
+    {
+      "title": "☁️ Kubernetes Security Hardening Platform",
+      "description": "Advanced Kubernetes security platform with automated compliance checking, vulnerability scanning, and policy enforcement. Seamlessly integrates with CI/CD pipelines for secure container deployment.",
+      "image": "https://images.pexels.com/photos/5380617/pexels-photo-5380617.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "technologies": ["Kubernetes", "Helm", "Falco", "OPA Gatekeeper", "Harbor", "Trivy"],
+      "category": "Cloud Security",
+      "github": "https://github.com/TranVanKhai/k8s-security-platform",
+      "demo": "https://bit.ly/4l6vocM",
+      "featured": true,
+      "impact": "🚀 Automated security for 50+ containerized applications",
+      "metrics": ["100% compliance with CIS benchmarks", "75+ security policies enforced", "Zero vulnerable containers in production", "90% reduction in manual security checks"]
+    },
+    {
+      "title": "⛓️ Blockchain Security Audit Tool",
+      "description": "Automated smart contract auditing tool analyzing Ethereum smart contracts for vulnerabilities like reentrancy, overflow, and access control issues. Features comprehensive reporting and AI-powered remediation suggestions.",
+      "image": "https://images.pexels.com/photos/8369648/pexels-photo-8369648.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "technologies": ["Solidity", "Web3.js", "Python", "Slither", "Mythril", "React"],
+      "category": "Blockchain Security",
+      "github": "https://github.com/TranVanKhai/smart-contract-auditor",
+      "demo": "https://smart-contract-auditor.vercel.app",
+      "featured": true,
+      "impact": "🔍 Audited 100+ smart contracts with industry-leading accuracy",
+      "metrics": ["98% vulnerability detection rate", "300+ security checks", "Automated reporting in <3 minutes", "$2M+ in potential losses prevented"]
+    },
+    {
+      "title": "🔐 Secure Communication Platform",
+      "description": "End-to-end encrypted messaging platform with advanced security features including perfect forward secrecy, message authentication, and metadata protection. Implements Signal Protocol for maximum security.",
+      "image": "https://images.pexels.com/photos/5380623/pexels-photo-5380623.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "technologies": ["Java", "Netty", "Signal Protocol", "AES-256", "ECDH", "WebRTC"],
+      "category": "Cryptography",
+      "github": "https://github.com/Tunetran/Client-Server-Communication-using-Java-Netty.git",
+      "demo": "https://secure-chat-demo.vercel.app",
+      "featured": true,
+      "impact": "💬 Secure communication for 2000+ concurrent users",
+      "metrics": ["End-to-end encryption", "Perfect forward secrecy", "Zero metadata leakage", "Sub-100ms message delivery"]
+    },
+    {
+      "title": "🌐 IoT Security Assessment Framework",
+      "description": "Comprehensive framework for assessing IoT device security, including firmware analysis, network traffic monitoring, and vulnerability discovery. Supports multiple protocols and device types with automated reporting.",
+      "image": "https://images.pexels.com/photos/8479043/pexels-photo-8479043.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "technologies": ["Python", "Binwalk", "MQTT", "CoAP", "Zigbee", "LoRaWAN"],
+      "category": "IoT Security",
+      "github": "https://github.com/TranVanKhai/iot-security-framework",
+      "demo": "https://iot-security-demo.vercel.app",
+      "featured": false,
+      "impact": "🔌 Assessed security of 200+ IoT devices across multiple industries",
+      "metrics": ["Discovered 40+ zero-day vulnerabilities", "Supports 15+ protocols", "Automated assessment in <20 minutes", "95% accuracy in vulnerability detection"]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "🏆 CompTIA Security+ Certification",
+      "description": "Achieved industry-standard certification in cybersecurity fundamentals, demonstrating comprehensive knowledge of security concepts, tools, and best practices.",
+      "date": "2024",
+      "category": "Certification",
+      "icon": "🏆",
+      "credential": "COMP-SEC-2024-001234"
+    },
+    {
+      "title": "🥇 National Cybersecurity CTF Champion",
+      "description": "Led university team to victory in prestigious national capture-the-flag competition, solving 90% of challenges across web security, cryptography, and network exploitation.",
+      "date": "2024",
+      "category": "Competition",
+      "icon": "🥇",
+      "details": "Team Captain, 200+ participants nationwide, $10,000 prize"
+    },
+    {
+      "title": "📄 IEEE Research Publication",
+      "description": "Co-authored groundbreaking research paper published in IEEE Cybersecurity Conference on machine learning applications in network intrusion detection systems.",
+      "date": "2024",
+      "category": "Research",
+      "icon": "📄",
+      "publication": "IEEE CyberSec 2024, 'AI-Driven Threat Detection', Pages 127-134"
+    },
+    {
+      "title": "🎓 Dean's List Excellence Award",
+      "description": "Consistently maintained GPA above 3.8 for 6 consecutive semesters, ranking in top 3% of Computer Science students with cybersecurity specialization.",
+      "date": "2022-2024",
+      "category": "Academic",
+      "icon": "🎓",
+      "details": "Top 3% of 500+ Computer Science students"
+    },
+    {
+      "title": "🔍 Critical Bug Bounty Discovery",
+      "description": "Discovered and responsibly disclosed critical SQL injection vulnerability in major e-commerce platform serving 10M+ users, earning recognition and substantial bounty.",
+      "date": "2024",
+      "category": "Security Research",
+      "icon": "🔍",
+      "severity": "Critical (CVSS 9.8), $5,000 bounty"
+    },
+    {
+      "title": "💻 Open Source Security Contributor",
+      "description": "Active contributor to 15+ open source security projects with 100+ merged pull requests, focusing on vulnerability scanners and penetration testing tools.",
+      "date": "2023-2024",
+      "category": "Open Source",
+      "icon": "💻",
+      "contributions": "1000+ commits across 30 repositories"
+    },
+    {
+      "title": "👥 Cybersecurity Club Leadership",
+      "description": "Founded and led university's first cybersecurity club, growing membership to 150+ students and organizing 20+ workshops, CTF training sessions, and industry guest lectures.",
+      "date": "2023-2024",
+      "category": "Leadership",
+      "icon": "👥",
+      "impact": "400% increase in cybersecurity awareness on campus"
+    },
+    {
+      "title": "🌟 Industry Mentor Recognition",
+      "description": "Received outstanding mentee award from senior cybersecurity professional for exceptional growth and significant contribution to real-world security projects.",
+      "date": "2024",
+      "category": "Professional",
+      "icon": "🌟",
+      "mentor": "Senior Security Architect at Fortune 100 company"
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "title": "🗺️ Advanced Nmap Techniques for Ethical Hackers",
+      "excerpt": "Comprehensive guide to mastering Nmap for network reconnaissance, service discovery, and vulnerability assessment in professional penetration testing.",
+      "content": "Nmap (Network Mapper) is the cornerstone tool for network discovery and security auditing. As an ethical hacker and penetration tester, mastering advanced Nmap techniques is crucial for effective reconnaissance and vulnerability assessment.\n\n## 🚀 **Advanced Scanning Techniques**\n\n### **Stealth Scanning Methods**\n```bash\n# SYN Stealth Scan (Most common)\nnmap -sS target.com\n\n# TCP ACK Scan (Firewall detection)\nnmap -sA target.com\n\n# TCP Window Scan\nnmap -sW target.com\n\n# TCP Maimon Scan\nnmap -sM target.com\n```\n\n### **Advanced Service Detection**\n```bash\n# Aggressive service detection\nnmap -sV --version-intensity 9 target.com\n\n# OS fingerprinting with service detection\nnmap -A target.com\n\n# Script scanning for vulnerabilities\nnmap --script vuln target.com\n```\n\n## 🎯 **NSE Scripts for Security Testing**\n\n### **Web Application Testing**\n```bash\n# HTTP enumeration\nnmap --script http-enum target.com\n\n# SQL injection detection\nnmap --script http-sql-injection target.com\n\n# XSS detection\nnmap --script http-stored-xss,http-dombased-xss target.com\n```\n\n### **SMB/NetBIOS Testing**\n```bash\n# SMB vulnerability scanning\nnmap --script smb-vuln-* target.com\n\n# SMB enumeration\nnmap --script smb-enum-* target.com\n\n# Check for EternalBlue\nnmap --script smb-vuln-ms17-010 target.com\n```\n\n## 🔍 **Advanced Evasion Techniques**\n\n### **Firewall and IDS Evasion**\n```bash\n# Fragment packets\nnmap -f target.com\n\n# Use decoys\nnmap -D RND:10 target.com\n\n# Source port manipulation\nnmap --source-port 53 target.com\n\n# Timing templates\nnmap -T0 target.com  # Paranoid (very slow)\nnmap -T5 target.com  # Insane (very fast)\n```\n\n### **Advanced Output and Reporting**\n```bash\n# Multiple output formats\nnmap -oA comprehensive_scan target.com\n\n# XML output for parsing\nnmap -oX scan_results.xml target.com\n\n# Grepable output\nnmap -oG scan_results.gnmap target.com\n```\n\n## 💡 **Professional Tips**\n\n1. **Always scan responsibly** - Only scan networks you own or have explicit permission to test\n2. **Use timing templates** appropriately based on network conditions\n3. **Combine multiple techniques** for comprehensive reconnaissance\n4. **Document everything** for professional reporting\n5. **Stay updated** with latest NSE scripts and techniques\n\n## ⚠️ **Legal and Ethical Considerations**\n\n- Obtain proper authorization before scanning\n- Respect rate limits and network resources\n- Follow responsible disclosure for vulnerabilities\n- Comply with local laws and regulations\n\nNmap is incredibly powerful, but with great power comes great responsibility. Use these techniques ethically and professionally in your cybersecurity career!",
+      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["Nmap", "Network Scanning", "Penetration Testing", "Ethical Hacking"],
+      "publishedAt": "2024-12-20",
+      "readTime": "12 min read",
+      "featured": true,
+      "views": 2547,
+      "likes": 189
+    },
+    {
+      "id": 2,
+      "title": "🦈 Mastering Wireshark for Cybersecurity Professionals",
+      "excerpt": "Deep dive into advanced Wireshark techniques for network analysis, incident response, and malware investigation in enterprise environments.",
+      "content": "Wireshark is the world's foremost network protocol analyzer, essential for cybersecurity professionals conducting network analysis, incident response, and malware investigation.\n\n## 🎯 **Advanced Filtering Techniques**\n\n### **Complex Display Filters**\n```\n# Advanced HTTP analysis\nhttp.request.method == \"POST\" and http.request.uri contains \"login\"\n\n# Suspicious network behavior\ntcp.flags.syn == 1 and tcp.flags.ack == 0 and tcp.window_size < 1024\n\n# Data exfiltration detection\nftp-data or http.request.method == \"POST\" and frame.len > 1500\n\n# Encrypted traffic analysis\ntls.handshake.type == 1 and tls.handshake.extensions_server_name\n```\n\n### **Network Forensics Filters**\n```\n# Malware C&C communication\ndns.qry.name contains \".tk\" or dns.qry.name contains \".ml\"\n\n# Suspicious DNS queries\ndns.qry.name matches \".*[0-9]{8,}.*\"\n\n# Lateral movement detection\nsmb2.cmd == 5 or smb2.cmd == 6  # Read/Write requests\n```\n\n## 🔍 **Incident Response Workflows**\n\n### **Malware Traffic Analysis**\n1. **Initial Triage**\n   - Identify suspicious connections\n   - Extract IOCs (domains, IPs, file hashes)\n   - Timeline reconstruction\n\n2. **Deep Packet Inspection**\n   - Decrypt TLS traffic (when possible)\n   - Analyze application layer protocols\n   - Identify command and control patterns\n\n3. **Artifact Extraction**\n   - Export HTTP objects\n   - Extract DNS queries\n   - Capture file transfers\n\n### **Advanced Statistics Analysis**\n```\n# Protocol hierarchy analysis\nStatistics → Protocol Hierarchy\n\n# Network conversation analysis\nStatistics → Conversations\n\n# Endpoint identification\nStatistics → Endpoints\n\n# I/O graph for traffic patterns\nStatistics → I/O Graph\n```\n\n## 🛡️ **Security-Focused Analysis**\n\n### **TLS/SSL Security Assessment**\n```\n# Weak cipher detection\ntls.handshake.ciphersuite in {0x0004, 0x0005, 0x000a}\n\n# Certificate analysis\ntls.handshake.certificate\n\n# HTTPS inspection\nhttp.host and tls\n```\n\n### **Network Attack Detection**\n```\n# Port scanning detection\ntcp.flags.syn == 1 and tcp.flags.ack == 0\n\n# ARP spoofing detection\narp.duplicate-address-detected or arp.duplicate-address-frame\n\n# DNS tunneling detection\ndns.qry.name matches \".*[A-Za-z0-9+/]{50,}.*\"\n```\n\n## 📊 **Custom Profiles and Automation**\n\n### **Creating Custom Profiles**\n1. Configure layout for specific analysis tasks\n2. Set up custom coloring rules\n3. Define frequently used filters\n4. Export/import profiles for team consistency\n\n### **Command Line Analysis (tshark)**\n```bash\n# Extract credentials from HTTP traffic\ntshark -r capture.pcap -Y \"http.request.method==POST\" -T fields -e http.file_data\n\n# DNS query extraction\ntshark -r capture.pcap -Y \"dns.qry.type==1\" -T fields -e dns.qry.name\n\n# Suspicious file extraction\ntshark -r capture.pcap --export-objects http,extracted_files/\n```\n\n## 💡 **Professional Best Practices**\n\n1. **Chain of Custody**: Maintain proper documentation\n2. **Performance Optimization**: Use capture filters for large captures\n3. **Privacy Protection**: Anonymize sensitive data before sharing\n4. **Continuous Learning**: Stay updated with new protocol dissectors\n\n## 🚨 **Legal and Privacy Considerations**\n\n- Ensure proper authorization for network monitoring\n- Comply with data protection regulations (GDPR, CCPA)\n- Implement proper data retention policies\n- Secure capture files containing sensitive data\n\nWireshark is an invaluable tool for cybersecurity professionals. Master these advanced techniques to become more effective in network analysis and incident response!",
+      "image": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["Wireshark", "Network Analysis", "Incident Response", "Digital Forensics"],
+      "publishedAt": "2024-12-18",
+      "readTime": "15 min read",
+      "featured": true,
+      "views": 3124,
+      "likes": 245
+    },
+    {
+      "id": 3,
+      "title": "🔧 Advanced Burp Suite Techniques for Web Security Testing",
+      "excerpt": "Professional web application security testing using advanced Burp Suite features, extensions, and methodologies for comprehensive vulnerability assessment.",
+      "content": "Burp Suite Professional is the gold standard for web application security testing. This comprehensive guide covers advanced techniques used by professional penetration testers and security researchers.\n\n## 🎯 **Advanced Burp Suite Configuration**\n\n### **Proxy Settings and SSL/TLS**\n```\n# Advanced proxy configuration\n- Invisible proxying for non-proxy aware clients\n- Match/Replace rules for automated manipulation\n- SSL Pass Through for specific domains\n- Upstream proxy chaining for corporate environments\n```\n\n### **Session Handling Rules**\n```\n# Complex authentication handling\n1. Macro recording for multi-step login\n2. Session validation checks\n3. Automatic re-authentication\n4. Custom parameter extraction\n```\n\n## 🔍 **Professional Testing Workflows**\n\n### **Comprehensive Web App Assessment**\n\n1. **Reconnaissance Phase**\n   - Spider entire application\n   - Identify attack surface\n   - Map authentication mechanisms\n   - Discover hidden endpoints\n\n2. **Vulnerability Discovery**\n   - Active scanner configuration\n   - Manual testing with Repeater\n   - Intruder-based fuzzing\n   - Custom payload generation\n\n3. **Exploitation and Validation**\n   - Proof-of-concept development\n   - Impact assessment\n   - Business logic testing\n   - Authorization bypass attempts\n\n### **Advanced Intruder Techniques**\n\n```\n# SQL Injection Testing\nPayload: admin' OR '1'='1' --\nPosition: username=§payload§&password=test\nAttack Type: Sniper\n\n# Authentication Bypass\nPayload: Multiple username/password combinations\nPosition: username=§user§&password=§pass§\nAttack Type: Cluster Bomb\n\n# Parameter Pollution\nPayload: Standard parameters with duplicates\nPosition: id=1&id=§payload§\nAttack Type: Sniper\n```\n\n## 🛡️ **Advanced Security Testing**\n\n### **OWASP Top 10 Testing Strategies**\n\n**A01: Broken Access Control**\n```\n# Horizontal privilege escalation\n- Test user ID parameter manipulation\n- Directory traversal attempts\n- Direct object reference testing\n\n# Vertical privilege escalation\n- Role-based access testing\n- Administrative function access\n- API endpoint authorization\n```\n\n**A03: Injection Vulnerabilities**\n```\n# SQL Injection\n- Union-based injection\n- Blind boolean injection\n- Time-based blind injection\n- NoSQL injection testing\n\n# Command Injection\n- OS command injection\n- Code injection\n- LDAP injection\n```\n\n### **Advanced XSS Testing**\n```javascript\n// DOM-based XSS payloads\n<script>alert(document.domain)</script>\n<img src=x onerror=alert(1)>\n<svg onload=alert(1)>\n\n// Filter bypass techniques\n<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>\n<iframe src=\"javascript:alert(1)\"></iframe>\n```\n\n## 🔌 **Essential Burp Extensions**\n\n### **Must-Have Extensions**\n\n1. **Autorize** - Authorization testing\n2. **Logger++** - Advanced logging\n3. **Param Miner** - Parameter discovery\n4. **Backslash Powered Scanner** - Advanced detection\n5. **J2EEScan** - Java application testing\n6. **CO2** - SQLi testing enhancement\n\n### **Custom Extension Development**\n```python\n# Basic Burp extension template\nfrom burp import IBurpExtender, IHttpListener\n\nclass BurpExtender(IBurpExtender, IHttpListener):\n    def registerExtenderCallbacks(self, callbacks):\n        self._callbacks = callbacks\n        self._helpers = callbacks.getHelpers()\n        callbacks.setExtensionName(\"Custom Security Scanner\")\n        callbacks.registerHttpListener(self)\n    \n    def processHttpMessage(self, toolFlag, messageIsRequest, messageInfo):\n        # Custom security testing logic\n        pass\n```\n\n## 📊 **Professional Reporting**\n\n### **Comprehensive Documentation**\n\n1. **Executive Summary**\n   - Risk overview\n   - Business impact\n   - Remediation timeline\n\n2. **Technical Details**\n   - Vulnerability descriptions\n   - Proof-of-concept code\n   - Remediation steps\n   - References (CWE, OWASP)\n\n3. **Evidence Collection**\n   - Screenshots\n   - HTTP request/response\n   - Video demonstrations\n\n### **Risk Assessment Matrix**\n```\n| Vulnerability | Likelihood | Impact | Risk Level |\n|---------------|------------|--------|-----------|\n| SQL Injection | High | High | Critical |\n| XSS | Medium | Medium | Medium |\n| Information Disclosure | Low | Low | Low |\n```\n\n## 💡 **Pro Tips for Efficiency**\n\n1. **Hotkey Mastery**\n   - Ctrl+R: Send to Repeater\n   - Ctrl+I: Send to Intruder\n   - Ctrl+Shift+B: Base64 encode/decode\n\n2. **Workspace Management**\n   - Use project files for client separation\n   - Regular backups of configuration\n   - Template configurations for different test types\n\n3. **Collaboration Features**\n   - Shared projects for team testing\n   - Extension synchronization\n   - Report templates\n\n## ⚠️ **Legal and Ethical Guidelines**\n\n- Always obtain written authorization\n- Respect scope limitations\n- Avoid destructive testing\n- Follow responsible disclosure\n- Maintain client confidentiality\n\nBurp Suite is incredibly powerful when used correctly. Master these advanced techniques to become a more effective web application security tester!",
+      "image": "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "tags": ["Burp Suite", "Web Security", "Penetration Testing", "OWASP"],
+      "publishedAt": "2024-12-15",
+      "readTime": "18 min read",
+      "featured": true,
+      "views": 1876,
+      "likes": 156
+    }
+  ],
+  "about": {
+    "title": "About Me",
+    "subtitle": "🚀 Passionate cybersecurity specialist dedicated to protecting digital assets and building secure systems",
+    "description": "Hello! I'm Khai, a final-year Computer Science student at University of Foreign Languages - Information Technology HCMC, specializing in Cybersecurity. With over 3 years of hands-on experience in penetration testing, network security, and threat analysis, I'm passionate about staying ahead of emerging threats and building robust security solutions.\n\n🎯 My journey in cybersecurity began with curiosity about how systems can be protected from malicious actors. This led me to pursue advanced studies in ethical hacking, incident response, and security architecture. I've had the privilege of working on real-world security projects, from enterprise infrastructure design to AI-powered threat detection systems.\n\n💡 I believe in the power of continuous learning and sharing knowledge with the community. Whether it's contributing to open-source security tools, participating in CTF competitions, or mentoring fellow students, I'm always looking for ways to advance the field of cybersecurity.\n\n🌟 **My mission:** To build a safer digital world through innovative security solutions, continuous learning, and fostering the next generation of cybersecurity professionals.",
+    "mission": "🛡️ To build a safer digital world through innovative security solutions and continuous learning",
+    "highlights": [
+      {
+        "icon": "🎓",
+        "label": "Education",
+        "value": "BS Computer Science - Cybersecurity"
+      },
+      {
+        "icon": "📅", 
+        "label": "Academic Year",
+        "value": "Final Year (2022-2026)"
+      },
+      {
+        "icon": "💡",
+        "label": "Specialization",
+        "value": "Penetration Testing & Threat Analysis"
+      },
+      {
+        "icon": "🎯",
+        "label": "Career Goal",
+        "value": "Senior Cybersecurity Architect"
+      },
+      {
+        "icon": "🔥",
+        "label": "Passion",
+        "value": "Ethical Hacking & Security Research"
+      },
+      {
+        "icon": "📍",
+        "label": "Location",
+        "value": "Ho Chi Minh City, Vietnam"
+      },
+      {
+        "icon": "🏆",
+        "label": "Recognition",
+        "value": "CTF Champion & Dean's List"
+      },
+      {
+        "icon": "🚀",
+        "label": "Focus",
+        "value": "AI Security & Cloud Protection"
+      }
+    ]
+  },
+  "stats": {
+    "achievements": [
+      { "number": "20", "label": "Security Projects", "suffix": "+" },
+      { "number": "75", "label": "Vulnerabilities Found", "suffix": "+" },
+      { "number": "3.85", "label": "GPA", "suffix": "/4.0" },
+      { "number": "150", "label": "CTF Challenges Solved", "suffix": "+" }
+    ],
+    "about": [
+      { "label": "Experience", "value": "3+", "color": "text-blue-500", "icon": "clock", "suffix": " years" },
+      { "label": "Certifications", "value": "4", "color": "text-green-500", "icon": "award" },
+      { "label": "Projects", "value": "20+", "color": "text-purple-500", "icon": "folder" },
+      { "label": "Open Source", "value": "30", "color": "text-yellow-500", "icon": "github", "suffix": " repos" }
+    ]
+  },
+  "contact": [
+    {
+      "title": "Email",
+      "value": "trankhair2004@gmail.com",
+      "href": "mailto:trankhair2004@gmail.com",
+      "icon": "mail"
+    },
+    {
+      "title": "Phone",
+      "value": "+84 842 380 777",
+      "href": "tel:+84842380777",
+      "icon": "phone"
+    },
+    {
+      "title": "Location",
+      "value": "Ho Chi Minh City, Vietnam",
+      "href": "https://maps.google.com/?q=Ho+Chi+Minh+City",
+      "icon": "map-pin"
+    },
+    {
+      "title": "LinkedIn",
+      "value": "linkedin.com/in/tranvankhai",
+      "href": "https://linkedin.com/in/tranvankhai",
+      "icon": "linkedin"
+    },
+    {
+      "title": "Website",
+      "value": "tranvankhai.dev",
+      "href": "https://tranvankhai.dev",
+      "icon": "globe"
+    }
+  ]
+}

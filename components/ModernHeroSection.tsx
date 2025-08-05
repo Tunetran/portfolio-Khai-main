@@ -7,10 +7,10 @@ import { Download, Mail, Github, Linkedin, MapPin, Phone, ArrowDown, Sparkles, S
 import portfolioData from '@/lib/portfolioData';
 
 const floatingIcons = [
-  { icon: Shield, color: 'text-blue-400', delay: 0 },
-  { icon: Code, color: 'text-green-400', delay: 0.5 },
-  { icon: Globe, color: 'text-purple-400', delay: 1 },
-  { icon: Sparkles, color: 'text-yellow-400', delay: 1.5 },
+  { icon: Shield, color: 'text-professional-blue', delay: 0 },
+  { icon: Code, color: 'text-professional-green', delay: 0.5 },
+  { icon: Globe, color: 'text-professional-navy', delay: 1 },
+  { icon: Sparkles, color: 'text-professional-orange', delay: 1.5 },
 ];
 
 export default function ModernHeroSection() {
@@ -55,14 +55,14 @@ export default function ModernHeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 dark:from-slate-900 dark:via-blue-950 dark:to-purple-950">
-      {/* Animated Background */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-corporate-navy-50 via-corporate-blue-50 to-slate-50 dark:from-corporate-navy-900 dark:via-corporate-navy-800 dark:to-corporate-navy-900">
+      {/* Professional Animated Background */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-purple-600/20 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-cyan-400/20 to-blue-600/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-purple-400/10 to-pink-600/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-professional-blue/10 to-professional-navy/15 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-gradient-to-tr from-professional-green/10 to-professional-blue/15 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-professional-purple/8 to-professional-navy/12 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
         
-        {/* Floating Icons */}
+        {/* Professional Floating Icons */}
         {floatingIcons.map((item, index) => (
           <motion.div
             key={index}
@@ -76,7 +76,7 @@ export default function ModernHeroSection() {
               ease: "easeInOut",
               delay: item.delay,
             }}
-            className={`absolute ${item.color} opacity-20`}
+            className={`absolute ${item.color} opacity-15`}
             style={{
               top: `${20 + index * 15}%`,
               left: `${10 + index * 20}%`,
@@ -113,20 +113,20 @@ export default function ModernHeroSection() {
                     />
                   </div>
                 </div>
-                {/* Status indicator */}
-                <div className="absolute bottom-2 right-2 w-6 h-6 bg-emerald-400 rounded-full border-4 border-white dark:border-slate-900 shadow-lg">
-                  <div className="w-full h-full bg-emerald-400 rounded-full animate-ping"></div>
+                {/* Professional status indicator */}
+                <div className="absolute bottom-2 right-2 w-6 h-6 bg-professional-green rounded-full border-4 border-white dark:border-corporate-navy-900 shadow-lg">
+                  <div className="w-full h-full bg-professional-green rounded-full animate-ping"></div>
                 </div>
               </div>
               
-              {/* Floating badge */}
+              {/* Professional floating badge */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 1, type: 'spring' }}
-                className="absolute -top-4 -right-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg"
+                className="absolute -top-4 -right-4 bg-gradient-to-r from-professional-green to-professional-blue text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg"
               >
-                🔥 Available
+                🎯 Available
               </motion.div>
             </div>
           </motion.div>
@@ -134,16 +134,16 @@ export default function ModernHeroSection() {
           {/* Name and Title */}
           <motion.div variants={itemVariants} className="mb-6">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-slate-900 via-blue-800 to-slate-900 dark:from-white dark:via-blue-200 dark:to-white bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-corporate-navy-900 via-professional-blue to-corporate-navy-800 dark:from-white dark:via-corporate-blue-200 dark:to-white bg-clip-text text-transparent">
                 {profile.name}
               </span>
             </h1>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
-              <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-700 dark:text-slate-300">
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-corporate-navy-700 dark:text-corporate-navy-300">
                 {profile.title}
               </h2>
-              <div className="hidden sm:block w-2 h-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
-              <p className="text-lg sm:text-xl lg:text-2xl text-blue-600 dark:text-blue-400 font-medium">
+              <div className="hidden sm:block w-2 h-2 bg-gradient-to-r from-professional-blue to-professional-navy rounded-full"></div>
+              <p className="text-lg sm:text-xl lg:text-2xl text-professional-blue dark:text-corporate-blue-400 font-medium">
                 {profile.university}
               </p>
             </div>
@@ -158,30 +158,30 @@ export default function ModernHeroSection() {
 
           {/* Contact Info */}
           <motion.div variants={itemVariants} className="mb-8">
-            <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-sm sm:text-base text-slate-600 dark:text-slate-400">
+            <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-sm sm:text-base text-corporate-navy-600 dark:text-corporate-navy-400">
               <div className="flex items-center space-x-2">
-                <MapPin className="w-4 h-4 text-blue-500" />
+                <MapPin className="w-4 h-4 text-professional-blue" />
                 <span>TP. Hồ Chí Minh</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Mail className="w-4 h-4 text-green-500" />
+                <Mail className="w-4 h-4 text-professional-green" />
                 <span>trankhair2004@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
-                <Phone className="w-4 h-4 text-purple-500" />
+                <Phone className="w-4 h-4 text-professional-purple" />
                 <span>0842380777</span>
               </div>
             </div>
           </motion.div>
 
-          {/* Action Buttons */}
+          {/* Professional Action Buttons */}
           <motion.div variants={itemVariants} className="mb-8">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href={profile.cvDownloadUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:-translate-y-1"
+                className="professional-button inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-professional-blue to-professional-navy hover:from-corporate-blue-600 hover:to-corporate-navy-700 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:-translate-y-1"
               >
                 <Download className="w-5 h-5 mr-3" />
                 Tải CV
@@ -189,7 +189,7 @@ export default function ModernHeroSection() {
               
               <a
                 href={`mailto:${profile.email}`}
-                className="inline-flex items-center px-8 py-4 text-lg font-semibold text-slate-700 dark:text-slate-300 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700 hover:bg-white dark:hover:bg-slate-800 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="inline-flex items-center px-8 py-4 text-lg font-semibold text-corporate-navy-700 dark:text-corporate-navy-300 bg-white/90 dark:bg-corporate-navy-800/90 backdrop-blur-sm border border-corporate-navy-200 dark:border-corporate-navy-700 hover:bg-white dark:hover:bg-corporate-navy-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
                 <Mail className="w-5 h-5 mr-3" />
                 Liên hệ
@@ -230,7 +230,7 @@ export default function ModernHeroSection() {
               onClick={handleScrollToNext}
               animate={{ y: [0, 10, 0] }}
               transition={{ duration: 2, repeat: Infinity }}
-              className="p-2 rounded-full bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700 shadow-lg hover:shadow-xl transition-all duration-300 text-slate-700 dark:text-slate-300 hover:scale-110"
+              className="p-2 rounded-full bg-white/90 dark:bg-corporate-navy-800/90 backdrop-blur-sm border border-corporate-navy-200 dark:border-corporate-navy-700 shadow-lg hover:shadow-xl transition-all duration-300 text-corporate-navy-700 dark:text-corporate-navy-300 hover:scale-110"
             >
               <ArrowDown className="w-6 h-6" />
             </motion.button>

@@ -2,16 +2,42 @@
 
 import { motion } from 'framer-motion'
 import { useEffect, useState, useRef } from 'react'
+import { Star, Award, TrendingUp, Target } from 'lucide-react'
 
 interface Skill {
   name: string
   level: number
   category: string
   icon: string
+  description?: string
 }
 
 interface SkillProgressProps {
   skills: Skill[]
+}
+
+const categoryIcons = {
+  'Programming': '💻',
+  'Cybersecurity': '🛡️',
+  'Cloud Platforms': '☁️',
+  'System Administration': '⚙️',
+  'Security Tools': '🔧'
+}
+
+const levelLabels = {
+  90: 'Expert',
+  80: 'Advanced', 
+  70: 'Proficient',
+  60: 'Intermediate',
+  50: 'Basic'
+}
+
+function getSkillLevel(level: number): string {
+  if (level >= 90) return 'Expert'
+  if (level >= 80) return 'Advanced'
+  if (level >= 70) return 'Proficient'
+  if (level >= 60) return 'Intermediate'
+  return 'Basic'
 }
 
 export default function SkillProgress({ skills }: SkillProgressProps) {

@@ -11,13 +11,14 @@ import PageTransition from '@/components/PageTransition';
 import PerformanceMonitor from '@/components/PerformanceMonitor';
 import EmailSetupNotice from '@/components/EmailSetupNotice';
 import ModernHeroSection from '@/components/ModernHeroSection';
-import ModernAboutSection from '@/components/ModernAboutSection';
-import ExperienceSection from '@/components/ExperienceSection';
+import ProfessionalAboutSection from '@/components/ProfessionalAboutSection';
+import ProfessionalExperienceSection from '../components/ProfessionalExperienceSection';
 import AchievementsSection from '@/components/AchievementsSection';
 import ModernProjectsSection from '@/components/ModernProjectsSection';
 import BlogSection from '@/components/BlogSection';
 import TarotSection from '@/components/TarotSection';
-import ContactSection from '@/components/ContactSection';
+import ProfessionalContactSection from '../components/ProfessionalContactSection';
+import ProfessionalFooter from '@/components/ProfessionalFooter';
 import portfolioData from '@/lib/portfolioData';
 
 export default function Home() {
@@ -35,15 +36,16 @@ export default function Home() {
       <PageTransition>
         <div className="relative">
           <ModernHeroSection />
-          <ModernAboutSection />
-          <ExperienceSection />
+          <ProfessionalAboutSection />
+          <ProfessionalExperienceSection />
           <AchievementsSection />
           <ModernProjectsSection />
           <BlogSection blogs={portfolioData.blog} />
           <div id="tarot">
             <TarotSection />
           </div>
-          <ContactSection />
+          <ProfessionalContactSection />
+          <ProfessionalFooter />
         </div>
       </PageTransition>
     </>
