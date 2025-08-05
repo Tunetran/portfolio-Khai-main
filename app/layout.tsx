@@ -1,7 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import ModernHeader from '@/components/ModernHeader';
-import ModernFooter from '@/components/ModernFooter';
 import GalaxyBackground from '@/components/GalaxyBackground';
 import { ThemeProvider } from '@/components/ThemeProvider';
 
@@ -96,7 +95,6 @@ export default function RootLayout({
             <main className="min-h-screen">
               {children}
             </main>
-            <ModernFooter />
           </div>
         </ThemeProvider>
       </body>
