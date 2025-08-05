@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_SITE_URL": "https://tranvankhai-portfolio.vercel.app"
+  }
+}

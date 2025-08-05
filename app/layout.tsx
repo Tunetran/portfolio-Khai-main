@@ -6,6 +6,7 @@ import GalaxyBackground from '@/components/GalaxyBackground';
 import { ThemeProvider } from '@/components/ThemeProvider';
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://tranvankhai-portfolio.vercel.app'),
   title: 'Trần Văn Khải - Cybersecurity & Network Security Portfolio',
   description: 'Portfolio chuyên nghiệp của Trần Văn Khải - Sinh viên ngành An Ninh Mạng tại Đại học Ngoại ngữ - Tin học TP.HCM. Chuyên về Cybersecurity, Network Security, Penetration Testing và Information Security.',
   keywords: [

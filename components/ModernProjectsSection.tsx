@@ -414,7 +414,7 @@ export default function ModernProjectsSection() {
                     project.featured ? 'ring-2 ring-blue-200 dark:ring-blue-800' : ''
                   }`}>
                     {/* Project Image */}
-                    <div className={`relative overflow-hidden ${viewMode === 'list' ? 'md:w-80 md:flex-shrink-0' : 'aspect-video'}`}>
+                    <div className={`relative overflow-hidden ${viewMode === 'grid' ? 'aspect-video' : 'md:w-80 md:flex-shrink-0'}`}>
                       <Image
                         src={project.image}
                         alt={project.title}
