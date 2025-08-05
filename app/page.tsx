@@ -10,11 +10,11 @@ import CursorFollower from '@/components/CursorFollower';
 import PageTransition from '@/components/PageTransition';
 import PerformanceMonitor from '@/components/PerformanceMonitor';
 import EmailSetupNotice from '@/components/EmailSetupNotice';
-import HeroSection from '@/components/HeroSection';
-import AboutSection from '@/components/AboutSection';
+import ModernHeroSection from '@/components/ModernHeroSection';
+import ModernAboutSection from '@/components/ModernAboutSection';
 import ExperienceSection from '@/components/ExperienceSection';
 import AchievementsSection from '@/components/AchievementsSection';
-import ProjectsSection from '@/components/ProjectsSection';
+import ModernProjectsSection from '@/components/ModernProjectsSection';
 import BlogSection from '@/components/BlogSection';
 import TarotSection from '@/components/TarotSection';
 import ContactSection from '@/components/ContactSection';
@@ -34,11 +34,11 @@ export default function Home() {
       
       <PageTransition>
         <div className="relative">
-          <HeroSection />
-          <AboutSection />
+          <ModernHeroSection />
+          <ModernAboutSection />
           <ExperienceSection />
           <AchievementsSection />
-          <ProjectsSection />
+          <ModernProjectsSection />
           <BlogSection blogs={portfolioData.blog} />
           <div id="tarot">
             <TarotSection />

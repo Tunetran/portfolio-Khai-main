@@ -1,7 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import ModernHeader from '@/components/ModernHeader';
+import ModernFooter from '@/components/ModernFooter';
 import GalaxyBackground from '@/components/GalaxyBackground';
 import { ThemeProvider } from '@/components/ThemeProvider';
 
@@ -91,11 +91,11 @@ export default function RootLayout({
         >
           <GalaxyBackground />
           <div className="content-overlay">
-            <Header />
+            <ModernHeader />
             <main className="min-h-screen">
               {children}
             </main>
-            <Footer />
+            <ModernFooter />
           </div>
         </ThemeProvider>
       </body>
