@@ -8,11 +8,11 @@
     "location": "Phan Anh, Phường Bình Trị Đông, Bình Tân, TP. Hồ Chí Minh",
     "email": "trankhair2004@gmail.com",
     "phone": "0842380777",
+    "cvDownloadUrl": "https://drive.google.com/uc?export=download&id=1kPhvVFArk-KdtY91USkcNSb92jv5lfrM",
     "socialLinks": [
-      { "label": "GitHub", "href": "https://github.com/TranVanKhai", "icon": "github" },
+      { "label": "GitHub", "href": "https://github.com/Tunetran", "icon": "github" },
       { "label": "LinkedIn", "href": "https://linkedin.com/in/tranvankhai", "icon": "linkedin" },
-      { "label": "Facebook", "href": "https://facebook.com/tranvankhai", "icon": "facebook" },
-      { "label": "Twitter", "href": "https://twitter.com/tranvankhai", "icon": "twitter" },
+      { "label": "Facebook", "href": "https://www.facebook.com/tran.khai.624476", "icon": "facebook" },
       { "label": "Email", "href": "mailto:trankhair2004@gmail.com", "icon": "mail" }
     ],
     "skills": [

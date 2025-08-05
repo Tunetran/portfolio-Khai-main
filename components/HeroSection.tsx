@@ -98,6 +98,7 @@ export default function HeroSection() {
             <Button
               size="lg"
               className="bg-gradient-to-r from-electric-blue to-galaxy-purple hover:from-galaxy-purple hover:to-electric-blue transition-all duration-300 font-semibold neon-border"
+              onClick={() => window.open(profile.cvDownloadUrl, '_blank')}
             >
               <Download className="mr-2" size={20} />
               Tải CV
