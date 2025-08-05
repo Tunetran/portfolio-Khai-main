@@ -7,44 +7,49 @@ import AdvancedContactForm from './AdvancedContactForm';
 import portfolio from '../lib/portfolioData';
 
 export default function ContactSection() {
-  const { contact } = portfolio;
+  const { contact, profile } = portfolio;
 
   const contactInfo = [
     {
       icon: Mail,
-      label: 'Email',
-      value: 'trankhair2004@gmail.com',
-      href: 'mailto:trankhair2004@gmail.com',
+      label: contact[0].title,
+      value: contact[0].value,
+      href: contact[0].href,
       color: 'text-red-500'
     },
     {
       icon: Phone,
-      label: 'Điện thoại',
-      value: '+84 xxx xxx xxx',
-      href: 'tel:+84xxxxxxxxx',
+      label: contact[1].title,
+      value: contact[1].value,
+      href: contact[1].href,
       color: 'text-green-500'
     },
     {
       icon: MapPin,
-      label: 'Địa chỉ',
-      value: '279 Phan Anh, Bình Trị Đông, Bình Tân',
-      href: '#',
+      label: contact[2].title,
+      value: contact[2].value,
+      href: contact[2].href,
       color: 'text-blue-500'
     },
     {
       icon: Clock,
-      label: 'Thời gian làm việc',
-      value: '9:00 - 18:00 (T2-T6)',
+      label: 'Thời gian phù hợp',
+      value: '8:00 - 20:00 (Thứ 2 - Chủ nhật)',
       href: '#',
       color: 'text-purple-500'
     }
   ];
 
-  const socialLinks = [
-    { icon: Github, label: 'GitHub', href: 'https://github.com/TranVanKhai', color: 'bg-gray-800' },
-    { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/tranvankhai', color: 'bg-blue-600' },
-    { icon: Mail, label: 'Email', href: 'mailto:trankhair2004@gmail.com', color: 'bg-red-500' },
-  ];
+  const socialLinks = profile.socialLinks.filter(link => 
+    ['GitHub', 'LinkedIn', 'Email'].includes(link.label)
+  ).map(link => ({
+    icon: link.label === 'GitHub' ? Github : 
+          link.label === 'LinkedIn' ? Linkedin : Mail,
+    label: link.label,
+    href: link.href,
+    color: link.label === 'GitHub' ? 'bg-gray-800' :
+           link.label === 'LinkedIn' ? 'bg-blue-600' : 'bg-red-500'
+  }));
 
   const container = {
     hidden: { opacity: 0 },
@@ -145,12 +150,12 @@ export default function ContactSection() {
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                 <span className="font-semibold text-green-800 dark:text-green-300">
-                  Hiện tại đang tìm cơ hội
+                  Đang tìm cơ hội thực tập
                 </span>
               </div>
               <p className="text-green-700 dark:text-green-300 text-sm">
-                Tôi đang tìm kiếm các cơ hội thực tập và việc làm trong lĩnh vực An Ninh Mạng, 
-                Penetration Testing và Phát triển ứng dụng bảo mật.
+                Sinh viên năm cuối đang tìm kiếm cơ hội thực tập trong lĩnh vực An Ninh Mạng, 
+                Network Security và Cybersecurity. Sẵn sàng học hỏi và đóng góp vào các dự án thực tế.
               </p>
             </motion.div>
           </motion.div>
@@ -179,11 +184,11 @@ export default function ContactSection() {
               Sẵn sàng bắt đầu dự án tiếp theo?
             </h3>
             <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-              Tôi luôn sẵn sàng thảo luận về các ý tưởng mới, cơ hội hợp tác hoặc 
-              đơn giản chỉ là một cuộc trò chuyện về công nghệ và bảo mật.
+              Sinh viên sắp tốt nghiệp luôn sẵn sàng thảo luận về các cơ hội thực tập, 
+              học hỏi kiến thức mới hoặc đơn giản chỉ là một cuộc trò chuyện về công nghệ và bảo mật.
             </p>
             <motion.a
-              href="mailto:trankhair2004@gmail.com"
+              href={profile.email.startsWith('mailto:') ? profile.email : `mailto:${profile.email}`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center space-x-2 bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300"

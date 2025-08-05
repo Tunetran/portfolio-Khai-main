@@ -1,10 +1,12 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { useState } from 'react'
 import { Calendar, Clock, Tag } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
+import BlogModal from './BlogModal'
 
 interface BlogPost {
   id: number
@@ -40,6 +42,18 @@ const item = {
 export default function BlogSection({ blogs }: BlogSectionProps) {
   const featuredBlogs = blogs.filter(blog => blog.featured)
   const otherBlogs = blogs.filter(blog => !blog.featured)
+  const [selectedBlog, setSelectedBlog] = useState<BlogPost | null>(null)
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  const openBlogModal = (blog: BlogPost) => {
+    setSelectedBlog(blog)
+    setIsModalOpen(true)
+  }
+
+  const closeBlogModal = () => {
+    setIsModalOpen(false)
+    setSelectedBlog(null)
+  }
 
   return (
     <section id="blog" className="py-20 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
@@ -112,7 +126,10 @@ export default function BlogSection({ blogs }: BlogSectionProps) {
                           </Badge>
                         ))}
                       </div>
-                      <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+                      <Button 
+                        className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+                        onClick={() => openBlogModal(blog)}
+                      >
                         Đọc thêm
                       </Button>
                     </CardContent>
@@ -174,7 +191,12 @@ export default function BlogSection({ blogs }: BlogSectionProps) {
                           </Badge>
                         )}
                       </div>
-                      <Button variant="outline" size="sm" className="w-full">
+                      <Button 
+                        variant="outline" 
+                        size="sm" 
+                        className="w-full"
+                        onClick={() => openBlogModal(blog)}
+                      >
                         Đọc thêm
                       </Button>
                     </CardContent>
@@ -197,6 +219,13 @@ export default function BlogSection({ blogs }: BlogSectionProps) {
           </Button>
         </motion.div>
       </div>
+
+      {/* Blog Modal */}
+      <BlogModal 
+        blog={selectedBlog}
+        isOpen={isModalOpen}
+        onClose={closeBlogModal}
+      />
     </section>
   )
 }
