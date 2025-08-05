@@ -2,18 +2,36 @@
   "profile": {
     "name": "Trần Văn Khải",
     "avatarUrl": "https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/502577317_1431424974939578_1353141353574912235_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEuBbYoWVzdES-11Jc0PrUeyHh2j2WS98HIeHaPZZL3wZ7hb6sS3cmgR-wAp3kUQd2Th-VXSAsumt5OLmIGDqen&_nc_ohc=ZDCbxgLYFtsQ7kNvwGRS7kQ&_nc_oc=AdlAs3R9YMkRTDXVPmp0MHbZZAP6sRYZjDTlEydTATwE0As_yJ7CXEoKiuI9AeoTVVk&_nc_zt=23&_nc_ht=scontent.fsgn5-10.fna&_nc_gid=v5XuYJwKZ0OdtFcwC6Kyxg&oh=00_AfXkFKWfQijpmOluC_Ct6mdiNzQd7xP7u1BcOBVjv5RIdg&oe=689674CD",
-    "title": "Sinh viên ngành An Ninh Mạng",
-    "university": "Ho Chi Minh City University of Foreign Languages – Information Technology",
-    "description": "Sinh viên ngành An Ninh Mạng với đam mê về Cybersecurity, Network Security và Information Security.",
-    "location": "279 Phan Anh, Bình Trị Đông, Bình Tân, TP. Hồ Chí Minh",
+    "title": "Ứng viên Thực tập – An Ninh Mạng",
+    "university": "Đại học Ngoại ngữ - Tin học TP.HCM",
+    "description": "Sinh viên năm cuối ngành Khoa học Máy tính với sự quan tâm đặc biệt về an ninh mạng và bảo mật thông tin. Đang học hỏi và phát triển kỹ năng trong các lĩnh vực triển khai mạng doanh nghiệp và hạ tầng đám mây bảo mật. Đã thực hiện các dự án học tập bao gồm mô phỏng tấn công Bluejacking, cấu hình tường lửa với Suricata/Snort/Wazuh, và hosting web sử dụng Kubernetes. Đam mê tìm hiểu về xây dựng ứng dụng client-server bảo mật bằng Java và Netty, đang phát triển kỹ năng về mã hóa, xác thực và tích hợp hệ thống.",
+    "location": "Phan Anh, Phường Bình Trị Đông, Bình Tân, TP. Hồ Chí Minh",
     "email": "trankhair2004@gmail.com",
-    "phone": "+84 xxx xxx xxx",
+    "phone": "0842380777",
     "socialLinks": [
       { "label": "GitHub", "href": "https://github.com/TranVanKhai", "icon": "github" },
       { "label": "LinkedIn", "href": "https://linkedin.com/in/tranvankhai", "icon": "linkedin" },
       { "label": "Facebook", "href": "https://facebook.com/tranvankhai", "icon": "facebook" },
       { "label": "Twitter", "href": "https://twitter.com/tranvankhai", "icon": "twitter" },
       { "label": "Email", "href": "mailto:trankhair2004@gmail.com", "icon": "mail" }
+    ],
+    "skills": [
+      { "name": "Network Security", "level": 45, "category": "Cybersecurity", "icon": "🔒" },
+      { "name": "Penetration Testing", "level": 30, "category": "Cybersecurity", "icon": "🛡️" },
+      { "name": "Ethical Hacking", "level": 25, "category": "Cybersecurity", "icon": "🔍" },
+      { "name": "Incident Response", "level": 20, "category": "Cybersecurity", "icon": "🚨" },
+      { "name": "Python", "level": 60, "category": "Programming", "icon": "🐍" },
+      { "name": "JavaScript/TypeScript", "level": 55, "category": "Programming", "icon": "⚡" },
+      { "name": "React/Next.js", "level": 50, "category": "Programming", "icon": "⚛️" },
+      { "name": "Node.js", "level": 45, "category": "Programming", "icon": "🟢" },
+      { "name": "Linux Administration", "level": 55, "category": "System Administration", "icon": "🐧" },
+      { "name": "Docker & Kubernetes", "level": 35, "category": "System Administration", "icon": "🐳" },
+      { "name": "AWS/Cloud Security", "level": 25, "category": "System Administration", "icon": "☁️" },
+      { "name": "Network Configuration", "level": 50, "category": "System Administration", "icon": "🌐" },
+      { "name": "Burp Suite", "level": 30, "category": "Security Tools", "icon": "🔧" },
+      { "name": "Metasploit", "level": 20, "category": "Security Tools", "icon": "💀" },
+      { "name": "Nmap", "level": 40, "category": "Security Tools", "icon": "🗺️" },
+      { "name": "Wireshark", "level": 45, "category": "Security Tools", "icon": "🦈" }
     ]
   },
   "navigation": [
@@ -28,79 +46,97 @@
   "experiences": [
     {
       "type": "education",
-      "title": "Cử nhân An Ninh Mạng",
+      "title": "Cử nhân Khoa học Máy tính (Chuyên ngành An Ninh Mạng)",
       "organization": "Đại học Ngoại ngữ - Tin học TP.HCM",
       "location": "TP. Hồ Chí Minh",
       "period": "2022 - 2026",
-      "description": "Chuyên ngành An Ninh Mạng với focus vào Cybersecurity, Network Security, và Information Security.",
-      "achievements": ["GPA: 3.5/4.0", "Top 10% lớp", "Thành viên CLB An Ninh Mạng"]
+      "description": "Cử nhân Khoa học Máy tính với chuyên ngành An Ninh Mạng, tập trung vào Cybersecurity, Network Security và Information Security.",
+      "achievements": ["Sinh viên năm cuối", "Tích cực tham gia các bài tập thực hành", "Quan tâm đặc biệt về bảo mật mạng"]
     },
     {
-      "type": "work",
-      "title": "Thực tập sinh IT",
-      "organization": "Công ty ABC Technology",
+      "type": "learning",
+      "title": "Thực hành về Wireless Security",
+      "organization": "Đại học Ngoại ngữ - Tin học TP.HCM",
       "location": "TP. Hồ Chí Minh",
-      "period": "06/2024 - 08/2024",
-      "description": "Tham gia phát triển và bảo trì các ứng dụng web, học hỏi về security testing và penetration testing.",
-      "achievements": ["Phát triển 3 web applications", "Tham gia security audit", "Được đánh giá xuất sắc"]
+      "period": "Tháng 8/2024",
+      "description": "Tìm hiểu và thực hành các khái niệm về bảo mật không dây và Bluetooth.",
+      "achievements": ["Học về các lỗ hổng wireless", "Tìm hiểu kỹ thuật phòng chống", "Thực hành với các công cụ cơ bản"]
     },
     {
-      "type": "education",
-      "title": "Chứng chỉ CEH",
-      "organization": "EC-Council",
-      "location": "Online",
-      "period": "03/2024",
-      "description": "Certified Ethical Hacker - Chứng chỉ quốc tế về ethical hacking và penetration testing.",
-      "achievements": ["Score: 85%", "Practical Labs completed", "Advanced penetration testing"]
+      "type": "learning",
+      "title": "Tìm hiểu về Network Infrastructure",
+      "organization": "Đại học Ngoại ngữ - Tin học TP.HCM",
+      "location": "TP. Hồ Chí Minh",
+      "period": "Tháng 8/2025",
+      "description": "Học về thiết kế mạng cơ bản và các thành phần như switches, routers.",
+      "achievements": ["Tìm hiểu về network topology", "Học cách cấu hình cơ bản", "Nghiên cứu về network security tools"]
+    },
+    {
+      "type": "learning",
+      "title": "Khám phá Container Technology",
+      "organization": "Tự học",
+      "location": "TP. Hồ Chí Minh",
+      "period": "Tháng 8/2025",
+      "description": "Tự học về Docker và Kubernetes để hiểu về containerization.",
+      "achievements": ["Tìm hiểu về Docker containers", "Thực hành deploy ứng dụng đơn giản", "Học về container orchestration"]
+    },
+    {
+      "type": "learning",
+      "title": "Thực hành Java Programming",
+      "organization": "Đại học & Tự học",
+      "location": "TP. Hồ Chí Minh",
+      "period": "2023 - 2025",
+      "description": "Phát triển kỹ năng lập trình Java với focus vào network programming.",
+      "achievements": ["Học về socket programming", "Tìm hiểu về security trong Java", "Thực hành với basic encryption"]
     }
   ],
   "projects": [
     {
-      "title": "Security Monitoring Dashboard",
-      "description": "Hệ thống giám sát an ninh mạng real-time với dashboard tương tác, phát hiện và cảnh báo các mối đe dọa bảo mật.",
+      "title": "Tìm hiểu về Wireless Security",
+      "description": "Nghiên cứu và thực hành các khái niệm cơ bản về bảo mật không dây, đặc biệt là Bluetooth security. Tìm hiểu về các lỗ hổng phổ biến và cách phòng chống.",
       "image": "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "technologies": ["React", "Node.js", "Python", "MongoDB", "Socket.io"],
+      "technologies": ["Bluetooth", "Wireless Security", "Security Research", "Learning"],
       "category": "Security",
       "github": "#",
       "demo": "#",
       "featured": true
     },
     {
-      "title": "Network Vulnerability Scanner",
-      "description": "Tool scan tự động các lỗ hổng bảo mật trong mạng, tạo báo cáo chi tiết và đề xuất biện pháp khắc phục.",
+      "title": "Học về Network Design",
+      "description": "Tự học về thiết kế mạng cơ bản và các thành phần mạng. Tìm hiểu về switches, routers và các khái niệm network security cơ bản.",
       "image": "https://images.pexels.com/photos/5380589/pexels-photo-5380589.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "technologies": ["Python", "Nmap", "SQLite", "Tkinter"],
-      "category": "Security",
-      "github": "#",
-      "demo": "#",
-      "featured": false
-    },
-    {
-      "title": "Encrypted Chat Application",
-      "description": "Ứng dụng chat end-to-end encryption với các tính năng bảo mật cao, hỗ trợ group chat và file sharing.",
-      "image": "https://images.pexels.com/photos/5380617/pexels-photo-5380617.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "technologies": ["Vue.js", "Express.js", "WebRTC", "AES Encryption"],
-      "category": "Web App",
+      "technologies": ["Network Design", "Network Security", "Learning", "Research"],
+      "category": "Network",
       "github": "#",
       "demo": "#",
       "featured": true
     },
     {
-      "title": "Penetration Testing Toolkit",
-      "description": "Bộ công cụ tự động hóa các quy trình penetration testing, từ reconnaissance đến exploitation.",
-      "image": "https://images.pexels.com/photos/5380623/pexels-photo-5380623.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "technologies": ["Python", "Bash", "Metasploit", "Burp Suite API"],
-      "category": "Security",
+      "title": "Thực hành với Container Technology",
+      "description": "Tự học và thực hành với Docker containers và Kubernetes cơ bản. Tìm hiểu về containerization và deployment đơn giản.",
+      "image": "https://images.pexels.com/photos/5380617/pexels-photo-5380617.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "technologies": ["Docker", "Kubernetes", "Containerization", "Self-learning"],
+      "category": "DevOps",
       "github": "#",
       "demo": "#",
-      "featured": false
+      "featured": true
     },
     {
-      "title": "IoT Security Platform",
-      "description": "Platform quản lý và bảo vệ các thiết bị IoT, monitor traffic và detect anomalies trong mạng IoT.",
+      "title": "Java Security Programming",
+      "description": "Thực hành lập trình Java với focus vào network programming và security cơ bản. Tìm hiểu về socket programming và encryption đơn giản.",
+      "image": "https://images.pexels.com/photos/5380623/pexels-photo-5380623.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "technologies": ["Java", "Network Programming", "Basic Security", "Learning"],
+      "category": "Programming",
+      "github": "#",
+      "demo": "#",
+      "featured": true
+    },
+    {
+      "title": "Security Tools Research",
+      "description": "Tìm hiểu về các công cụ bảo mật cơ bản và cách sử dụng chúng. Nghiên cứu về network monitoring và security assessment tools.",
       "image": "https://images.pexels.com/photos/5380641/pexels-photo-5380641.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "technologies": ["React", "FastAPI", "PostgreSQL", "Docker", "MQTT"],
-      "category": "IoT",
+      "technologies": ["Security Tools", "Research", "Network Monitoring", "Learning"],
+      "category": "Security",
       "github": "#",
       "demo": "#",
       "featured": false
@@ -108,40 +144,40 @@
   ],
   "achievements": [
     {
-      "title": "Giải Nhất Cybersecurity Contest",
-      "description": "Giải nhất cuộc thi An Ninh Mạng cấp trường năm 2024",
+      "title": "Tự học về Bảo mật mạng",
+      "description": "Chủ động tìm hiểu và thực hành các công cụ bảo mật như Bluetooth security",
       "date": "2024",
-      "category": "Giải thưởng"
-    },
-    {
-      "title": "Chứng chỉ CEH",
-      "description": "Certified Ethical Hacker từ EC-Council",
-      "date": "2024",
-      "category": "Chứng chỉ"
-    },
-    {
-      "title": "Trưởng nhóm dự án capstone",
-      "description": "Dẫn dắt nhóm 5 người phát triển hệ thống Security Monitoring",
-      "date": "2024",
-      "category": "Lãnh đạo"
-    },
-    {
-      "title": "Top 10% sinh viên xuất sắc",
-      "description": "Xếp hạng trong top 10% sinh viên có thành tích học tập cao",
-      "date": "2023-2024",
       "category": "Học tập"
     },
     {
-      "title": "Hackathon Winner",
-      "description": "Giải Ba tại cuộc thi Hackathon IT Challenge 2023",
-      "date": "2023",
-      "category": "Cuộc thi"
+      "title": "Kiến thức Networking cơ bản",
+      "description": "Nắm vững các khái niệm về Network Security, Firewall và System Administration",
+      "date": "2024",
+      "category": "Kỹ năng"
     },
     {
-      "title": "Volunteer IT Support",
-      "description": "Tình nguyện hỗ trợ IT cho các tổ chức phi lợi nhuận",
+      "title": "Thực hành với công nghệ mới",
+      "description": "Tìm hiểu và thử nghiệm với Kubernetes, Docker và containerization",
+      "date": "2025",
+      "category": "Công nghệ"
+    },
+    {
+      "title": "Kỹ năng Java Programming",
+      "description": "Phát triển ứng dụng với Java, đặc biệt về bảo mật và networking",
       "date": "2023-2024",
-      "category": "Tình nguyện"
+      "category": "Lập trình"
+    },
+    {
+      "title": "Nghiên cứu về Network Design",
+      "description": "Học hỏi về thiết kế hạ tầng mạng và các công cụ monitoring",
+      "date": "2025",
+      "category": "Nghiên cứu"
+    },
+    {
+      "title": "Hiểu biết về Cryptography",
+      "description": "Kiến thức cơ bản về mã hóa AES/RSA, chữ ký số và bảo mật truyền thông",
+      "date": "2024-2025",
+      "category": "Bảo mật"
     }
   ],
   "blog": [
@@ -190,6 +226,57 @@
       "featured": false
     }
   ],
+  "about": {
+    "title": "Về tôi",
+    "subtitle": "Sinh viên đam mê công nghệ, luôn sẵn sàng học hỏi và khám phá những điều mới",
+    "description": "Xin chào! Tôi là Khải, sinh viên năm cuối ngành Khoa học Máy tính tại Đại học Ngoại ngữ - Tin học TP.HCM. Với niềm đam mê mãnh liệt về an ninh mạng và bảo mật thông tin, tôi luôn tìm cách học hỏi và khám phá những công nghệ mới.\n\nTrong quá trình học tập, tôi đã tự mình nghiên cứu về wireless security, thực hành với các công cụ như Docker và Kubernetes, cũng như phát triển kỹ năng lập trình Java. Tôi tin rằng việc kết hợp kiến thức lý thuyết với thực hành sẽ giúp tôi trở thành một chuyên gia bảo mật giỏi trong tương lai.\n\nHiện tại, tôi đang tìm kiếm cơ hội thực tập để có thể áp dụng những kiến thức đã học vào thực tế và học hỏi thêm từ các chuyên gia trong ngành.",
+    "highlights": [
+      {
+        "icon": "🎓",
+        "label": "Học tại",
+        "value": "ĐH Ngoại ngữ - Tin học TP.HCM"
+      },
+      {
+        "icon": "�", 
+        "label": "Năm học",
+        "value": "Sinh viên năm 4 (2022-2026)"
+      },
+      {
+        "icon": "💡",
+        "label": "Sở thích",
+        "value": "Tự học công nghệ mới"
+      },
+      {
+        "icon": "🎯",
+        "label": "Mục tiêu",
+        "value": "Trở thành Cybersecurity Expert"
+      },
+      {
+        "icon": "🔥",
+        "label": "Đam mê",
+        "value": "An ninh mạng & Bảo mật"
+      },
+      {
+        "icon": "📍",
+        "label": "Khu vực",
+        "value": "TP. Hồ Chí Minh"
+      }
+    ]
+  },
+  "stats": {
+    "achievements": [
+      { "number": "4", "label": "Năm học", "suffix": "/4" },
+      { "number": "6", "label": "Dự án học tập", "suffix": "" },
+      { "number": "3", "label": "Kỹ năng chính", "suffix": "" },
+      { "number": "2", "label": "Năm tự học", "suffix": "" }
+    ],
+    "about": [
+      { "label": "Kỹ năng", "value": "5", "color": "text-yellow-500", "icon": "award" },
+      { "label": "Dự án học tập", "value": "6", "color": "text-blue-500", "icon": "book" },
+      { "label": "Môn học", "value": "20+", "color": "text-green-500", "icon": "target" },
+      { "label": "Năm học", "value": "4", "color": "text-purple-500", "icon": "users" }
+    ]
+  },
   "contact": [
     {
       "title": "Email",
@@ -198,12 +285,12 @@
     },
     {
       "title": "Điện thoại",
-      "value": "+84 xxx xxx xxx",
-      "href": "tel:+84xxxxxxxxx"
+      "value": "0842380777",
+      "href": "tel:0842380777"
     },
     {
       "title": "Địa chỉ",
-      "value": "279 Phan Anh, Bình Trị Đông, Bình Tân",
+      "value": "Phan Anh, Phường Bình Trị Đông, Bình Tân, TP. Hồ Chí Minh",
       "href": "#"
     }
   ]

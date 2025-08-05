@@ -81,12 +81,7 @@ export default function AchievementsSection() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8"
         >
-          {[
-            { number: '3.5', label: 'GPA', suffix: '/4.0' },
-            { number: '15+', label: 'Dự án', suffix: '' },
-            { number: '5+', label: 'Chứng chỉ', suffix: '' },
-            { number: '2+', label: 'Năm kinh nghiệm', suffix: '' }
-          ].map((stat, index) => {
+          {portfolio.stats.achievements.map((stat, index) => {
             return (
               <motion.div
                 key={index}

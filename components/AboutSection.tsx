@@ -3,15 +3,23 @@
 import { motion } from 'framer-motion'
 import { Award, BookOpen, Target, Users } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
-import SkillProgress, { defaultSkills } from './SkillProgress'
+import SkillProgress from './SkillProgress'
 import portfolioData from '@/lib/portfolioData'
 
-const aboutStats = [
-  { icon: Award, label: 'Chứng chỉ', value: '3+', color: 'text-yellow-500' },
-  { icon: BookOpen, label: 'Dự án', value: '15+', color: 'text-blue-500' },
-  { icon: Target, label: 'CTF Won', value: '8+', color: 'text-green-500' },
-  { icon: Users, label: 'Team Lead', value: '5+', color: 'text-purple-500' },
-]
+// Map icon names to components
+const iconMap: Record<string, any> = {
+  'award': Award,
+  'book': BookOpen,
+  'target': Target,
+  'users': Users,
+}
+
+const aboutStats = portfolioData.stats.about.map(stat => ({
+  icon: iconMap[stat.icon],
+  label: stat.label,
+  value: stat.value,
+  color: stat.color
+}));
 
 const container = {
   hidden: { opacity: 0 },
@@ -29,7 +37,7 @@ const item = {
 }
 
 export default function AboutSection() {
-  const { profile } = portfolioData
+  const { profile, about } = portfolioData
 
   return (
     <section id="about" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
@@ -42,10 +50,10 @@ export default function AboutSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Về tôi
+            {about.title}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Tìm hiểu thêm về hành trình, kỹ năng và đam mê của tôi trong lĩnh vực Cybersecurity
+            {about.subtitle}
           </p>
         </motion.div>
 
@@ -78,16 +86,15 @@ export default function AboutSection() {
                 {profile.title}
               </p>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                {profile.description}
+                {about.description}
               </p>
               
               <div className="space-y-2">
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-semibold">🎓 Trường:</span> {profile.university}
-                </p>
-                <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-semibold">📍 Địa chỉ:</span> {profile.location}
-                </p>
+                {about.highlights.map((highlight, index) => (
+                  <p key={index} className="text-gray-700 dark:text-gray-300">
+                    <span className="font-semibold">{highlight.icon} {highlight.label}:</span> {highlight.value}
+                  </p>
+                ))}
               </div>
             </div>
           </motion.div>
@@ -139,7 +146,7 @@ export default function AboutSection() {
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">
             Kỹ năng chuyên môn
           </h3>
-          <SkillProgress skills={defaultSkills} />
+          <SkillProgress skills={portfolioData.profile.skills} />
         </motion.div>
 
         {/* Personal Quote */}

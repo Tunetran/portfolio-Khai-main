@@ -7,7 +7,7 @@ interface Skill {
   name: string
   level: number
   category: string
-  icon?: string
+  icon: string
 }
 
 interface SkillProgressProps {
@@ -67,7 +67,7 @@ export default function SkillProgress({ skills }: SkillProgressProps) {
               >
                 <div className="flex justify-between items-center">
                   <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                    {skill.icon && <span className="mr-2">{skill.icon}</span>}
+                    <span className="mr-2">{skill.icon}</span>
                     {skill.name}
                   </span>
                   <span className="text-sm text-gray-500 dark:text-gray-400">
@@ -94,26 +94,3 @@ export default function SkillProgress({ skills }: SkillProgressProps) {
     </div>
   )
 }
-
-// Default skills data
-export const defaultSkills: Skill[] = [
-  { name: 'Network Security', level: 90, category: 'Cybersecurity', icon: '🔒' },
-  { name: 'Penetration Testing', level: 85, category: 'Cybersecurity', icon: '🛡️' },
-  { name: 'Ethical Hacking', level: 80, category: 'Cybersecurity', icon: '🔍' },
-  { name: 'Incident Response', level: 75, category: 'Cybersecurity', icon: '🚨' },
-  
-  { name: 'Python', level: 88, category: 'Programming', icon: '🐍' },
-  { name: 'JavaScript/TypeScript', level: 85, category: 'Programming', icon: '⚡' },
-  { name: 'React/Next.js', level: 82, category: 'Programming', icon: '⚛️' },
-  { name: 'Node.js', level: 78, category: 'Programming', icon: '🟢' },
-  
-  { name: 'Linux Administration', level: 85, category: 'System Administration', icon: '🐧' },
-  { name: 'Docker & Kubernetes', level: 75, category: 'System Administration', icon: '🐳' },
-  { name: 'AWS/Cloud Security', level: 70, category: 'System Administration', icon: '☁️' },
-  { name: 'Network Configuration', level: 88, category: 'System Administration', icon: '🌐' },
-  
-  { name: 'Burp Suite', level: 90, category: 'Security Tools', icon: '🔧' },
-  { name: 'Metasploit', level: 85, category: 'Security Tools', icon: '💀' },
-  { name: 'Nmap', level: 92, category: 'Security Tools', icon: '🗺️' },
-  { name: 'Wireshark', level: 88, category: 'Security Tools', icon: '🦈' },
-]

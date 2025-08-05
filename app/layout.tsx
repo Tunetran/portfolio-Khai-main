@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     locale: 'vi_VN',
     url: 'https://tranvankhai.dev',
     title: 'Trần Văn Khải - Cybersecurity & Network Security Portfolio',
-    description: 'Portfolio chuyên nghiệp về Cybersecurity và Network Security. Sinh viên xuất sắc ngành An Ninh Mạng với chứng chỉ CEH và kinh nghiệm thực tế.',
+    description: 'Portfolio chuyên nghiệp về Cybersecurity và Network Security. Sinh viên ngành An Ninh Mạng với đam mê tìm hiểu và thực hành bảo mật.',
     siteName: 'Trần Văn Khải Portfolio',
     images: [
       {
