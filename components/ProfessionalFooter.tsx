@@ -69,22 +69,22 @@ export default function ProfessionalFooter() {
               <h4 className="font-semibold text-white">Thông tin liên hệ nhanh</h4>
               <div className="space-y-2">
                 <a 
-                  href="mailto:khaikaito123@gmail.com"
+                  href="mailto:trankhair2004@gmail.com"
                   className="flex items-center space-x-3 text-corporate-blue-200 hover:text-white transition-colors duration-300 group"
                 >
                   <Mail className="w-4 h-4 group-hover:scale-110 transition-transform duration-300" />
-                  <span>khaikaito123@gmail.com</span>
+                  <span>trankhair2004@gmail.com</span>
                 </a>
                 <a 
-                  href="tel:+84869696969"
+                  href="tel:+84842380777"
                   className="flex items-center space-x-3 text-corporate-blue-200 hover:text-white transition-colors duration-300 group"
                 >
                   <Phone className="w-4 h-4 group-hover:scale-110 transition-transform duration-300" />
-                  <span>+84 869 696 969</span>
+                  <span>0842 380 777</span>
                 </a>
                 <div className="flex items-center space-x-3 text-corporate-blue-200">
                   <MapPin className="w-4 h-4" />
-                  <span>Hà Nội, Việt Nam</span>
+                  <span>HCM, Việt Nam</span>
                 </div>
               </div>
             </div>

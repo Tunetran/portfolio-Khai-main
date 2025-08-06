@@ -51,7 +51,7 @@ export default function HeroSection() {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="space-y-6"
         >
-          <h1 className="font-orbitron text-4xl md:text-6xl font-bold">
+          <h1 className="font-display text-4xl md:text-6xl font-bold">
             <span className="glow-text">{profile.name}</span>
           </h1>
           

@@ -92,7 +92,7 @@ export default function ProfessionalExperienceSection() {
                                  exp.type === 'learning' ? 'Tự học' : 'Kinh nghiệm'}
                               </span>
                             </div>
-                            <div className="flex items-center space-x-4 text-corporate-navy-600 dark:text-corporate-navy-400 text-sm mb-4">
+                            <div className="flex items-center space-x-4 text-corporate-navy-700 dark:text-corporate-navy-200 text-sm mb-4">
                               <div className="flex items-center space-x-1">
                                 <Target className="w-4 h-4" />
                                 <span className="font-medium">{exp.organization}</span>
@@ -110,7 +110,7 @@ export default function ProfessionalExperienceSection() {
                         </div>
 
                         {/* Description */}
-                        <p className="text-corporate-navy-700 dark:text-corporate-navy-300 leading-relaxed mb-6 text-lg">
+                        <p className="text-corporate-navy-800 dark:text-corporate-navy-100 leading-relaxed mb-6 text-lg">
                           {exp.description}
                         </p>
 
@@ -125,7 +125,7 @@ export default function ProfessionalExperienceSection() {
                               {exp.achievements.map((achievement, achievementIndex) => (
                                 <div key={achievementIndex} className="flex items-start space-x-3">
                                   <CheckCircle className="w-5 h-5 text-professional-green mt-0.5 flex-shrink-0" />
-                                  <span className="text-corporate-navy-600 dark:text-corporate-navy-400 leading-relaxed">
+                                  <span className="text-corporate-navy-700 dark:text-corporate-navy-200 leading-relaxed">
                                     {achievement}
                                   </span>
                                 </div>
@@ -137,14 +137,14 @@ export default function ProfessionalExperienceSection() {
                         {/* Technologies */}
                         {exp.technologies && exp.technologies.length > 0 && (
                           <div>
-                            <h4 className="text-sm font-semibold text-corporate-navy-700 dark:text-corporate-navy-300 mb-3">
+                            <h4 className="text-sm font-semibold text-corporate-navy-800 dark:text-corporate-navy-200 mb-3">
                               Công nghệ sử dụng
                             </h4>
                             <div className="flex flex-wrap gap-2">
                               {exp.technologies.map((tech, techIndex) => (
                                 <span
                                   key={techIndex}
-                                  className="bg-corporate-navy-100 dark:bg-corporate-navy-700/50 text-corporate-navy-700 dark:text-corporate-navy-300 text-sm font-medium px-3 py-1 rounded-lg border border-corporate-navy-200 dark:border-corporate-navy-600"
+                                  className="bg-corporate-navy-100 dark:bg-corporate-navy-700/50 text-corporate-navy-800 dark:text-corporate-navy-200 text-sm font-medium px-3 py-1 rounded-lg border border-corporate-navy-200 dark:border-corporate-navy-600"
                                 >
                                   {tech}
                                 </span>
@@ -171,24 +171,24 @@ export default function ProfessionalExperienceSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-center mt-20"
         >
-          <div className="professional-card bg-gradient-to-r from-emerald-600 to-emerald-700 dark:from-emerald-500 dark:to-emerald-600 rounded-2xl p-8 lg:p-12 text-white max-w-4xl mx-auto shadow-2xl hover:shadow-emerald-500/25 transition-all duration-500">
-            <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-white">
+          <div className="professional-card bg-gradient-to-r from-slate-50 to-gray-100 dark:from-slate-100 dark:to-gray-50 rounded-2xl p-8 lg:p-12 max-w-4xl mx-auto shadow-2xl hover:shadow-emerald-500/25 transition-all duration-500">
+            <h3 className="text-2xl lg:text-3xl font-bold mb-4 text-emerald-700">
               Tiếp tục hành trình phát triển
             </h3>
-            <p className="text-xl mb-8 text-emerald-50">
+            <p className="text-xl mb-8 text-emerald-600">
               Luôn học hỏi, không ngừng cải thiện và sẵn sàng đóng góp vào dự án của bạn
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="#projects"
-                className="inline-flex items-center px-8 py-4 bg-white text-emerald-700 font-semibold rounded-xl hover:bg-emerald-50 transition-all duration-300 hover:scale-105 shadow-lg"
+                className="inline-flex items-center px-8 py-4 bg-emerald-600 text-white font-semibold rounded-xl hover:bg-emerald-700 transition-all duration-300 hover:scale-105 shadow-lg"
               >
                 <span>Xem dự án</span>
                 <TrendingUp className="w-5 h-5 ml-2" />
               </a>
               <a
                 href="#contact"
-                className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-xl hover:bg-white/20 transition-all duration-300 hover:scale-105"
+                className="inline-flex items-center px-8 py-4 bg-emerald-600 text-white font-semibold rounded-xl hover:bg-emerald-700 transition-all duration-300 hover:scale-105 shadow-lg"
               >
                 <span>Liên hệ ngay</span>
                 <Target className="w-5 h-5 ml-2" />
