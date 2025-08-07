@@ -60,7 +60,7 @@ export default function ModernProjectsSection() {
   };
 
   return (
-    <section id="projects" className="py-20 lg:py-32 bg-gradient-to-br from-corporate-navy-50 via-white to-corporate-blue-50/50 dark:from-corporate-navy-900 dark:via-corporate-navy-800 dark:to-corporate-blue-950/50 relative overflow-hidden">
+    <section id="projects" className="py-16 sm:py-20 lg:py-32 bg-gradient-to-br from-corporate-navy-50 via-white to-corporate-blue-50/50 dark:from-corporate-navy-900 dark:via-corporate-navy-800 dark:to-corporate-blue-950/50 relative overflow-hidden px-4 sm:px-6 lg:px-8">
       {/* Professional Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-40 right-10 w-72 h-72 bg-gradient-to-br from-professional-blue/5 to-professional-navy/10 rounded-full blur-3xl animate-pulse"></div>
@@ -75,49 +75,52 @@ export default function ModernProjectsSection() {
           viewport={{ once: true, margin: "-100px" }}
         >
           {/* Enhanced Section Header */}
-          <motion.div variants={itemVariants} className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-professional-blue/10 text-professional-blue px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <Trophy className="w-4 h-4" />
+          <motion.div variants={itemVariants} className="text-center mb-12 lg:mb-16">
+            <div className="inline-flex items-center space-x-2 bg-professional-blue/10 text-professional-blue px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6">
+              <Trophy className="w-3 h-3 sm:w-4 sm:h-4" />
               <span>Dự án & Thành tựu</span>
             </div>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+            <h2 className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
               <span className="bg-gradient-to-r from-corporate-navy-900 via-professional-blue to-corporate-navy-800 dark:from-white dark:via-corporate-blue-200 dark:to-white bg-clip-text text-transparent">
                 Thành Tựu Đáng Tự Hào
               </span>
             </h2>
-            <p className="text-xl lg:text-2xl text-corporate-navy-600 dark:text-corporate-navy-400 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg lg:text-xl xl:text-2xl text-corporate-navy-600 dark:text-corporate-navy-400 max-w-4xl mx-auto leading-relaxed px-2">
               🏆 <strong>Điểm tối đa 3 đồ án quan trọng</strong> - Khám phá những dự án cybersecurity và Java development 
               đã giúp tôi chứng minh khả năng thực hành xuất sắc trong lĩnh vực công nghệ
             </p>
             
             {/* Achievement Stats */}
-            <div className="flex flex-wrap justify-center gap-8 mt-8">
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-8 mt-6 sm:mt-8">
               <div className="text-center">
-                <div className="text-2xl font-bold text-professional-blue">3</div>
-                <div className="text-sm text-corporate-navy-600 dark:text-corporate-navy-400">Đồ án điểm tối đa</div>
+                <div className="text-xl sm:text-2xl font-bold text-professional-blue">3</div>
+                <div className="text-xs sm:text-sm text-corporate-navy-600 dark:text-corporate-navy-400">Đồ án điểm tối đa</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-professional-green">6+</div>
-                <div className="text-sm text-corporate-navy-600 dark:text-corporate-navy-400">Dự án hoàn thành</div>
+                <div className="text-xl sm:text-2xl font-bold text-professional-green">6+</div>
+                <div className="text-xs sm:text-sm text-corporate-navy-600 dark:text-corporate-navy-400">Dự án hoàn thành</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-professional-navy">4</div>
-                <div className="text-sm text-corporate-navy-600 dark:text-corporate-navy-400">Cloud Platforms</div>
+                <div className="text-xl sm:text-2xl font-bold text-professional-navy">4</div>
+                <div className="text-xs sm:text-sm text-corporate-navy-600 dark:text-corporate-navy-400">Cloud Platforms</div>
               </div>
             </div>
           </motion.div>
 
           {/* Controls */}
-          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-center justify-between mb-12 gap-6">
+          <motion.div variants={itemVariants} className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 sm:mb-12 gap-4 sm:gap-6">
             {/* Category Filter */}
-            <div className="flex items-center space-x-4">
-              <Filter className="w-5 h-5 text-slate-600 dark:text-slate-400" />
-              <div className="flex flex-wrap gap-2">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4 w-full sm:w-auto">
+              <div className="flex items-center space-x-2">
+                <Filter className="w-4 h-4 sm:w-5 sm:h-5 text-slate-600 dark:text-slate-400" />
+                <span className="text-sm font-medium text-slate-600 dark:text-slate-400">Lọc theo:</span>
+              </div>
+              <div className="flex flex-wrap gap-2 w-full sm:w-auto">
                 {categories.map((category) => (
                   <button
                     key={category}
                     onClick={() => setSelectedCategory(category)}
-                    className={`px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 ${
+                    className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg sm:rounded-xl text-xs sm:text-sm font-medium transition-all duration-300 ${
                       selectedCategory === category
                         ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg'
                         : 'bg-white/80 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 hover:bg-blue-50 dark:hover:bg-blue-950/50 border border-slate-200 dark:border-slate-700'
@@ -130,26 +133,26 @@ export default function ModernProjectsSection() {
             </div>
 
             {/* View Mode Toggle */}
-            <div className="flex items-center space-x-2 bg-white/90 dark:bg-corporate-navy-800/90 backdrop-blur-sm rounded-xl p-1 border border-corporate-navy-200 dark:border-corporate-navy-700">
+            <div className="flex items-center space-x-2 bg-white/90 dark:bg-corporate-navy-800/90 backdrop-blur-sm rounded-lg sm:rounded-xl p-1 border border-corporate-navy-200 dark:border-corporate-navy-700">
               <button
                 onClick={() => setViewMode('featured')}
-                className={`p-2 rounded-lg transition-all duration-300 ${
+                className={`p-1.5 sm:p-2 rounded-md sm:rounded-lg transition-all duration-300 ${
                   viewMode === 'featured'
                     ? 'bg-professional-blue/10 text-professional-blue'
                     : 'text-corporate-navy-600 dark:text-corporate-navy-400 hover:text-professional-blue'
                 }`}
               >
-                <Trophy className="w-5 h-5" />
+                <Trophy className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
               <button
                 onClick={() => setViewMode('grid')}
-                className={`p-2 rounded-lg transition-all duration-300 ${
+                className={`p-1.5 sm:p-2 rounded-md sm:rounded-lg transition-all duration-300 ${
                   viewMode === 'grid'
                     ? 'bg-professional-blue/10 text-professional-blue'
                     : 'text-corporate-navy-600 dark:text-corporate-navy-400 hover:text-professional-blue'
                 }`}
               >
-                <Grid className="w-5 h-5" />
+                <Grid className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
             </div>
           </motion.div>
@@ -163,17 +166,17 @@ export default function ModernProjectsSection() {
                 variants={containerVariants}
                 initial="hidden"
                 animate="visible"
-                className="space-y-12"
+                className="space-y-8 sm:space-y-12"
               >
                 {/* Featured Projects Hero */}
-                <div className="space-y-8">
+                <div className="space-y-6 sm:space-y-8">
                   {featuredProjects.map((project, index) => (
                     <motion.div
                       key={project.title}
                       variants={itemVariants}
                       className="group"
                     >
-                      <div className="professional-card bg-white/95 dark:bg-corporate-navy-800/95 backdrop-blur-lg rounded-2xl overflow-hidden border-2 border-professional-blue/20 hover:border-professional-blue/40 transition-all duration-500 hover:shadow-2xl">
+                      <div className="professional-card bg-white/95 dark:bg-corporate-navy-800/95 backdrop-blur-lg rounded-xl sm:rounded-2xl overflow-hidden border-2 border-professional-blue/20 hover:border-professional-blue/40 transition-all duration-500 hover:shadow-2xl">
                         <div className="lg:flex">
                           {/* Project Image */}
                           <div className="lg:w-1/2 relative">
@@ -187,17 +190,17 @@ export default function ModernProjectsSection() {
                               <div className="absolute inset-0 bg-gradient-to-r from-professional-navy/20 to-transparent" />
                               
                               {/* Achievement Badge */}
-                              <div className="absolute top-6 left-6">
-                                <div className="flex items-center space-x-2 bg-gradient-to-r from-professional-green to-professional-blue text-white text-sm font-bold px-4 py-2 rounded-full shadow-lg">
-                                  <Trophy className="w-4 h-4" />
+                              <div className="absolute top-3 sm:top-6 left-3 sm:left-6">
+                                <div className="flex items-center space-x-1 sm:space-x-2 bg-gradient-to-r from-professional-green to-professional-blue text-white text-xs sm:text-sm font-bold px-2 sm:px-4 py-1 sm:py-2 rounded-full shadow-lg">
+                                  <Trophy className="w-3 h-3 sm:w-4 sm:h-4" />
                                   <span>Đồ án xuất sắc</span>
                                 </div>
                               </div>
 
                               {/* Impact Badge */}
                               {project.impact && (
-                                <div className="absolute bottom-6 left-6">
-                                  <div className="bg-white/90 dark:bg-corporate-navy-900/90 backdrop-blur-sm text-corporate-navy-800 dark:text-white text-xs font-medium px-3 py-2 rounded-lg border border-corporate-navy-200 dark:border-corporate-navy-700">
+                                <div className="absolute bottom-3 sm:bottom-6 left-3 sm:left-6">
+                                  <div className="bg-white/90 dark:bg-corporate-navy-900/90 backdrop-blur-sm text-corporate-navy-800 dark:text-white text-xs font-medium px-2 sm:px-3 py-1 sm:py-2 rounded-lg border border-corporate-navy-200 dark:border-corporate-navy-700">
                                     {project.impact}
                                   </div>
                                 </div>
@@ -206,36 +209,36 @@ export default function ModernProjectsSection() {
                           </div>
 
                           {/* Project Content */}
-                          <div className="lg:w-1/2 p-8 lg:p-12">
-                            <div className="flex items-center space-x-3 mb-4">
-                              <span className="bg-professional-blue/10 text-professional-blue text-sm font-medium px-3 py-1 rounded-full">
+                          <div className="lg:w-1/2 p-4 sm:p-6 lg:p-8 xl:p-12">
+                            <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+                              <span className="bg-professional-blue/10 text-professional-blue text-xs sm:text-sm font-medium px-2 sm:px-3 py-1 rounded-full">
                                 {project.category}
                               </span>
                               <div className="flex items-center text-professional-green">
-                                <Award className="w-4 h-4 mr-1" />
-                                <span className="text-sm font-medium">Nổi bật</span>
+                                <Award className="w-3 h-3 sm:w-4 sm:h-4 mr-1" />
+                                <span className="text-xs sm:text-sm font-medium">Nổi bật</span>
                               </div>
                             </div>
 
-                            <h3 className="text-2xl lg:text-3xl font-bold text-corporate-navy-900 dark:text-white mb-4 group-hover:text-professional-blue transition-colors duration-300">
+                            <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-corporate-navy-900 dark:text-white mb-3 sm:mb-4 group-hover:text-professional-blue transition-colors duration-300">
                               {project.title}
                             </h3>
                             
-                            <p className="text-corporate-navy-600 dark:text-corporate-navy-400 mb-6 leading-relaxed text-lg">
+                            <p className="text-corporate-navy-600 dark:text-corporate-navy-400 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base lg:text-lg">
                               {project.description}
                             </p>
 
                             {/* Key Metrics */}
                             {project.metrics && (
-                              <div className="mb-6">
-                                <h4 className="text-sm font-semibold text-corporate-navy-700 dark:text-corporate-navy-300 mb-3 flex items-center">
-                                  <TrendingUp className="w-4 h-4 mr-2 text-professional-green" />
+                              <div className="mb-4 sm:mb-6">
+                                <h4 className="text-sm font-semibold text-corporate-navy-700 dark:text-corporate-navy-300 mb-2 sm:mb-3 flex items-center">
+                                  <TrendingUp className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-professional-green" />
                                   Thành tựu chính
                                 </h4>
-                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                                <div className="grid grid-cols-1 gap-2">
                                   {project.metrics.map((metric, metricIndex) => (
-                                    <div key={metricIndex} className="flex items-center text-sm text-corporate-navy-600 dark:text-corporate-navy-400">
-                                      <Target className="w-3 h-3 mr-2 text-professional-blue" />
+                                    <div key={metricIndex} className="flex items-center text-xs sm:text-sm text-corporate-navy-600 dark:text-corporate-navy-400">
+                                      <Target className="w-3 h-3 mr-2 text-professional-blue flex-shrink-0" />
                                       {metric}
                                     </div>
                                   ))}
@@ -244,15 +247,15 @@ export default function ModernProjectsSection() {
                             )}
 
                             {/* Technologies */}
-                            <div className="mb-8">
-                              <h4 className="text-sm font-semibold text-corporate-navy-700 dark:text-corporate-navy-300 mb-3">
+                            <div className="mb-6 sm:mb-8">
+                              <h4 className="text-sm font-semibold text-corporate-navy-700 dark:text-corporate-navy-300 mb-2 sm:mb-3">
                                 Công nghệ sử dụng
                               </h4>
-                              <div className="flex flex-wrap gap-2">
+                              <div className="flex flex-wrap gap-1.5 sm:gap-2">
                                 {project.technologies.map((tech, techIndex) => (
                                   <span
                                     key={techIndex}
-                                    className="bg-corporate-navy-100 dark:bg-corporate-navy-700/50 text-corporate-navy-700 dark:text-corporate-navy-300 text-sm font-medium px-3 py-1 rounded-lg border border-corporate-navy-200 dark:border-corporate-navy-600"
+                                    className="bg-corporate-navy-100 dark:bg-corporate-navy-700/50 text-corporate-navy-700 dark:text-corporate-navy-300 text-xs sm:text-sm font-medium px-2 sm:px-3 py-1 rounded-lg border border-corporate-navy-200 dark:border-corporate-navy-600"
                                   >
                                     {tech}
                                   </span>
@@ -261,13 +264,13 @@ export default function ModernProjectsSection() {
                             </div>
 
                             {/* Action Links */}
-                            <div className="flex items-center space-x-4">
+                            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
                               {project.github !== '#' && (
                                 <a
                                   href={project.github}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  className="professional-button inline-flex items-center px-6 py-3 text-white bg-gradient-to-r from-professional-blue to-professional-navy rounded-lg hover:shadow-lg transition-all duration-300 hover:scale-105"
+                                  className="professional-button inline-flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 text-white bg-gradient-to-r from-professional-blue to-professional-navy rounded-lg hover:shadow-lg transition-all duration-300 hover:scale-105 text-sm sm:text-base"
                                 >
                                   <Github className="w-4 h-4 mr-2" />
                                   Source Code
@@ -278,7 +281,7 @@ export default function ModernProjectsSection() {
                                   href={project.demo}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  className="inline-flex items-center px-6 py-3 text-professional-blue bg-white/90 dark:bg-corporate-navy-800/90 border border-professional-blue/20 rounded-lg hover:bg-professional-blue/5 transition-all duration-300"
+                                  className="inline-flex items-center justify-center px-4 sm:px-6 py-2.5 sm:py-3 text-professional-blue bg-white/90 dark:bg-corporate-navy-800/90 border border-professional-blue/20 rounded-lg hover:bg-professional-blue/5 transition-all duration-300 text-sm sm:text-base"
                                 >
                                   <ExternalLink className="w-4 h-4 mr-2" />
                                   Live Demo
@@ -297,18 +300,18 @@ export default function ModernProjectsSection() {
                   <div>
                     <motion.h3 
                       variants={itemVariants}
-                      className="text-2xl font-bold text-corporate-navy-900 dark:text-white mb-8 text-center"
+                      className="text-xl sm:text-2xl font-bold text-corporate-navy-900 dark:text-white mb-6 sm:mb-8 text-center"
                     >
                       Dự án khác
                     </motion.h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                       {regularProjects.map((project, index) => (
                         <motion.div
                           key={project.title}
                           variants={itemVariants}
                           className="group"
                         >
-                          <div className="professional-card bg-white/95 dark:bg-corporate-navy-800/95 backdrop-blur-sm rounded-xl overflow-hidden hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
+                          <div className="professional-card bg-white/95 dark:bg-corporate-navy-800/95 backdrop-blur-sm rounded-lg sm:rounded-xl overflow-hidden hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
                             {/* Compact Project Image */}
                             <div className="relative aspect-video overflow-hidden">
                               <Image
@@ -320,7 +323,7 @@ export default function ModernProjectsSection() {
                               <div className="absolute inset-0 bg-gradient-to-t from-corporate-navy-900/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                               
                               {/* Category */}
-                              <div className="absolute top-3 right-3">
+                              <div className="absolute top-2 sm:top-3 right-2 sm:right-3">
                                 <span className="bg-white/90 dark:bg-corporate-navy-800/90 backdrop-blur-sm text-corporate-navy-700 dark:text-corporate-navy-300 text-xs font-medium px-2 py-1 rounded-full">
                                   {project.category}
                                 </span>
@@ -328,15 +331,15 @@ export default function ModernProjectsSection() {
 
                               {/* Links Overlay */}
                               <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-                                <div className="flex space-x-3">
+                                <div className="flex space-x-2 sm:space-x-3">
                                   {project.github !== '#' && (
                                     <a
                                       href={project.github}
                                       target="_blank"
                                       rel="noopener noreferrer"
-                                      className="p-3 bg-white/90 dark:bg-corporate-navy-800/90 backdrop-blur-sm rounded-full text-corporate-navy-700 dark:text-corporate-navy-300 hover:bg-white dark:hover:bg-corporate-navy-800 transition-all duration-300 hover:scale-110"
+                                      className="p-2 sm:p-3 bg-white/90 dark:bg-corporate-navy-800/90 backdrop-blur-sm rounded-full text-corporate-navy-700 dark:text-corporate-navy-300 hover:bg-white dark:hover:bg-corporate-navy-800 transition-all duration-300 hover:scale-110"
                                     >
-                                      <Github className="w-4 h-4" />
+                                      <Github className="w-3 h-3 sm:w-4 sm:h-4" />
                                     </a>
                                   )}
                                   {project.demo !== '#' && (
@@ -344,9 +347,9 @@ export default function ModernProjectsSection() {
                                       href={project.demo}
                                       target="_blank"
                                       rel="noopener noreferrer"
-                                      className="p-3 bg-white/90 dark:bg-corporate-navy-800/90 backdrop-blur-sm rounded-full text-corporate-navy-700 dark:text-corporate-navy-300 hover:bg-white dark:hover:bg-corporate-navy-800 transition-all duration-300 hover:scale-110"
+                                      className="p-2 sm:p-3 bg-white/90 dark:bg-corporate-navy-800/90 backdrop-blur-sm rounded-full text-corporate-navy-700 dark:text-corporate-navy-300 hover:bg-white dark:hover:bg-corporate-navy-800 transition-all duration-300 hover:scale-110"
                                     >
-                                      <ExternalLink className="w-4 h-4" />
+                                      <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
                                     </a>
                                   )}
                                 </div>
@@ -354,17 +357,17 @@ export default function ModernProjectsSection() {
                             </div>
 
                             {/* Compact Content */}
-                            <div className="p-6">
-                              <h4 className="text-lg font-bold text-corporate-navy-900 dark:text-white mb-2 group-hover:text-professional-blue transition-colors duration-300">
+                            <div className="p-4 sm:p-6">
+                              <h4 className="text-base sm:text-lg font-bold text-corporate-navy-900 dark:text-white mb-2 group-hover:text-professional-blue transition-colors duration-300">
                                 {project.title}
                               </h4>
                               
-                              <p className="text-corporate-navy-600 dark:text-corporate-navy-400 mb-4 leading-relaxed text-sm line-clamp-2">
+                              <p className="text-corporate-navy-600 dark:text-corporate-navy-400 mb-3 sm:mb-4 leading-relaxed text-xs sm:text-sm line-clamp-2">
                                 {project.description}
                               </p>
 
                               {/* Compact Technologies */}
-                              <div className="flex flex-wrap gap-1 mb-4">
+                              <div className="flex flex-wrap gap-1 mb-3 sm:mb-4">
                                 {project.technologies.slice(0, 3).map((tech, techIndex) => (
                                   <span
                                     key={techIndex}
@@ -402,7 +405,7 @@ export default function ModernProjectsSection() {
                 variants={containerVariants}
                 initial="hidden"
                 animate="visible"
-                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8"
               >
                 {filteredProjects.map((project, index) => (
                   <motion.div
@@ -410,7 +413,7 @@ export default function ModernProjectsSection() {
                     variants={cardVariants}
                     className="group"
                   >
-                  <div className={`bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm rounded-3xl overflow-hidden shadow-lg border border-slate-200/50 dark:border-slate-700/50 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 ${
+                  <div className={`bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm rounded-xl sm:rounded-2xl lg:rounded-3xl overflow-hidden shadow-lg border border-slate-200/50 dark:border-slate-700/50 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 ${
                     project.featured ? 'ring-2 ring-blue-200 dark:ring-blue-800' : ''
                   }`}>
                     {/* Project Image */}
@@ -425,8 +428,8 @@ export default function ModernProjectsSection() {
                       
                       {/* Featured Badge */}
                       {project.featured && (
-                        <div className="absolute top-4 left-4">
-                          <div className="flex items-center space-x-1 bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+                        <div className="absolute top-2 sm:top-4 left-2 sm:left-4">
+                          <div className="flex items-center space-x-1 bg-gradient-to-r from-yellow-400 to-orange-500 text-white text-xs font-bold px-2 sm:px-3 py-1 rounded-full shadow-lg">
                             <Star className="w-3 h-3" />
                             <span>Nổi bật</span>
                           </div>
@@ -434,23 +437,23 @@ export default function ModernProjectsSection() {
                       )}
 
                       {/* Category Badge */}
-                      <div className="absolute top-4 right-4">
-                        <span className="bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm text-slate-700 dark:text-slate-300 text-xs font-medium px-3 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
+                      <div className="absolute top-2 sm:top-4 right-2 sm:right-4">
+                        <span className="bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm text-slate-700 dark:text-slate-300 text-xs font-medium px-2 sm:px-3 py-1 rounded-full border border-slate-200/50 dark:border-slate-700/50">
                           {project.category}
                         </span>
                       </div>
 
                       {/* Hover Overlay with Links */}
                       <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-                        <div className="flex space-x-3">
+                        <div className="flex space-x-2 sm:space-x-3">
                           {project.github !== '#' && (
                             <a
                               href={project.github}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="p-3 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm rounded-full text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-800 transition-all duration-300 hover:scale-110"
+                              className="p-2 sm:p-3 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm rounded-full text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-800 transition-all duration-300 hover:scale-110"
                             >
-                              <Github className="w-5 h-5" />
+                              <Github className="w-4 h-4 sm:w-5 sm:h-5" />
                             </a>
                           )}
                           {project.demo !== '#' && (
@@ -458,9 +461,9 @@ export default function ModernProjectsSection() {
                               href={project.demo}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="p-3 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm rounded-full text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-800 transition-all duration-300 hover:scale-110"
+                              className="p-2 sm:p-3 bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm rounded-full text-slate-700 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-800 transition-all duration-300 hover:scale-110"
                             >
-                              <ExternalLink className="w-5 h-5" />
+                              <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5" />
                             </a>
                           )}
                         </div>
@@ -468,21 +471,21 @@ export default function ModernProjectsSection() {
                     </div>
 
                     {/* Project Content */}
-                    <div className="p-6 lg:p-8">
-                      <h3 className="text-xl lg:text-2xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
+                    <div className="p-4 sm:p-6 lg:p-8">
+                      <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-slate-900 dark:text-white mb-2 sm:mb-3 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
                         {project.title}
                       </h3>
                       
-                      <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
+                      <p className="text-slate-600 dark:text-slate-400 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
                         {project.description}
                       </p>
 
                       {/* Technologies */}
-                      <div className="flex flex-wrap gap-2 mb-6">
+                      <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-4 sm:mb-6">
                         {project.technologies.map((tech, techIndex) => (
                           <span
                             key={techIndex}
-                            className="flex items-center space-x-1 bg-slate-100 dark:bg-slate-700/50 text-slate-700 dark:text-slate-300 text-xs font-medium px-3 py-1 rounded-lg"
+                            className="flex items-center space-x-1 bg-slate-100 dark:bg-slate-700/50 text-slate-700 dark:text-slate-300 text-xs font-medium px-2 sm:px-3 py-1 rounded-lg"
                           >
                             <Tag className="w-3 h-3" />
                             <span>{tech}</span>
@@ -491,15 +494,15 @@ export default function ModernProjectsSection() {
                       </div>
 
                       {/* Action Links */}
-                      <div className="flex items-center space-x-4">
+                      <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
                         {project.github !== '#' && (
                           <a
                             href={project.github}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 text-sm font-medium"
+                            className="inline-flex items-center justify-center text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 text-xs sm:text-sm font-medium"
                           >
-                            <Github className="w-4 h-4 mr-2" />
+                            <Github className="w-3 h-3 sm:w-4 sm:h-4 mr-2" />
                             Source Code
                           </a>
                         )}
@@ -508,10 +511,10 @@ export default function ModernProjectsSection() {
                             href={project.demo}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors duration-300 text-sm font-medium"
+                            className="inline-flex items-center justify-center text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors duration-300 text-xs sm:text-sm font-medium"
                           >
                             <span>Xem Demo</span>
-                            <ArrowRight className="w-4 h-4 ml-2" />
+                            <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-2" />
                           </a>
                         )}
                       </div>
@@ -526,17 +529,18 @@ export default function ModernProjectsSection() {
           {/* View All Projects Button */}
           <motion.div
             variants={itemVariants}
-            className="text-center mt-16"
+            className="text-center mt-12 sm:mt-16"
           >
             <a
               href="https://github.com/Tunetran"
               target="_blank"
               rel="noopener noreferrer"
-              className="professional-button inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-professional-blue to-professional-navy hover:from-corporate-blue-600 hover:to-corporate-navy-700 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:-translate-y-1"
+              className="professional-button inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold text-white bg-gradient-to-r from-professional-blue to-professional-navy hover:from-corporate-blue-600 hover:to-corporate-navy-700 rounded-lg sm:rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:-translate-y-1"
             >
-              <Github className="w-5 h-5 mr-3" />
-              Xem tất cả dự án trên GitHub
-              <ArrowRight className="w-5 h-5 ml-3" />
+              <Github className="w-4 h-4 sm:w-5 sm:h-5 mr-2 sm:mr-3" />
+              <span className="hidden sm:inline">Xem tất cả dự án trên GitHub</span>
+              <span className="sm:hidden">Xem GitHub</span>
+              <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2 sm:ml-3" />
             </a>
           </motion.div>
         </motion.div>

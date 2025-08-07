@@ -55,7 +55,7 @@ export default function ModernHeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-corporate-navy-50 via-corporate-blue-50 to-slate-50 dark:from-corporate-navy-900 dark:via-corporate-navy-800 dark:to-corporate-navy-900">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-corporate-navy-50 via-corporate-blue-50 to-slate-50 dark:from-corporate-navy-900 dark:via-corporate-navy-800 dark:to-corporate-navy-900 px-4 sm:px-6 lg:px-8">
       {/* Professional Animated Background */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-professional-blue/10 to-professional-navy/15 rounded-full blur-3xl animate-pulse"></div>
@@ -133,17 +133,17 @@ export default function ModernHeroSection() {
 
           {/* Name and Title */}
           <motion.div variants={itemVariants} className="mb-6">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4">
+            <h1 className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 leading-tight">
               <span className="bg-gradient-to-r from-corporate-navy-900 via-professional-blue to-corporate-navy-800 dark:from-white dark:via-corporate-blue-200 dark:to-white bg-clip-text text-transparent">
                 {profile.name}
               </span>
             </h1>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
-              <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-corporate-navy-700 dark:text-corporate-navy-300">
+            <div className="flex flex-col items-center justify-center gap-2 sm:gap-4 mb-4">
+              <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-semibold text-corporate-navy-700 dark:text-corporate-navy-300 text-center px-4">
                 {profile.title}
               </h2>
               <div className="hidden sm:block w-2 h-2 bg-gradient-to-r from-professional-blue to-professional-navy rounded-full"></div>
-              <p className="text-lg sm:text-xl lg:text-2xl text-professional-blue dark:text-corporate-blue-400 font-medium">
+              <p className="text-base xs:text-lg sm:text-xl lg:text-2xl text-professional-blue dark:text-corporate-blue-400 font-medium text-center px-4">
                 {profile.university}
               </p>
             </div>
@@ -151,21 +151,21 @@ export default function ModernHeroSection() {
 
           {/* Description */}
           <motion.div variants={itemVariants} className="mb-8">
-            <p className="text-base sm:text-lg lg:text-xl text-slate-600 dark:text-slate-400 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-sm xs:text-base sm:text-lg lg:text-xl text-slate-600 dark:text-slate-400 max-w-4xl mx-auto leading-relaxed px-4 text-center">
               {profile.description}
             </p>
           </motion.div>
 
           {/* Contact Info */}
           <motion.div variants={itemVariants} className="mb-8">
-            <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-sm sm:text-base text-corporate-navy-600 dark:text-corporate-navy-400">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-3 sm:gap-6 text-sm sm:text-base text-corporate-navy-600 dark:text-corporate-navy-400">
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-professional-blue" />
                 <span>TP. Hồ Chí Minh</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-professional-green" />
-                <span>trankhair2004@gmail.com</span>
+                <span className="break-all sm:break-normal">trankhair2004@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-professional-purple" />
@@ -176,12 +176,12 @@ export default function ModernHeroSection() {
 
           {/* Professional Action Buttons */}
           <motion.div variants={itemVariants} className="mb-8">
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 px-4">
               <a
                 href={profile.cvDownloadUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="professional-button inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-professional-blue to-professional-navy hover:from-corporate-blue-600 hover:to-corporate-navy-700 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:-translate-y-1"
+                className="professional-button w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold text-white bg-gradient-to-r from-professional-blue to-professional-navy hover:from-corporate-blue-600 hover:to-corporate-navy-700 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:-translate-y-1"
               >
                 <Download className="w-5 h-5 mr-3" />
                 Tải CV
@@ -189,7 +189,7 @@ export default function ModernHeroSection() {
               
               <a
                 href={`mailto:${profile.email}`}
-                className="inline-flex items-center px-8 py-4 text-lg font-semibold text-corporate-navy-700 dark:text-corporate-navy-300 bg-white/90 dark:bg-corporate-navy-800/90 backdrop-blur-sm border border-corporate-navy-200 dark:border-corporate-navy-700 hover:bg-white dark:hover:bg-corporate-navy-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold text-corporate-navy-700 dark:text-corporate-navy-300 bg-white/90 dark:bg-corporate-navy-800/90 backdrop-blur-sm border border-corporate-navy-200 dark:border-corporate-navy-700 hover:bg-white dark:hover:bg-corporate-navy-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
                 <Mail className="w-5 h-5 mr-3" />
                 Liên hệ

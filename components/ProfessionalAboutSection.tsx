@@ -93,7 +93,7 @@ export default function ProfessionalAboutSection() {
   ];
 
   return (
-    <section id="about" className="py-20 lg:py-32 bg-gradient-to-br from-corporate-navy-50 via-white to-corporate-blue-50/30 dark:from-corporate-navy-900 dark:via-corporate-navy-800 dark:to-corporate-blue-950/30 relative overflow-hidden">
+    <section id="about" className="py-16 sm:py-20 lg:py-32 bg-gradient-to-br from-corporate-navy-50 via-white to-corporate-blue-50/30 dark:from-corporate-navy-900 dark:via-corporate-navy-800 dark:to-corporate-blue-950/30 relative overflow-hidden px-4 sm:px-6 lg:px-8">
       {/* Professional Background */}
       <div className="absolute inset-0">
         <div className="absolute top-20 right-20 w-64 h-64 bg-gradient-to-br from-professional-blue/5 to-professional-navy/10 rounded-full blur-3xl animate-pulse"></div>
@@ -108,37 +108,37 @@ export default function ProfessionalAboutSection() {
           viewport={{ once: true, margin: "-100px" }}
         >
           {/* Enhanced Section Header */}
-          <motion.div variants={itemVariants} className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-professional-blue/10 text-professional-blue px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <Users className="w-4 h-4" />
+          <motion.div variants={itemVariants} className="text-center mb-12 sm:mb-16">
+            <div className="inline-flex items-center space-x-2 bg-professional-blue/10 text-professional-blue px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium mb-4 sm:mb-6">
+              <Users className="w-3 h-3 sm:w-4 sm:h-4" />
               <span>Về tôi</span>
             </div>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+            <h2 className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
               <span className="bg-gradient-to-r from-corporate-navy-900 via-professional-blue to-corporate-navy-800 dark:from-white dark:via-corporate-blue-200 dark:to-white bg-clip-text text-transparent">
                 {about.subtitle}
               </span>
             </h2>
-            <p className="text-xl text-corporate-navy-600 dark:text-corporate-navy-400 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-xl text-corporate-navy-600 dark:text-corporate-navy-400 max-w-4xl mx-auto leading-relaxed px-4">
               🎯 Trở thành một cybersecurity professional giỏi, đóng góp vào việc bảo vệ thế giới số
             </p>
           </motion.div>
 
           {/* Achievement Highlights */}
           <motion.div variants={itemVariants} className="mb-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               {achievements.map((achievement, index) => (
                 <motion.div
                   key={achievement.title}
                   variants={itemVariants}
-                  className="professional-card bg-white/95 dark:bg-corporate-navy-800/95 backdrop-blur-sm rounded-2xl p-6 text-center border border-corporate-navy-200/50 dark:border-corporate-navy-700/50 hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
+                  className="professional-card bg-white/95 dark:bg-corporate-navy-800/95 backdrop-blur-sm rounded-2xl p-4 sm:p-6 text-center border border-corporate-navy-200/50 dark:border-corporate-navy-700/50 hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
                 >
-                  <div className={`w-16 h-16 mx-auto mb-4 rounded-2xl bg-gradient-to-br from-professional-blue/10 to-professional-navy/10 flex items-center justify-center ${achievement.color}`}>
-                    <achievement.icon className="w-8 h-8" />
+                  <div className={`w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 rounded-2xl bg-gradient-to-br from-professional-blue/10 to-professional-navy/10 flex items-center justify-center ${achievement.color}`}>
+                    <achievement.icon className="w-6 h-6 sm:w-8 sm:h-8" />
                   </div>
-                  <h3 className="text-lg font-bold text-corporate-navy-900 dark:text-white mb-2">
+                  <h3 className="text-base sm:text-lg font-bold text-corporate-navy-900 dark:text-white mb-2">
                     {achievement.title}
                   </h3>
-                  <p className="text-sm text-corporate-navy-600 dark:text-corporate-navy-400">
+                  <p className="text-xs sm:text-sm text-corporate-navy-600 dark:text-corporate-navy-400">
                     {achievement.description}
                   </p>
                 </motion.div>
@@ -148,18 +148,18 @@ export default function ProfessionalAboutSection() {
 
           {/* Tab Navigation */}
           <motion.div variants={itemVariants} className="mb-12">
-            <div className="flex flex-wrap justify-center gap-4">
+            <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-2 sm:gap-4">
               {tabs.map((tab) => (
                 <button
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
-                  className={`flex items-center space-x-2 px-6 py-3 rounded-xl font-medium transition-all duration-300 ${
+                  className={`flex items-center justify-center space-x-2 px-4 sm:px-6 py-3 rounded-xl font-medium transition-all duration-300 text-sm sm:text-base ${
                     activeTab === tab.id
                       ? 'bg-professional-blue text-white shadow-lg'
                       : 'bg-white/80 dark:bg-corporate-navy-800/80 text-corporate-navy-600 dark:text-corporate-navy-400 hover:bg-professional-blue/10 hover:text-professional-blue'
                   }`}
                 >
-                  <tab.icon className="w-5 h-5" />
+                  <tab.icon className="w-4 h-4 sm:w-5 sm:h-5" />
                   <span>{tab.label}</span>
                 </button>
               ))}
