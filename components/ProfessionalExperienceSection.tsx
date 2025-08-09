@@ -7,14 +7,14 @@ import portfolio from '../lib/portfolioData';
 const typeIcons = {
   education: GraduationCap,
   project: Award,
-  learning: BookOpen,
+  learning: Award,
   work: Target
 };
 
 const typeColors = {
   education: 'from-professional-blue to-blue-500',
   project: 'from-professional-green to-emerald-500',
-  learning: 'from-professional-purple to-purple-500',
+  learning: 'from-professional-green to-emerald-500',
   work: 'from-professional-orange to-orange-500'
 };
 
@@ -89,7 +89,7 @@ export default function ProfessionalExperienceSection() {
                               <span className={`bg-gradient-to-r ${colorGradient} text-white px-3 py-1 rounded-full text-xs font-medium`}>
                                 {exp.type === 'education' ? 'Học vấn' : 
                                  exp.type === 'project' ? 'Dự án' :
-                                 exp.type === 'learning' ? 'Tự học' : 'Kinh nghiệm'}
+                                 exp.type === 'learning' ? 'Dự án' : 'Kinh nghiệm'}
                               </span>
                             </div>
                             <div className="flex items-center space-x-4 text-corporate-navy-700 dark:text-corporate-navy-200 text-sm mb-4">

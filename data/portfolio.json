@@ -79,34 +79,39 @@
     },
     {
       "type": "project",
-      "title": "Đồ án tốt nghiệp: Kubernetes-Based Cloud Hosting",
+      "title": "Đồ án tốt nghiệp: Triển khai và quản lý dịch vụ trên Kubernetes",
       "organization": "Đại học Ngoại ngữ - Tin học TP.HCM",
       "location": "TP. Hồ Chí Minh, Việt Nam",
       "period": "Tháng 8/2025",
-      "description": "🚀 Triển khai website và ứng dụng trên Kubernetes cluster với focus vào security và scalability.",
+      "description": "🚀 Nghiên cứu, cài đặt và triển khai hệ thống dịch vụ web tĩnh và web động trên nền tảng Kubernetes (Minikube và Kubernetes Cluster). Xây dựng kiến trúc Master Node và Worker Nodes với đầy đủ quản lý tài nguyên.",
       "achievements": [
-        "🏆 Đạt điểm tối đa cho đồ án",
-        "☁️ Triển khai thành công trên AWS và Render",
-        "🔒 Implement security best practices",
-        "📈 Đảm bảo high availability và auto-scaling"
+        "🏆 Đạt điểm tối đa cho đồ án tốt nghiệp",
+        "☁️ Triển khai thành công WordPress + MariaDB trên Kubernetes",
+        "🔒 Cấu hình bảo mật HTTPS, Salts và security plugins",
+        "� Implement HPA (Horizontal Pod Autoscaler) và Ingress Controller",
+        "� Triển khai giải pháp backup/restore với Velero và MinIO",
+        "⚙️ Quản lý toàn diện Pod, Deployment, Service, PV/PVC, Secrets, NetworkPolicy"
       ],
-      "technologies": ["Kubernetes", "Docker", "AWS", "Render", "Vercel", "CI/CD"],
+      "technologies": ["Kubernetes", "Docker", "WordPress", "MariaDB", "Minikube", "HTTPS", "HPA", "Ingress Controller", "Velero", "MinIO", "NetworkPolicy"],
       "logo": "☁️"
     },
     {
       "type": "project", 
-      "title": "Đồ án: Bluejacking Attack Simulation",
+      "title": "Đồ án: Bluejacking Attack Simulation & Defense",
       "organization": "Đại học Ngoại ngữ - Tin học TP.HCM",
       "location": "TP. Hồ Chí Minh, Việt Nam",
       "period": "Tháng 8/2024",
-      "description": "🔍 Nghiên cứu và mô phỏng các cuộc tấn công Bluetooth để hiểu sâu về wireless security vulnerabilities.",
+      "description": "🔍 Nghiên cứu chuyên sâu về Bluetooth security vulnerabilities và thực hiện các cuộc tấn công trong môi trường kiểm soát. Thiết lập môi trường tấn công hoàn chỉnh và triển khai nhiều phương thức tấn công Bluetooth khác nhau.",
       "achievements": [
-        "🏆 Đạt điểm tối đa cho đồ án",
-        "📱 Thực hiện thành công Bluejacking simulation",
-        "🛡️ Phát triển countermeasures hiệu quả",
-        "📋 Tạo báo cáo kỹ thuật chi tiết"
+        "🏆 Đạt điểm tối đa cho đồ án wireless security",
+        "🖥️ Thiết lập thành công môi trường tấn công Bluetooth trên Kali Linux với card Bluetooth 5.0",
+        "� Thực hiện quét và thu thập thông tin thiết bị mục tiêu bằng hcitool và bluetoothctl",
+        "📱 Triển khai thành công tấn công Bluejacking bằng obexftp và obexfs, gửi vCard giả mạo",
+        "🦆 Thực hiện thành công tấn công BlueDucky, chiếm quyền điều khiển thiết bị từ xa",
+        "🔐 Khai thác Bluesnarfing và thu được một phần key của thiết bị mục tiêu",
+        "�️ Đánh giá mức độ thành công và đề xuất biện pháp phòng tránh hiệu quả"
       ],
-      "technologies": ["Bluetooth Security", "Kali Linux", "Wireshark", "Python"],
+      "technologies": ["Bluetooth Security", "Kali Linux", "Bluetooth 5.0", "hcitool", "bluetoothctl", "obexftp", "obexfs", "BlueDucky", "Bluesnarfing", "Wireshark", "Python"],
       "logo": "📱"
     },
     {
@@ -115,57 +120,69 @@
       "organization": "Đại học Ngoại ngữ - Tin học TP.HCM", 
       "location": "TP. Hồ Chí Minh, Việt Nam",
       "period": "2023 - 2024",
-      "description": "☕ Xây dựng hệ thống client-server bảo mật sử dụng Java và Netty framework với mã hóa end-to-end.",
+      "description": "☕ Xây dựng thành công hệ thống xác thực Client-Server bảo mật (Java/Netty) kết hợp AES (CBC) cho dữ liệu và RSA (2048-bit) để mã hóa khóa phiên, đồng thời sử dụng SHA256withRSA cho chữ ký số. Thiết kế và triển khai server Netty xử lý xác thực, giải mã, kiểm tra chữ ký và điều phối quy trình quét subdomain sau khi xác thực thành công.",
       "achievements": [
-        "🏆 Đạt điểm tối đa cho đồ án",
-        "🔐 Implement AES/RSA encryption successfully",
-        "📡 Xây dựng reliable networking protocol",
-        "🔑 Secure key management system"
+        "🔐 Triển khai mã hóa hybrid AES(CBC) + RSA(2048-bit) với SHA256withRSA digital signature",
+        "🖥️ Phát triển client JavaFX: chọn file khóa, gửi thông điệp mã hóa/ký số, hiển thị log và dashboard thời-gian-thực",
+        "� Triển khai công cụ quét subdomain (SubdomainScan) sử dụng wordlist (SecLists) với kiểm tra DNS",
+        "📊 Xây dựng REST API/Metrics HTTP server (SparkJava) và MetricsCollector thu thập số liệu dashboard",
+        "📡 Triển khai LogBroadcaster (WebSocket) + CircularBuffer phát luồng log realtime",
+        "� Thiết kế KeyDatabase (SQLite) lưu trữ an toàn AES key/IV/public key client",
+        "⚡ Áp dụng kiến trúc non-blocking Netty với pipeline xử lý, framing và traffic shaping",
+        "� Triển khai cơ chế bất đồng bộ/đa luồng (ExecutorService, AtomicInteger) cho UI không block",
+        "📈 Dashboard JavaFX cập nhật mỗi 3s, REST endpoints (/metrics, /log, /ui) và giao diện xem log"
       ],
-      "technologies": ["Java", "Netty", "AES/RSA", "Socket Programming", "Cryptography"],
+      "technologies": ["Java", "Netty", "JavaFX", "AES/RSA Cryptography", "SHA256withRSA", "SparkJava", "WebSocket", "SQLite", "ExecutorService", "SecLists", "DNS Resolution"],
       "logo": "☕"
     },
     {
       "type": "learning",
-      "title": "Enterprise Network Security Infrastructure",
+      "title": "Xây dựng chiến lược & giải pháp bảo mật cho doanh nghiệp",
       "organization": "Tự học & Lab thực hành",
       "location": "TP. Hồ Chí Minh, Việt Nam",
       "period": "2024 - Hiện tại",
-      "description": "🏢 Tự học và thực hành với các công cụ bảo mật mạng enterprise để xây dựng kiến thức thực tế.",
+      "description": "🏢 Thiết kế và triển khai giải pháp bảo mật toàn diện cho doanh nghiệp với kiến trúc đa lớp. Thực hành từ thiết kế sơ đồ logic/vật lý, cấu hình thiết bị mạng, đến triển khai các hệ thống bảo mật tích hợp.",
       "achievements": [
-        "🛡️ Thành thạo cấu hình Suricata IDS",
-        "👁️ Thiết lập Wazuh SIEM cho monitoring",
-        "🔥 Cấu hình pfSense firewall rules",
-        "🦑 Deploy Squid proxy cho content filtering"
+        "🏗️ Thiết kế sơ đồ logic và sơ đồ vật lý hoàn chỉnh cho mạng doanh nghiệp",
+        "⚙️ Cấu hình thành công các thiết bị switch và router",
+        "� Thiết lập pfSense firewall: phân chia VLAN/subnet, kiểm soát truy cập LAN/Internet",
+        "🦑 Cấu hình Squid Proxy với ACL whitelist/blacklist và SSL proxy",
+        "👁️ Triển khai Suricata IDS/IPS: giám sát lưu lượng, rules tùy chỉnh, chế độ chặn tấn công",
+        "📊 Deploy Wazuh endpoint monitoring: cài agent, thu thập log, phân tích sự kiện bảo mật",
+        "🛡️ Thiết lập Group Policy Objects (GPO): quản lý mật khẩu, hạn chế software, chặn USB",
+        "💾 Thiết kế backup & recovery system với kiểm thử khôi phục thành công",
+        "📹 Cài đặt hệ thống camera giám sát khu vực bán hàng và server room",
+        "⚔️ Thực hiện 3+ kịch bản tấn công mô phỏng với phát hiện đầy đủ qua Suricata/Wazuh",
+        "✅ Đánh giá hiệu quả tích hợp firewall, proxy, IDS/IPS và giám sát vật lý"
       ],
-      "technologies": ["Suricata", "Snort", "Wazuh", "pfSense", "Squid", "BigBountyRecon"],
+      "technologies": ["pfSense", "Suricata", "Wazuh", "Squid Proxy", "VLAN", "GPO", "Windows Server", "Network Design", "Camera System", "Backup Solutions", "Switch", "Router", "IDS/IPS", "SIEM"],
       "logo": "🛡️"
     }
   ],
   "projects": [
     {
       "title": "🚀 Kubernetes-Based Cloud Hosting Platform",
-      "description": "Đồ án tốt nghiệp xuất sắc về triển khai ứng dụng trên Kubernetes với focus vào security, scalability và high availability. Triển khai thành công trên multiple cloud platforms.",
+      "description": "Đồ án tốt nghiệp: Triển khai và quản lý dịch vụ trên Kubernetes. Thực hiện nghiên cứu, cài đặt và triển khai hệ thống dịch vụ web tĩnh và web động trên nền tảng Kubernetes (Minikube và Kubernetes Cluster). Xây dựng kiến trúc gồm Master Node và Worker Nodes, cấu hình mạng, triển khai container (Docker), quản lý tài nguyên (Pod, Deployment, Service, PV/PVC, Secrets, NetworkPolicy). Triển khai WordPress kết hợp MariaDB, cấu hình bảo mật (HTTPS, Salts, plugin bảo mật), tối ưu hiệu năng (HPA, Ingress Controller), và triển khai giải pháp sao lưu – phục hồi dữ liệu (Velero, MinIO).",
       "image": "https://images.pexels.com/photos/5380617/pexels-photo-5380617.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "technologies": ["Kubernetes", "Docker", "AWS", "Render", "Vercel", "CI/CD"],
+      "technologies": ["Kubernetes", "Docker", "WordPress", "MariaDB", "Minikube", "HTTPS", "HPA", "Ingress Controller", "Velero", "MinIO", "Pod", "Deployment", "Service", "PV/PVC", "Secrets", "NetworkPolicy"],
       "category": "Cloud Security",
       "github": "https://github.com/TranVanKhai/k8s-cloud-hosting",
       "demo": "https://bit.ly/4l6vocM",
       "featured": true,
       "impact": "🏆 Đạt điểm tối đa - Đồ án tốt nghiệp xuất sắc",
-      "metrics": ["Triển khai thành công trên 3 platforms", "100% uptime achieved", "Auto-scaling implementation", "Security best practices applied"]
+      "metrics": ["Triển khai thành công Master Node và Worker Nodes", "WordPress + MariaDB deployment hoàn chỉnh", "Cấu hình bảo mật HTTPS và security plugins", "Implement HPA và Ingress Controller", "Giải pháp backup/restore với Velero và MinIO", "Quản lý tài nguyên Kubernetes toàn diện"]
     },
     {
       "title": "📱 Bluejacking Attack Simulation & Defense",
-      "description": "Đồ án nghiên cứu chuyên sâu về Bluetooth security vulnerabilities. Thực hiện simulation tấn công Bluejacking và phát triển countermeasures hiệu quả trong môi trường kiểm soát.",
+      "description": "Đồ án nghiên cứu chuyên sâu về Bluetooth security vulnerabilities. Thiết lập thành công môi trường tấn công Bluetooth trên Kali Linux với card Bluetooth 5.0. Thực hiện đầy đủ các phương thức tấn công Bluejacking, BlueDucky và Bluesnarfing trong môi trường kiểm soát, đánh giá mức độ thành công và đề xuất biện pháp phòng tránh.",
       "image": "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "technologies": ["Bluetooth Security", "Kali Linux", "Wireshark", "Python", "Network Analysis"],
+      "technologies": ["Bluetooth Security", "Kali Linux", "Bluetooth 5.0", "hcitool", "bluetoothctl", "obexftp", "obexfs", "BlueDucky", "Bluesnarfing", "Wireshark", "Python", "Network Analysis"],
       "category": "Wireless Security",
       "github": "https://github.com/TranVanKhai/bluejacking-simulation",
       "demo": "https://bit.ly/3GSwuLj",
       "featured": true,
       "impact": "🏆 Đạt điểm tối đa - Đồ án wireless security",
-      "metrics": ["Successful attack simulation", "Effective countermeasures developed", "Comprehensive security analysis", "Detailed technical documentation"]
+      "metrics": ["Thiết lập thành công môi trường tấn công Bluetooth 5.0", "Triển khai thành công Bluejacking với obexftp/obexfs", "Thực hiện thành công BlueDucky attack", "Khai thác Bluesnarfing và thu được key fragments", "Đánh giá comprehensive security vulnerabilities", "Đề xuất biện pháp phòng tránh hiệu quả"]
     },
     {
       "title": "☕ Secure Client-Server Communication with Java & Netty",
@@ -180,16 +197,16 @@
       "metrics": ["End-to-end encryption implemented", "Reliable networking protocol", "Secure key management", "High-performance communication"]
     },
     {
-      "title": "🏢 Enterprise Network Security Infrastructure",
-      "description": "Thiết kế và triển khai hạ tầng bảo mật mạng doanh nghiệp với multiple security layers. Tích hợp IDS, SIEM, firewall và proxy systems.",
+      "title": "🏢 Xây dựng chiến lược & giải pháp bảo mật cho doanh nghiệp",
+      "description": "Thiết kế và triển khai giải pháp bảo mật toàn diện cho doanh nghiệp. Từ thiết kế sơ đồ logic/vật lý, cấu hình thiết bị mạng, đến triển khai pfSense, Suricata IDS/IPS, Wazuh SIEM, Squid Proxy và hệ thống giám sát vật lý. Thực hiện kiểm thử bảo mật với các kịch bản tấn công mô phỏng và đánh giá hiệu quả tích hợp.",
       "image": "https://images.pexels.com/photos/5380589/pexels-photo-5380589.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "technologies": ["Suricata", "Wazuh", "pfSense", "Squid", "Network Design", "SIEM"],
+      "technologies": ["pfSense", "Suricata", "Wazuh", "Squid Proxy", "VLAN", "GPO", "Windows Server", "Network Design", "Camera System", "Backup Solutions", "Switch", "Router", "IDS/IPS", "SIEM"],
       "category": "Network Security",
       "github": "https://github.com/TranVanKhai/enterprise-security-infra",
       "demo": "https://bit.ly/46C9M4v",
       "featured": true,
       "impact": "🛡️ Comprehensive enterprise security solution",
-      "metrics": ["Multi-layer security implementation", "Real-time threat monitoring", "Centralized log management", "Network traffic filtering"]
+      "metrics": ["Thiết kế hoàn chỉnh sơ đồ logic và vật lý", "Cấu hình thành công pfSense với VLAN/subnet", "Triển khai Suricata IDS/IPS với rules tùy chỉnh", "Deploy Wazuh endpoint monitoring và log analysis", "Thiết lập GPO và backup/recovery system", "Thực hiện 3+ kịch bản tấn công với phát hiện đầy đủ"]
     },
     {
       "title": "🔍 Bug Bounty Reconnaissance Toolkit",
