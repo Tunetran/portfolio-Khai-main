@@ -231,270 +231,61 @@ const TarotSection: React.FC = () => {
   const generateAdvancedReading = (cards: TarotCard[]) => {
     const majorArcanaCount = cards.filter(card => card.suit === "Major Arcana").length;
     const reversedCount = cards.filter(card => card.reversed).length;
-    const cardNames = cards.map(card => card.name);
-    const cardElements = cards.map(card => card.element).filter((element): element is string => Boolean(element));
     
     let reading = "";
     
-    // Phân tích theo spread type với phân tích vị trí cụ thể
+    // Phân tích theo spread type
     switch (currentSpread.name) {
       case "Daily Reading":
         reading += "📅 **Dự báo ngày hôm nay:** ";
-        reading += analyzeThreeCardSpread(cards, ["quá khứ", "hiện tại", "tương lai"]);
         break;
       case "Love Triangle":
         reading += "💕 **Phân tích tình cảm:** ";
-        reading += analyzeThreeCardSpread(cards, ["cảm xúc của bạn", "cảm xúc của người ấy", "tương lai mối quan hệ"]);
         break;
       case "Career Path":
         reading += "💼 **Hướng dẫn sự nghiệp:** ";
-        reading += analyzeCareerSpread(cards);
         break;
       case "Life Decision":
         reading += "🎯 **Hỗ trợ quyết định:** ";
-        reading += analyzeDecisionSpread(cards);
         break;
       default:
         reading += "🔮 **Thông điệp từ vũ trụ:** ";
     }
     
-    // Phân tích mối liên hệ giữa các lá bài
-    reading += analyzeCardConnections(cards);
-    
-    // Phân tích năng lượng tổng thể
-    reading += analyzeOverallEnergy(cards, majorArcanaCount, reversedCount);
-    
-    // Phân tích yếu tố và cân bằng
-    reading += analyzeElementalBalance(cardElements);
-    
-    // Lời khuyên hành động cụ thể
-    reading += generateActionableAdvice(cards, cardNames);
-    
-    // Cảnh báo và lưu ý đặc biệt
-    reading += generateWarningsAndNotes(cards, reversedCount);
-    
-    setOverallReading(reading);
-  };
-
-  // Phân tích spread 3 lá
-  const analyzeThreeCardSpread = (cards: TarotCard[], positions: string[]): string => {
-    let analysis = "";
-    
-    // Phân tích từng vị trí
-    cards.forEach((card, index) => {
-      const position = positions[index];
-      const energy = card.reversed ? "challenging" : "positive";
-      
-      analysis += `**${position.charAt(0).toUpperCase() + position.slice(1)}** được đại diện bởi **${card.name}**${card.reversed ? " (ngược)" : ""} - `;
-      
-      if (index === 0) { // Quá khứ/nguyên nhân
-        analysis += card.reversed 
-          ? `Có những vấn đề chưa được giải quyết hoặc bài học chưa được học hỏi từ ${card.keywords[0]}. ` 
-          : `Nền tảng vững chắc từ ${card.keywords[0]} đang hỗ trợ bạn. `;
-      } else if (index === 1) { // Hiện tại
-        analysis += card.reversed 
-          ? `Hiện tại bạn đang gặp khó khăn với ${card.keywords[0]}, cần điều chỉnh cách tiếp cận. ` 
-          : `Bạn đang ở vị thế thuận lợi với ${card.keywords[0]}, hãy tận dụng cơ hội này. `;
-      } else { // Tương lai
-        analysis += card.reversed 
-          ? `Cần cẩn thận tránh ${card.keywords[0]} trở thành trở ngại trong tương lai. ` 
-          : `Tương lai hứa hẹn thành công thông qua ${card.keywords[0]}. `;
-      }
-    });
-    
-    return analysis;
-  };
-
-  // Phân tích spread sự nghiệp
-  const analyzeCareerSpread = (cards: TarotCard[]): string => {
-    let analysis = "";
-    const [current, challenge, opportunity, advice] = cards;
-    
-    analysis += `**Tình hình hiện tại** (${current.name}): `;
-    analysis += current.reversed 
-      ? `Bạn đang gặp khó khăn trong công việc, đặc biệt liên quan đến ${current.keywords[0]}. `
-      : `Vị thế công việc hiện tại khá ổn định với ${current.keywords[0]} là điểm mạnh. `;
-    
-    analysis += `**Thách thức** (${challenge.name}): `;
-    analysis += challenge.reversed 
-      ? `Thách thức chính là việc vượt qua ${challenge.keywords[0]} đã bị đảo ngược. `
-      : `Cần đối mặt và vượt qua ${challenge.keywords[0]} để tiến bộ. `;
-    
-    analysis += `**Cơ hội** (${opportunity.name}): `;
-    analysis += opportunity.reversed 
-      ? `Cơ hội có thể bị hạn chế, cần chủ động tạo ra ${opportunity.keywords[0]}. `
-      : `Cơ hội lớn đang mở ra thông qua ${opportunity.keywords[0]}. `;
-    
-    analysis += `**Lời khuyên** (${advice.name}): `;
-    analysis += advice.careerAdvice || advice.advice;
-    
-    return analysis;
-  };
-
-  // Phân tích spread quyết định
-  const analyzeDecisionSpread = (cards: TarotCard[]): string => {
-    let analysis = "";
-    const [situation, optionA, optionB, outcome, advice] = cards;
-    
-    analysis += `**Tình huống** được thể hiện qua ${situation.name} - ${situation.meaning}. `;
-    
-    analysis += `**Lựa chọn A** (${optionA.name}): `;
-    analysis += optionA.reversed 
-      ? `Con đường này có thể gặp nhiều khó khăn với ${optionA.keywords[0]}. `
-      : `Hướng đi này mang lại ${optionA.keywords[0]} tích cực. `;
-    
-    analysis += `**Lựa chọn B** (${optionB.name}): `;
-    analysis += optionB.reversed 
-      ? `Phương án này cần thận trọng vì ${optionB.keywords[0]} có thể trở thành trở ngại. `
-      : `Lựa chọn này hứa hẹn ${optionB.keywords[0]} thành công. `;
-    
-    analysis += `**Kết quả khả năng** (${outcome.name}): `;
-    analysis += outcome.reversed 
-      ? `Cần chuẩn bị cho những thử thách liên quan đến ${outcome.keywords[0]}. `
-      : `Kết quả có thể đạt được ${outcome.keywords[0]} như mong đợi. `;
-    
-    return analysis;
-  };
-
-  // Phân tích mối liên hệ giữa các lá bài
-  const analyzeCardConnections = (cards: TarotCard[]): string => {
-    let connections = "\n\n🔗 **Mối liên hệ giữa các lá bài:** ";
-    
-    // Kiểm tra các cặp lá bài đặc biệt
-    const cardNames = cards.map(card => card.name);
-    
-    if (cardNames.includes("The Fool") && cardNames.includes("The World")) {
-      connections += "Sự kết hợp giữa khởi đầu (The Fool) và hoàn thành (The World) cho thấy một chu kỳ quan trọng. ";
-    }
-    
-    if (cardNames.includes("The Magician") && cardNames.includes("The High Priestess")) {
-      connections += "Cân bằng giữa hành động (The Magician) và trực giác (The High Priestess) là chìa khóa. ";
-    }
-    
-    if (cardNames.includes("The Empress") && cardNames.includes("The Emperor")) {
-      connections += "Sự hài hòa giữa năng lượng nữ tính và nam tính đang được thể hiện. ";
-    }
-    
-    // Phân tích theo số lượng Major Arcana
-    const majorCount = cards.filter(card => card.suit === "Major Arcana").length;
-    if (majorCount >= 2) {
-      connections += `Với ${majorCount} lá Major Arcana, đây là thời điểm của những biến chuyển tinh thần quan trọng. `;
-    }
-    
-    // Phân tích keywords trùng lặp
-    const allKeywords = cards.flatMap(card => card.keywords);
-    const duplicateKeywords = allKeywords.filter((keyword, index) => allKeywords.indexOf(keyword) !== index);
-    
-    if (duplicateKeywords.length > 0) {
-      const uniqueDuplicates = Array.from(new Set(duplicateKeywords));
-      connections += `Chủ đề lặp lại: ${uniqueDuplicates.join(", ")} - điều này nhấn mạnh tầm quan trọng của các khía cạnh này. `;
-    }
-    
-    return connections;
-  };
-
-  // Phân tích năng lượng tổng thể
-  const analyzeOverallEnergy = (cards: TarotCard[], majorCount: number, reversedCount: number): string => {
-    let energy = "\n\n⚡ **Năng lượng tổng thể:** ";
-    
-    const totalCards = cards.length;
-    const reversedPercentage = (reversedCount / totalCards) * 100;
-    
-    if (reversedPercentage >= 60) {
-      energy += "Năng lượng khá nặng nề, cần kiên nhẫn và suy ngẫm sâu. Đây là thời kỳ của việc học hỏi từ thử thách. ";
-    } else if (reversedPercentage >= 30) {
-      energy += "Năng lượng cân bằng giữa thử thách và cơ hội. Cần linh hoạt trong cách tiếp cận. ";
+    // Phân tích dựa trên Major Arcana
+    if (majorArcanaCount >= 3) {
+      reading += "Đây là một thời điểm đặc biệt quan trọng với những biến chuyển lớn đang diễn ra. ";
+    } else if (majorArcanaCount >= 2) {
+      reading += "Những sự kiện có ý nghĩa sâu sắc đang định hình cuộc sống bạn. ";
+    } else if (majorArcanaCount === 1) {
+      reading += "Một bài học quan trọng đang chờ đợi để được khám phá. ";
     } else {
-      energy += "Năng lượng tích cực và thuận lợi. Thời điểm tốt để hành động và thực hiện kế hoạch. ";
+      reading += "Tập trung vào những việc thường ngày và phát triển kỹ năng cá nhân. ";
     }
     
-    if (majorCount >= totalCards * 0.6) {
-      energy += "Mức độ tâm linh và tinh thần cao, những sự kiện này có ý nghĩa sâu sắc cho hành trình cuộc sống. ";
+    // Phân tích dựa trên số lượng bài ngược
+    if (reversedCount >= Math.ceil(cards.length / 2)) {
+      reading += "⚠️ Cần đặc biệt thận trọng và xem xét lại các quyết định. Đây là thời điểm để suy ngẫm và điều chỉnh hướng đi. ";
+    } else if (reversedCount > 0) {
+      reading += "🔄 Có những khía cạnh cần được nhìn nhận từ góc độ khác. Hãy linh hoạt trong tư duy và cách tiếp cận. ";
+    } else {
+      reading += "✨ Năng lượng tích cực cao! Đây là thời điểm thuận lợi để hành động và thực hiện kế hoạch. ";
     }
     
-    return energy;
-  };
-
-  // Phân tích cân bằng yếu tố
-  const analyzeElementalBalance = (elements: string[]): string => {
-    if (elements.length === 0) return "";
-    
-    let balance = "\n\n🌟 **Cân bằng yếu tố:** ";
-    
-    const elementCount = elements.reduce((acc, element) => {
-      if (element) acc[element] = (acc[element] || 0) + 1;
+    // Lời khuyên dựa trên keywords chung
+    const allKeywords = cards.flatMap(card => card.keywords);
+    const keywordCount = allKeywords.reduce((acc, keyword) => {
+      acc[keyword] = (acc[keyword] || 0) + 1;
       return acc;
     }, {} as Record<string, number>);
     
-    const dominantElement = Object.keys(elementCount).reduce((a, b) => 
-      elementCount[a] > elementCount[b] ? a : b
+    const dominantKeyword = Object.keys(keywordCount).reduce((a, b) => 
+      keywordCount[a] > keywordCount[b] ? a : b
     );
     
-    switch (dominantElement) {
-      case "Fire":
-        balance += "Yếu tố Hỏa chiếm ưu thế - thời điểm của hành động, đam mê và năng lượng mạnh mẽ. ";
-        break;
-      case "Water":
-        balance += "Yếu tố Thủy chiếm ưu thế - tập trung vào cảm xúc, trực giác và các mối quan hệ. ";
-        break;
-      case "Air":
-        balance += "Yếu tố Khí chiếm ưu thế - thời gian của tư duy, giao tiếp và ý tưởng mới. ";
-        break;
-      case "Earth":
-        balance += "Yếu tố Thổ chiếm ưu thế - tập trung vào thực tế, vật chất và xây dựng nền tảng. ";
-        break;
-    }
+    reading += `🎯 **Từ khóa chủ đạo:** ${dominantKeyword}. Hãy tập trung phát triển và ứng dụng khía cạnh này trong cuộc sống.`;
     
-    return balance;
-  };
-
-  // Tạo lời khuyên hành động cụ thể
-  const generateActionableAdvice = (cards: TarotCard[], cardNames: string[]): string => {
-    let advice = "\n\n💡 **Lời khuyên hành động:** ";
-    
-    // Dựa vào lá bài đầu tiên (quan trọng nhất)
-    const primaryCard = cards[0];
-    
-    if (primaryCard.name === "The Fool") {
-      advice += "Hãy dũng cảm bước ra khỏi vùng an toàn và thử nghiệm điều gì đó hoàn toàn mới. ";
-    } else if (primaryCard.name === "The Magician") {
-      advice += "Sử dụng tất cả kỹ năng và tài nguyên có sẵn để biến ý tưởng thành hiện thực. ";
-    } else if (primaryCard.name === "The High Priestess") {
-      advice += "Dành thời gian thiền định và lắng nghe trực giác thay vì dựa hoàn toàn vào logic. ";
-    } else if (primaryCard.name === "The Empress") {
-      advice += "Nuôi dưỡng các dự án và mối quan hệ với tình yêu thương và sự kiên nhẫn. ";
-    } else if (primaryCard.name === "The Emperor") {
-      advice += "Thiết lập cấu trúc rõ ràng và thể hiện sự lãnh đạo trong tình huống hiện tại. ";
-    }
-    
-    // Thêm lời khuyên dựa vào tổng thể
-    const hasReversed = cards.some(card => card.reversed);
-    if (hasReversed) {
-      advice += "Với những lá bài ngược, hãy dành thời gian suy ngẫm và không vội vàng đưa ra quyết định quan trọng. ";
-    }
-    
-    return advice;
-  };
-
-  // Tạo cảnh báo và lưu ý
-  const generateWarningsAndNotes = (cards: TarotCard[], reversedCount: number): string => {
-    let warnings = "\n\n⚠️ **Lưu ý quan trọng:** ";
-    
-    if (reversedCount >= 2) {
-      warnings += "Nhiều lá bài ngược cho thấy cần thận trọng trong các quyết định. Hãy tìm hiểu kỹ trước khi hành động. ";
-    }
-    
-    // Kiểm tra các lá bài cảnh báo cụ thể
-    const warningCards = ["The Tower", "Death", "The Devil"];
-    const hasWarningCard = cards.some(card => warningCards.includes(card.name));
-    
-    if (hasWarningCard) {
-      warnings += "Có lá bài đại diện cho biến chuyển lớn - hãy chuẩn bị tinh thần cho những thay đổi quan trọng. ";
-    }
-    
-    warnings += "\n\n🎯 **Kết luận:** Hãy nhớ rằng tarot chỉ là công cụ hướng dẫn. Quyết định cuối cùng vẫn thuộc về bạn và khả năng tạo ra tương lai của chính mình.";
-    
-    return warnings;
+    setOverallReading(reading);
   };
 
   const getCardAdviceByAspect = (card: TarotCard, aspect: string): string => {
