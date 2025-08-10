@@ -86,7 +86,7 @@ export default function ModernProjectsSection() {
               </span>
             </h2>
             <p className="text-base sm:text-lg lg:text-xl xl:text-2xl text-corporate-navy-600 dark:text-corporate-navy-400 max-w-4xl mx-auto leading-relaxed px-2">
-              🏆 <strong>Điểm tối đa 3 đồ án quan trọng</strong> - Khám phá những dự án cybersecurity và Java development 
+              <strong>Điểm tối đa 3 đồ án quan trọng</strong> - Khám phá những dự án cybersecurity và Java development 
               đã giúp tôi chứng minh khả năng thực hành xuất sắc trong lĩnh vực công nghệ
             </p>
             

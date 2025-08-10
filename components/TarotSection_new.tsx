@@ -237,19 +237,19 @@ const TarotSection: React.FC = () => {
     // Phân tích theo spread type
     switch (currentSpread.name) {
       case "Daily Reading":
-        reading += "📅 **Dự báo ngày hôm nay:** ";
+        reading += "**Dự báo ngày hôm nay:** ";
         break;
       case "Love Triangle":
-        reading += "💕 **Phân tích tình cảm:** ";
+        reading += "**Phân tích tình cảm:** ";
         break;
       case "Career Path":
-        reading += "💼 **Hướng dẫn sự nghiệp:** ";
+        reading += "**Hướng dẫn sự nghiệp:** ";
         break;
       case "Life Decision":
-        reading += "🎯 **Hỗ trợ quyết định:** ";
+        reading += "**Hỗ trợ quyết định:** ";
         break;
       default:
-        reading += "🔮 **Thông điệp từ vũ trụ:** ";
+        reading += "**Thông điệp từ vũ trụ:** ";
     }
     
     // Phân tích dựa trên Major Arcana
@@ -265,11 +265,11 @@ const TarotSection: React.FC = () => {
     
     // Phân tích dựa trên số lượng bài ngược
     if (reversedCount >= Math.ceil(cards.length / 2)) {
-      reading += "⚠️ Cần đặc biệt thận trọng và xem xét lại các quyết định. Đây là thời điểm để suy ngẫm và điều chỉnh hướng đi. ";
+      reading += "Cần đặc biệt thận trọng và xem xét lại các quyết định. Đây là thời điểm để suy ngẫm và điều chỉnh hướng đi. ";
     } else if (reversedCount > 0) {
       reading += "🔄 Có những khía cạnh cần được nhìn nhận từ góc độ khác. Hãy linh hoạt trong tư duy và cách tiếp cận. ";
     } else {
-      reading += "✨ Năng lượng tích cực cao! Đây là thời điểm thuận lợi để hành động và thực hiện kế hoạch. ";
+      reading += "Năng lượng tích cực cao! Đây là thời điểm thuận lợi để hành động và thực hiện kế hoạch. ";
     }
     
     // Lời khuyên dựa trên keywords chung
@@ -283,7 +283,7 @@ const TarotSection: React.FC = () => {
       keywordCount[a] > keywordCount[b] ? a : b
     );
     
-    reading += `🎯 **Từ khóa chủ đạo:** ${dominantKeyword}. Hãy tập trung phát triển và ứng dụng khía cạnh này trong cuộc sống.`;
+    reading += `**Từ khóa chủ đạo:** ${dominantKeyword}. Hãy tập trung phát triển và ứng dụng khía cạnh này trong cuộc sống.`;
     
     setOverallReading(reading);
   };

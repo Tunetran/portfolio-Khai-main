@@ -239,23 +239,23 @@ const TarotSection: React.FC = () => {
     // Phân tích theo spread type với phân tích vị trí cụ thể
     switch (currentSpread.name) {
       case "Daily Reading":
-        reading += "📅 **Dự báo ngày hôm nay:** ";
+        reading += "**Dự báo ngày hôm nay:** ";
         reading += analyzeThreeCardSpread(cards, ["quá khứ", "hiện tại", "tương lai"]);
         break;
       case "Love Triangle":
-        reading += "💕 **Phân tích tình cảm:** ";
+        reading += "**Phân tích tình cảm:** ";
         reading += analyzeThreeCardSpread(cards, ["cảm xúc của bạn", "cảm xúc của người ấy", "tương lai mối quan hệ"]);
         break;
       case "Career Path":
-        reading += "💼 **Hướng dẫn sự nghiệp:** ";
+        reading += "**Hướng dẫn sự nghiệp:** ";
         reading += analyzeCareerSpread(cards);
         break;
       case "Life Decision":
-        reading += "🎯 **Hỗ trợ quyết định:** ";
+        reading += "**Hỗ trợ quyết định:** ";
         reading += analyzeDecisionSpread(cards);
         break;
       default:
-        reading += "🔮 **Thông điệp từ vũ trụ:** ";
+        reading += "**Thông điệp từ vũ trụ:** ";
     }
     
     // Phân tích mối liên hệ giữa các lá bài
@@ -358,7 +358,7 @@ const TarotSection: React.FC = () => {
 
   // Phân tích mối liên hệ giữa các lá bài
   const analyzeCardConnections = (cards: TarotCard[]): string => {
-    let connections = "\n\n🔗 **Mối liên hệ giữa các lá bài:** ";
+    let connections = "\n\n**Mối liên hệ giữa các lá bài:** ";
     
     // Kiểm tra các cặp lá bài đặc biệt
     const cardNames = cards.map(card => card.name);
@@ -395,7 +395,7 @@ const TarotSection: React.FC = () => {
 
   // Phân tích năng lượng tổng thể
   const analyzeOverallEnergy = (cards: TarotCard[], majorCount: number, reversedCount: number): string => {
-    let energy = "\n\n⚡ **Năng lượng tổng thể:** ";
+    let energy = "\n\n**Năng lượng tổng thể:** ";
     
     const totalCards = cards.length;
     const reversedPercentage = (reversedCount / totalCards) * 100;
@@ -419,7 +419,7 @@ const TarotSection: React.FC = () => {
   const analyzeElementalBalance = (elements: string[]): string => {
     if (elements.length === 0) return "";
     
-    let balance = "\n\n🌟 **Cân bằng yếu tố:** ";
+    let balance = "\n\n**Cân bằng yếu tố:** ";
     
     const elementCount = elements.reduce((acc, element) => {
       if (element) acc[element] = (acc[element] || 0) + 1;
@@ -450,7 +450,7 @@ const TarotSection: React.FC = () => {
 
   // Tạo lời khuyên hành động cụ thể
   const generateActionableAdvice = (cards: TarotCard[], cardNames: string[]): string => {
-    let advice = "\n\n💡 **Lời khuyên hành động:** ";
+    let advice = "\n\n**Lời khuyên hành động:** ";
     
     // Dựa vào lá bài đầu tiên (quan trọng nhất)
     const primaryCard = cards[0];
@@ -478,7 +478,7 @@ const TarotSection: React.FC = () => {
 
   // Tạo cảnh báo và lưu ý
   const generateWarningsAndNotes = (cards: TarotCard[], reversedCount: number): string => {
-    let warnings = "\n\n⚠️ **Lưu ý quan trọng:** ";
+    let warnings = "\n\n**Lưu ý quan trọng:** ";
     
     if (reversedCount >= 2) {
       warnings += "Nhiều lá bài ngược cho thấy cần thận trọng trong các quyết định. Hãy tìm hiểu kỹ trước khi hành động. ";
@@ -492,7 +492,7 @@ const TarotSection: React.FC = () => {
       warnings += "Có lá bài đại diện cho biến chuyển lớn - hãy chuẩn bị tinh thần cho những thay đổi quan trọng. ";
     }
     
-    warnings += "\n\n🎯 **Kết luận:** Hãy nhớ rằng tarot chỉ là công cụ hướng dẫn. Quyết định cuối cùng vẫn thuộc về bạn và khả năng tạo ra tương lai của chính mình.";
+    warnings += "\n\n**Kết luận:** Hãy nhớ rằng tarot chỉ là công cụ hướng dẫn. Quyết định cuối cùng vẫn thuộc về bạn và khả năng tạo ra tương lai của chính mình.";
     
     return warnings;
   };

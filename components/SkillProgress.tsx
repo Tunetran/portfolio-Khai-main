@@ -17,11 +17,11 @@ interface SkillProgressProps {
 }
 
 const categoryIcons = {
-  'Programming': '💻',
-  'Cybersecurity': '🛡️',
-  'Cloud Platforms': '☁️',
-  'System Administration': '⚙️',
-  'Security Tools': '🔧'
+  'Programming': '',
+  'Cybersecurity': '',
+  'Cloud Platforms': '',
+  'System Administration': '',
+  'Security Tools': ''
 }
 
 const levelLabels = {

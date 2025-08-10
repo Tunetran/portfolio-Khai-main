@@ -74,7 +74,7 @@ export default function AboutSection() {
                 className="w-48 h-48 rounded-full object-cover mx-auto lg:mx-0 shadow-2xl border-4 border-blue-200 dark:border-blue-800"
               />
               <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
-                🔒
+                
               </div>
             </div>
 

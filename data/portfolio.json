@@ -3,15 +3,15 @@
     "name": "Trần Văn Khải",
     "avatarUrl": "https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/502577317_1431424974939578_1353141353574912235_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEuBbYoWVzdES-11Jc0PrUeyHh2j2WS98HIeHaPZZL3wZ7hb6sS3cmgR-wAp3kUQd2Th-VXSAsumt5OLmIGDqen&_nc_ohc=ZDCbxgLYFtsQ7kNvwGRS7kQ&_nc_oc=AdlAs3R9YMkRTDXVPmp0MHbZZAP6sRYZjDTlEydTATwE0As_yJ7CXEoKiuI9AeoTVVk&_nc_zt=23&_nc_ht=scontent.fsgn5-10.fna&_nc_gid=v5XuYJwKZ0OdtFcwC6Kyxg&oh=00_AfXkFKWfQijpmOluC_Ct6mdiNzQd7xP7u1BcOBVjv5RIdg&oe=689674CD",
     "title": "Cybersecurity Student & Java Developer",
-    "tagline": "🛡️ Xâm nhập để học, bảo vệ để trưởng thành 🚀",
+    "tagline": "Xâm nhập để học, bảo vệ để trưởng thành",
     "university": "Đại học Ngoại ngữ - Tin học TP.HCM",
     "description": "Sinh viên năm cuối ngành Công nghệ Thông tin chuyên ngành An ninh mạng, đam mê tìm hiểu về cybersecurity và phát triển kỹ năng lập trình Java. Đặc biệt quan tâm đến penetration testing, network security và cloud security. Không ngừng học hỏi công nghệ mới và áp dụng vào thực tế.",
     "location": "TP. Hồ Chí Minh, Việt Nam",
     "email": "trankhair2004@gmail.com",
     "phone": "+84 842 380 777",
     "website": "https://tranvankhai.dev",
-    "status": "🎯 Sẵn sàng cho cơ hội thực tập và làm việc",
-    "languages": ["🇻🇳 Tiếng Việt (Bản ngữ)", "🇺🇸 Tiếng Anh (Giao tiếp tốt)", "🇯🇵 Tiếng Nhật (Cơ bản)"],
+    "status": "Sẵn sàng cho cơ hội thực tập và làm việc",
+    "languages": ["Tiếng Việt (Bản ngữ)", "Tiếng Anh (Giao tiếp tốt)", "Tiếng Nhật (Cơ bản)"],
     "cvDownloadUrl": "https://drive.google.com/uc?export=download&id=1kPhvVFArk-KdtY91USkcNSb92jv5lfrM",
     "socialLinks": [
       { "label": "GitHub", "href": "https://github.com/Tunetran", "icon": "github" },
@@ -26,28 +26,28 @@
       { "name": "CEH (Certified Ethical Hacker)", "status": "Kế hoạch", "date": "2025", "progress": "Sau khi tốt nghiệp" },
       { "name": "CCNA Security", "status": "Quan tâm", "date": "2025", "progress": "Tự học" }
     ],
-    "interests": ["🔍 Cybersecurity Research", "☕ Java Programming", "🏁 CTF Learning", "☁️ Cloud Security", "🌐 Network Security", "🛡️ Penetration Testing"],
+    "interests": ["Cybersecurity Research", "Java Programming", "CTF Learning", "Cloud Security", "Network Security", "Penetration Testing"],
     "skills": [
-      { "name": "Java Programming", "level": 90, "category": "Programming", "icon": "☕", "description": "Ngôn ngữ chính, thành thạo về OOP & security" },
-      { "name": "Network Security", "level": 75, "category": "Cybersecurity", "icon": "�", "description": "Hiểu biết về bảo mật mạng enterprise" },
-      { "name": "Penetration Testing", "level": 70, "category": "Cybersecurity", "icon": "�️", "description": "Thực hành ethical hacking & vulnerability assessment" },
-      { "name": "Python", "level": 75, "category": "Programming", "icon": "🐍", "description": "Scripting automation & security tools" },
-      { "name": "JavaScript/TypeScript", "level": 70, "category": "Programming", "icon": "⚡", "description": "Web development & modern frameworks" },
-      { "name": "C/C++", "level": 65, "category": "Programming", "icon": "⚙️", "description": "System programming & low-level security" },
-      { "name": "AWS Cloud", "level": 60, "category": "Cloud Platforms", "icon": "☁️", "description": "EC2, S3, IAM, CloudFormation basics" },
-      { "name": "Kubernetes", "level": 70, "category": "Cloud Platforms", "icon": "🐳", "description": "Container orchestration & deployment" },
-      { "name": "Docker", "level": 75, "category": "System Administration", "icon": "�", "description": "Containerization & microservices" },
-      { "name": "Linux Administration", "level": 80, "category": "System Administration", "icon": "🐧", "description": "Ubuntu, CentOS, Kali Linux" },
-      { "name": "pfSense", "level": 65, "category": "Security Tools", "icon": "�", "description": "Firewall configuration & network security" },
-      { "name": "Suricata", "level": 60, "category": "Security Tools", "icon": "🛡️", "description": "Intrusion Detection System" },
-      { "name": "Snort", "level": 55, "category": "Security Tools", "icon": "👃", "description": "Network intrusion prevention" },
-      { "name": "Wazuh", "level": 60, "category": "Security Tools", "icon": "�️", "description": "SIEM & log analysis" },
-      { "name": "Squid Proxy", "level": 50, "category": "Security Tools", "icon": "🦑", "description": "Web proxy & content filtering" },
-      { "name": "BigBountyRecon", "level": 45, "category": "Security Tools", "icon": "�", "description": "Bug bounty reconnaissance" },
-      { "name": "Wireshark", "level": 70, "category": "Security Tools", "icon": "🦈", "description": "Network protocol analysis" },
-      { "name": "Nmap", "level": 75, "category": "Security Tools", "icon": "🗺️", "description": "Network discovery & scanning" },
-      { "name": "Burp Suite", "level": 60, "category": "Security Tools", "icon": "�", "description": "Web application security testing" },
-      { "name": "Metasploit", "level": 55, "category": "Security Tools", "icon": "�", "description": "Penetration testing framework" }
+      { "name": "Java Programming", "level": 90, "category": "Programming", "icon": "", "description": "Ngôn ngữ chính, thành thạo về OOP & security" },
+      { "name": "Network Security", "level": 75, "category": "Cybersecurity", "icon": "", "description": "Hiểu biết về bảo mật mạng enterprise" },
+      { "name": "Penetration Testing", "level": 70, "category": "Cybersecurity", "icon": "", "description": "Thực hành ethical hacking & vulnerability assessment" },
+      { "name": "Python", "level": 75, "category": "Programming", "icon": "", "description": "Scripting automation & security tools" },
+      { "name": "JavaScript/TypeScript", "level": 70, "category": "Programming", "icon": "", "description": "Web development & modern frameworks" },
+      { "name": "C/C++", "level": 65, "category": "Programming", "icon": "", "description": "System programming & low-level security" },
+      { "name": "AWS Cloud", "level": 60, "category": "Cloud Platforms", "icon": "", "description": "EC2, S3, IAM, CloudFormation basics" },
+      { "name": "Kubernetes", "level": 70, "category": "Cloud Platforms", "icon": "", "description": "Container orchestration & deployment" },
+      { "name": "Docker", "level": 75, "category": "System Administration", "icon": "", "description": "Containerization & microservices" },
+      { "name": "Linux Administration", "level": 80, "category": "System Administration", "icon": "", "description": "Ubuntu, CentOS, Kali Linux" },
+      { "name": "pfSense", "level": 65, "category": "Security Tools", "icon": "", "description": "Firewall configuration & network security" },
+      { "name": "Suricata", "level": 60, "category": "Security Tools", "icon": "", "description": "Intrusion Detection System" },
+      { "name": "Snort", "level": 55, "category": "Security Tools", "icon": "", "description": "Network intrusion prevention" },
+      { "name": "Wazuh", "level": 60, "category": "Security Tools", "icon": "", "description": "SIEM & log analysis" },
+      { "name": "Squid Proxy", "level": 50, "category": "Security Tools", "icon": "", "description": "Web proxy & content filtering" },
+      { "name": "BigBountyRecon", "level": 45, "category": "Security Tools", "icon": "", "description": "Bug bounty reconnaissance" },
+      { "name": "Wireshark", "level": 70, "category": "Security Tools", "icon": "", "description": "Network protocol analysis" },
+      { "name": "Nmap", "level": 75, "category": "Security Tools", "icon": "", "description": "Network discovery & scanning" },
+      { "name": "Burp Suite", "level": 60, "category": "Security Tools", "icon": "", "description": "Web application security testing" },
+      { "name": "Metasploit", "level": 55, "category": "Security Tools", "icon": "", "description": "Penetration testing framework" }
     ]
   },
   "navigation": [
@@ -67,15 +67,15 @@
       "organization": "Đại học Ngoại ngữ - Tin học TP.HCM",
       "location": "TP. Hồ Chí Minh, Việt Nam",
       "period": "2022 - 2026",
-      "description": "🎓 Sinh viên năm cuối chuyên ngành Cybersecurity, tập trung vào network security, penetration testing và programming. Đặc biệt có niềm đam mê với Java programming và cloud security.",
+      "description": "Sinh viên năm cuối chuyên ngành Cybersecurity, tập trung vào network security, penetration testing và programming. Đặc biệt có niềm đam mê với Java programming và cloud security.",
       "achievements": [
-        "📊 GPA: 2.88/4.0 - Nỗ lực không ngừng cải thiện",
-        "🏆 Đạt điểm tối đa trong các đồ án quan trọng",
-        "🎯 Tích cực tham gia các project thực hành",
-        "💪 Tự học và phát triển kỹ năng liên tục"
+        "GPA: 2.88/4.0 - Nỗ lực không ngừng cải thiện",
+        "Đạt điểm tối đa trong các đồ án quan trọng",
+        "Tích cực tham gia các project thực hành",
+        "Tự học và phát triển kỹ năng liên tục"
       ],
       "technologies": ["Java", "Python", "Network Security", "Linux", "Docker", "Kubernetes"],
-      "logo": "🎓"
+      "logo": ""
     },
     {
       "type": "project",
@@ -83,17 +83,17 @@
       "organization": "Đại học Ngoại ngữ - Tin học TP.HCM",
       "location": "TP. Hồ Chí Minh, Việt Nam",
       "period": "Tháng 8/2025",
-      "description": "🚀 Nghiên cứu, cài đặt và triển khai hệ thống dịch vụ web tĩnh và web động trên nền tảng Kubernetes (Minikube và Kubernetes Cluster). Xây dựng kiến trúc Master Node và Worker Nodes với đầy đủ quản lý tài nguyên.",
+      "description": "Nghiên cứu, cài đặt và triển khai hệ thống dịch vụ web tĩnh và web động trên nền tảng Kubernetes (Minikube và Kubernetes Cluster). Xây dựng kiến trúc Master Node và Worker Nodes với đầy đủ quản lý tài nguyên.",
       "achievements": [
-        "🏆 Đạt điểm tối đa cho đồ án tốt nghiệp",
-        "☁️ Triển khai thành công WordPress + MariaDB trên Kubernetes",
-        "🔒 Cấu hình bảo mật HTTPS, Salts và security plugins",
-        "� Implement HPA (Horizontal Pod Autoscaler) và Ingress Controller",
-        "� Triển khai giải pháp backup/restore với Velero và MinIO",
-        "⚙️ Quản lý toàn diện Pod, Deployment, Service, PV/PVC, Secrets, NetworkPolicy"
+        "Đạt điểm tối đa cho đồ án tốt nghiệp",
+        "Triển khai thành công WordPress + MariaDB trên Kubernetes",
+        "Cấu hình bảo mật HTTPS, Salts và security plugins",
+        "Implement HPA (Horizontal Pod Autoscaler) và Ingress Controller",
+        "Triển khai giải pháp backup/restore với Velero và MinIO",
+        "Quản lý toàn diện Pod, Deployment, Service, PV/PVC, Secrets, NetworkPolicy"
       ],
       "technologies": ["Kubernetes", "Docker", "WordPress", "MariaDB", "Minikube", "HTTPS", "HPA", "Ingress Controller", "Velero", "MinIO", "NetworkPolicy"],
-      "logo": "☁️"
+      "logo": ""
     },
     {
       "type": "project", 
@@ -101,18 +101,18 @@
       "organization": "Đại học Ngoại ngữ - Tin học TP.HCM",
       "location": "TP. Hồ Chí Minh, Việt Nam",
       "period": "Tháng 8/2024",
-      "description": "🔍 Nghiên cứu chuyên sâu về Bluetooth security vulnerabilities và thực hiện các cuộc tấn công trong môi trường kiểm soát. Thiết lập môi trường tấn công hoàn chỉnh và triển khai nhiều phương thức tấn công Bluetooth khác nhau.",
+      "description": "Nghiên cứu chuyên sâu về Bluetooth security vulnerabilities và thực hiện các cuộc tấn công trong môi trường kiểm soát. Thiết lập môi trường tấn công hoàn chỉnh và triển khai nhiều phương thức tấn công Bluetooth khác nhau.",
       "achievements": [
-        "🏆 Đạt điểm tối đa cho đồ án wireless security",
-        "🖥️ Thiết lập thành công môi trường tấn công Bluetooth trên Kali Linux với card Bluetooth 5.0",
-        "� Thực hiện quét và thu thập thông tin thiết bị mục tiêu bằng hcitool và bluetoothctl",
-        "📱 Triển khai thành công tấn công Bluejacking bằng obexftp và obexfs, gửi vCard giả mạo",
-        "🦆 Thực hiện thành công tấn công BlueDucky, chiếm quyền điều khiển thiết bị từ xa",
-        "🔐 Khai thác Bluesnarfing và thu được một phần key của thiết bị mục tiêu",
-        "�️ Đánh giá mức độ thành công và đề xuất biện pháp phòng tránh hiệu quả"
+        "Đạt điểm tối đa cho đồ án wireless security",
+        "Thiết lập thành công môi trường tấn công Bluetooth trên Kali Linux với card Bluetooth 5.0",
+        "Thực hiện quét và thu thập thông tin thiết bị mục tiêu bằng hcitool và bluetoothctl",
+        "Triển khai thành công tấn công Bluejacking bằng obexftp và obexfs, gửi vCard giả mạo",
+        "Thực hiện thành công tấn công BlueDucky, chiếm quyền điều khiển thiết bị từ xa",
+        "Khai thác Bluesnarfing và thu được một phần key của thiết bị mục tiêu",
+        "Đánh giá mức độ thành công và đề xuất biện pháp phòng tránh hiệu quả"
       ],
       "technologies": ["Bluetooth Security", "Kali Linux", "Bluetooth 5.0", "hcitool", "bluetoothctl", "obexftp", "obexfs", "BlueDucky", "Bluesnarfing", "Wireshark", "Python"],
-      "logo": "📱"
+      "logo": ""
     },
     {
       "type": "project",
@@ -120,20 +120,20 @@
       "organization": "Đại học Ngoại ngữ - Tin học TP.HCM", 
       "location": "TP. Hồ Chí Minh, Việt Nam",
       "period": "2023 - 2024",
-      "description": "☕ Xây dựng thành công hệ thống xác thực Client-Server bảo mật (Java/Netty) kết hợp AES (CBC) cho dữ liệu và RSA (2048-bit) để mã hóa khóa phiên, đồng thời sử dụng SHA256withRSA cho chữ ký số. Thiết kế và triển khai server Netty xử lý xác thực, giải mã, kiểm tra chữ ký và điều phối quy trình quét subdomain sau khi xác thực thành công.",
+      "description": "Xây dựng thành công hệ thống xác thực Client-Server bảo mật (Java/Netty) kết hợp AES (CBC) cho dữ liệu và RSA (2048-bit) để mã hóa khóa phiên, đồng thời sử dụng SHA256withRSA cho chữ ký số. Thiết kế và triển khai server Netty xử lý xác thực, giải mã, kiểm tra chữ ký và điều phối quy trình quét subdomain sau khi xác thực thành công.",
       "achievements": [
-        "🔐 Triển khai mã hóa hybrid AES(CBC) + RSA(2048-bit) với SHA256withRSA digital signature",
-        "🖥️ Phát triển client JavaFX: chọn file khóa, gửi thông điệp mã hóa/ký số, hiển thị log và dashboard thời-gian-thực",
-        "� Triển khai công cụ quét subdomain (SubdomainScan) sử dụng wordlist (SecLists) với kiểm tra DNS",
-        "📊 Xây dựng REST API/Metrics HTTP server (SparkJava) và MetricsCollector thu thập số liệu dashboard",
-        "📡 Triển khai LogBroadcaster (WebSocket) + CircularBuffer phát luồng log realtime",
-        "� Thiết kế KeyDatabase (SQLite) lưu trữ an toàn AES key/IV/public key client",
-        "⚡ Áp dụng kiến trúc non-blocking Netty với pipeline xử lý, framing và traffic shaping",
-        "� Triển khai cơ chế bất đồng bộ/đa luồng (ExecutorService, AtomicInteger) cho UI không block",
-        "📈 Dashboard JavaFX cập nhật mỗi 3s, REST endpoints (/metrics, /log, /ui) và giao diện xem log"
+        "Triển khai mã hóa hybrid AES(CBC) + RSA(2048-bit) với SHA256withRSA digital signature",
+        "Phát triển client JavaFX: chọn file khóa, gửi thông điệp mã hóa/ký số, hiển thị log và dashboard thời-gian-thực",
+        "Triển khai công cụ quét subdomain (SubdomainScan) sử dụng wordlist (SecLists) với kiểm tra DNS",
+        "Xây dựng REST API/Metrics HTTP server (SparkJava) và MetricsCollector thu thập số liệu dashboard",
+        "Triển khai LogBroadcaster (WebSocket) + CircularBuffer phát luồng log realtime",
+        "Thiết kế KeyDatabase (SQLite) lưu trữ an toàn AES key/IV/public key client",
+        "Áp dụng kiến trúc non-blocking Netty với pipeline xử lý, framing và traffic shaping",
+        "Triển khai cơ chế bất đồng bộ/đa luồng (ExecutorService, AtomicInteger) cho UI không block",
+        "Dashboard JavaFX cập nhật mỗi 3s, REST endpoints (/metrics, /log, /ui) và giao diện xem log"
       ],
       "technologies": ["Java", "Netty", "JavaFX", "AES/RSA Cryptography", "SHA256withRSA", "SparkJava", "WebSocket", "SQLite", "ExecutorService", "SecLists", "DNS Resolution"],
-      "logo": "☕"
+      "logo": ""
     },
     {
       "type": "learning",
@@ -141,27 +141,27 @@
       "organization": "Tự học & Lab thực hành",
       "location": "TP. Hồ Chí Minh, Việt Nam",
       "period": "2024 - Hiện tại",
-      "description": "🏢 Thiết kế và triển khai giải pháp bảo mật toàn diện cho doanh nghiệp với kiến trúc đa lớp. Thực hành từ thiết kế sơ đồ logic/vật lý, cấu hình thiết bị mạng, đến triển khai các hệ thống bảo mật tích hợp.",
+      "description": "Thiết kế và triển khai giải pháp bảo mật toàn diện cho doanh nghiệp với kiến trúc đa lớp. Thực hành từ thiết kế sơ đồ logic/vật lý, cấu hình thiết bị mạng, đến triển khai các hệ thống bảo mật tích hợp.",
       "achievements": [
-        "🏗️ Thiết kế sơ đồ logic và sơ đồ vật lý hoàn chỉnh cho mạng doanh nghiệp",
-        "⚙️ Cấu hình thành công các thiết bị switch và router",
-        "� Thiết lập pfSense firewall: phân chia VLAN/subnet, kiểm soát truy cập LAN/Internet",
-        "🦑 Cấu hình Squid Proxy với ACL whitelist/blacklist và SSL proxy",
-        "👁️ Triển khai Suricata IDS/IPS: giám sát lưu lượng, rules tùy chỉnh, chế độ chặn tấn công",
-        "📊 Deploy Wazuh endpoint monitoring: cài agent, thu thập log, phân tích sự kiện bảo mật",
-        "🛡️ Thiết lập Group Policy Objects (GPO): quản lý mật khẩu, hạn chế software, chặn USB",
-        "💾 Thiết kế backup & recovery system với kiểm thử khôi phục thành công",
-        "📹 Cài đặt hệ thống camera giám sát khu vực bán hàng và server room",
-        "⚔️ Thực hiện 3+ kịch bản tấn công mô phỏng với phát hiện đầy đủ qua Suricata/Wazuh",
-        "✅ Đánh giá hiệu quả tích hợp firewall, proxy, IDS/IPS và giám sát vật lý"
+        "Thiết kế sơ đồ logic và sơ đồ vật lý hoàn chỉnh cho mạng doanh nghiệp",
+        "Cấu hình thành công các thiết bị switch và router",
+        "Thiết lập pfSense firewall: phân chia VLAN/subnet, kiểm soát truy cập LAN/Internet",
+        "Cấu hình Squid Proxy với ACL whitelist/blacklist và SSL proxy",
+        "Triển khai Suricata IDS/IPS: giám sát lưu lượng, rules tùy chỉnh, chế độ chặn tấn công",
+        "Deploy Wazuh endpoint monitoring: cài agent, thu thập log, phân tích sự kiện bảo mật",
+        "Thiết lập Group Policy Objects (GPO): quản lý mật khẩu, hạn chế software, chặn USB",
+        "Thiết kế backup & recovery system với kiểm thử khôi phục thành công",
+        "Cài đặt hệ thống camera giám sát khu vực bán hàng và server room",
+        "Thực hiện 3+ kịch bản tấn công mô phỏng với phát hiện đầy đủ qua Suricata/Wazuh",
+        "Đánh giá hiệu quả tích hợp firewall, proxy, IDS/IPS và giám sát vật lý"
       ],
       "technologies": ["pfSense", "Suricata", "Wazuh", "Squid Proxy", "VLAN", "GPO", "Windows Server", "Network Design", "Camera System", "Backup Solutions", "Switch", "Router", "IDS/IPS", "SIEM"],
-      "logo": "🛡️"
+      "logo": ""
     }
   ],
   "projects": [
     {
-      "title": "🚀 Kubernetes-Based Cloud Hosting Platform",
+      "title": "Kubernetes-Based Cloud Hosting Platform",
       "description": "Đồ án tốt nghiệp: Triển khai và quản lý dịch vụ trên Kubernetes. Thực hiện nghiên cứu, cài đặt và triển khai hệ thống dịch vụ web tĩnh và web động trên nền tảng Kubernetes (Minikube và Kubernetes Cluster). Xây dựng kiến trúc gồm Master Node và Worker Nodes, cấu hình mạng, triển khai container (Docker), quản lý tài nguyên (Pod, Deployment, Service, PV/PVC, Secrets, NetworkPolicy). Triển khai WordPress kết hợp MariaDB, cấu hình bảo mật (HTTPS, Salts, plugin bảo mật), tối ưu hiệu năng (HPA, Ingress Controller), và triển khai giải pháp sao lưu – phục hồi dữ liệu (Velero, MinIO).",
       "image": "https://images.pexels.com/photos/5380617/pexels-photo-5380617.jpeg?auto=compress&cs=tinysrgb&w=600",
       "technologies": ["Kubernetes", "Docker", "WordPress", "MariaDB", "Minikube", "HTTPS", "HPA", "Ingress Controller", "Velero", "MinIO", "Pod", "Deployment", "Service", "PV/PVC", "Secrets", "NetworkPolicy"],
@@ -169,11 +169,11 @@
       "github": "https://github.com/TranVanKhai/k8s-cloud-hosting",
       "demo": "https://bit.ly/4l6vocM",
       "featured": true,
-      "impact": "🏆 Đạt điểm tối đa - Đồ án tốt nghiệp xuất sắc",
+      "impact": "Đạt điểm tối đa - Đồ án tốt nghiệp xuất sắc",
       "metrics": ["Triển khai thành công Master Node và Worker Nodes", "WordPress + MariaDB deployment hoàn chỉnh", "Cấu hình bảo mật HTTPS và security plugins", "Implement HPA và Ingress Controller", "Giải pháp backup/restore với Velero và MinIO", "Quản lý tài nguyên Kubernetes toàn diện"]
     },
     {
-      "title": "📱 Bluejacking Attack Simulation & Defense",
+      "title": "Bluejacking Attack Simulation & Defense",
       "description": "Đồ án nghiên cứu chuyên sâu về Bluetooth security vulnerabilities. Thiết lập thành công môi trường tấn công Bluetooth trên Kali Linux với card Bluetooth 5.0. Thực hiện đầy đủ các phương thức tấn công Bluejacking, BlueDucky và Bluesnarfing trong môi trường kiểm soát, đánh giá mức độ thành công và đề xuất biện pháp phòng tránh.",
       "image": "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=600",
       "technologies": ["Bluetooth Security", "Kali Linux", "Bluetooth 5.0", "hcitool", "bluetoothctl", "obexftp", "obexfs", "BlueDucky", "Bluesnarfing", "Wireshark", "Python", "Network Analysis"],
@@ -181,11 +181,11 @@
       "github": "https://github.com/TranVanKhai/bluejacking-simulation",
       "demo": "https://bit.ly/3GSwuLj",
       "featured": true,
-      "impact": "🏆 Đạt điểm tối đa - Đồ án wireless security",
+      "impact": "Đạt điểm tối đa - Đồ án wireless security",
       "metrics": ["Thiết lập thành công môi trường tấn công Bluetooth 5.0", "Triển khai thành công Bluejacking với obexftp/obexfs", "Thực hiện thành công BlueDucky attack", "Khai thác Bluesnarfing và thu được key fragments", "Đánh giá comprehensive security vulnerabilities", "Đề xuất biện pháp phòng tránh hiệu quả"]
     },
     {
-      "title": "☕ Secure Client-Server Communication with Java & Netty",
+      "title": "Secure Client-Server Communication with Java & Netty",
       "description": "Đồ án xuất sắc về xây dựng hệ thống client-server bảo mật sử dụng Java và Netty framework. Implement mã hóa AES/RSA và secure communication protocols.",
       "image": "https://images.pexels.com/photos/5380623/pexels-photo-5380623.jpeg?auto=compress&cs=tinysrgb&w=600",
       "technologies": ["Java", "Netty", "AES/RSA Encryption", "Socket Programming", "Cryptography"],
@@ -193,11 +193,11 @@
       "github": "https://github.com/Tunetran/Client-Server-Communication-using-Java-Netty.git",
       "demo": "https://secure-comm-demo.vercel.app",
       "featured": true,
-      "impact": "🏆 Đạt điểm tối đa - Đồ án Java security",
+      "impact": "Đạt điểm tối đa - Đồ án Java security",
       "metrics": ["End-to-end encryption implemented", "Reliable networking protocol", "Secure key management", "High-performance communication"]
     },
     {
-      "title": "🏢 Xây dựng chiến lược & giải pháp bảo mật cho doanh nghiệp",
+      "title": "Xây dựng chiến lược & giải pháp bảo mật cho doanh nghiệp",
       "description": "Thiết kế và triển khai giải pháp bảo mật toàn diện cho doanh nghiệp. Từ thiết kế sơ đồ logic/vật lý, cấu hình thiết bị mạng, đến triển khai pfSense, Suricata IDS/IPS, Wazuh SIEM, Squid Proxy và hệ thống giám sát vật lý. Thực hiện kiểm thử bảo mật với các kịch bản tấn công mô phỏng và đánh giá hiệu quả tích hợp.",
       "image": "https://images.pexels.com/photos/5380589/pexels-photo-5380589.jpeg?auto=compress&cs=tinysrgb&w=600",
       "technologies": ["pfSense", "Suricata", "Wazuh", "Squid Proxy", "VLAN", "GPO", "Windows Server", "Network Design", "Camera System", "Backup Solutions", "Switch", "Router", "IDS/IPS", "SIEM"],
@@ -205,11 +205,11 @@
       "github": "https://github.com/TranVanKhai/enterprise-security-infra",
       "demo": "https://bit.ly/46C9M4v",
       "featured": true,
-      "impact": "🛡️ Comprehensive enterprise security solution",
+      "impact": "Comprehensive enterprise security solution",
       "metrics": ["Thiết kế hoàn chỉnh sơ đồ logic và vật lý", "Cấu hình thành công pfSense với VLAN/subnet", "Triển khai Suricata IDS/IPS với rules tùy chỉnh", "Deploy Wazuh endpoint monitoring và log analysis", "Thiết lập GPO và backup/recovery system", "Thực hiện 3+ kịch bản tấn công với phát hiện đầy đủ"]
     },
     {
-      "title": "🔍 Bug Bounty Reconnaissance Toolkit",
+      "title": "Bug Bounty Reconnaissance Toolkit",
       "description": "Phát triển toolkit để hỗ trợ bug bounty hunting với BigBountyRecon và các tools tự động hóa reconnaissance process.",
       "image": "https://images.pexels.com/photos/8479043/pexels-photo-8479043.jpeg?auto=compress&cs=tinysrgb&w=600",
       "technologies": ["BigBountyRecon", "Python", "Bash", "Nmap", "Subdomain Enumeration"],
@@ -217,11 +217,11 @@
       "github": "https://github.com/TranVanKhai/bounty-recon-toolkit",
       "demo": "https://bounty-recon-demo.vercel.app",
       "featured": false,
-      "impact": "🎯 Automated reconnaissance for bug hunting",
+      "impact": "Automated reconnaissance for bug hunting",
       "metrics": ["Automated subdomain discovery", "Vulnerability scanning", "Report generation", "Time-efficient reconnaissance"]
     },
     {
-      "title": "💻 Personal Portfolio Website",
+      "title": "Personal Portfolio Website",
       "description": "Portfolio website hiện đại được xây dựng với Next.js 13, TypeScript và Tailwind CSS. Thiết kế responsive với dark/light mode và performance optimization.",
       "image": "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=600",
       "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
@@ -229,119 +229,119 @@
       "github": "https://github.com/TranVanKhai/portfolio-website",
       "demo": "https://tranvankhai-portfolio.vercel.app",
       "featured": false,
-      "impact": "🌟 Professional online presence",
+      "impact": "Professional online presence",
       "metrics": ["Modern responsive design", "Fast loading performance", "SEO optimized", "Professional presentation"]
     }
   ],
   "achievements": [
     {
-      "title": "🏆 Điểm tối đa các đồ án quan trọng",
+      "title": "Điểm tối đa các đồ án quan trọng",
       "description": "Đạt điểm tối đa cho 3 đồ án quan trọng: Kubernetes Cloud Hosting, Bluejacking Simulation, và Secure Java Communication, thể hiện khả năng thực hành xuất sắc.",
       "date": "2024-2025",
       "category": "Academic Excellence",
-      "icon": "🏆",
+      "icon": "",
       "details": "3 đồ án đạt điểm tối đa liên tiếp"
     },
     {
-      "title": "☕ Java Programming Expertise",
+      "title": "Java Programming Expertise",
       "description": "Thành thạo Java programming với focus vào security và network programming. Đây là ngôn ngữ lập trình chính và được sử dụng hiệu quả trong các dự án lớn.",
       "date": "2023-2025",
       "category": "Technical Skills",
-      "icon": "☕",
+      "icon": "",
       "details": "Ngôn ngữ lập trình chuyên sâu nhất"
     },
     {
-      "title": "☁️ Multi-Cloud Platform Experience",
+      "title": "Multi-Cloud Platform Experience",
       "description": "Có kinh nghiệm thực tế với nhiều cloud platforms bao gồm AWS, Kubernetes, Render, và Vercel. Triển khai thành công các ứng dụng production-ready.",
       "date": "2024-2025",
       "category": "Cloud Computing",
-      "icon": "☁️",
+      "icon": "",
       "platforms": "AWS, Kubernetes, Render, Vercel"
     },
     {
-      "title": "🛡️ Security Tools Proficiency",
+      "title": "Security Tools Proficiency",
       "description": "Thành thạo với nhiều security tools quan trọng: Suricata, Snort, Wazuh, pfSense, Squid và BigBountyRecon. Áp dụng thành công trong các dự án thực tế.",
       "date": "2024-2025",
       "category": "Security Tools",
-      "icon": "🛡️",
+      "icon": "",
       "tools": "6+ security tools mastered"
     },
     {
-      "title": "📚 Continuous Learning Spirit",
+      "title": "Continuous Learning Spirit",
       "description": "Không ngừng tự học và cải thiện kỹ năng. Mặc dù GPA chưa cao nhưng luôn nỗ lực và đạt kết quả xuất sắc trong các dự án thực hành quan trọng.",
       "date": "2022-2025",
       "category": "Personal Growth",
-      "icon": "�",
+      "icon": "",
       "mindset": "Học hỏi không ngừng nghỉ"
     },
     {
-      "title": "🎯 Project-Based Learning Success",
+      "title": "Project-Based Learning Success",
       "description": "Chứng minh khả năng học tập hiệu quả thông qua practice-based learning. Các đồ án thực hành đều đạt kết quả xuất sắc với ứng dụng thực tế cao.",
       "date": "2024-2025",
       "category": "Learning Approach",
-      "icon": "🎯",
+      "icon": "",
       "approach": "Learning by doing"
     },
     {
-      "title": "🔍 Cybersecurity Research",
+      "title": "Cybersecurity Research",
       "description": "Tích cực nghiên cứu về cybersecurity, đặc biệt trong lĩnh vực wireless security, network security và penetration testing. Ứng dụng kiến thức vào thực tế.",
       "date": "2024-2025",
       "category": "Research",
-      "icon": "�",
+      "icon": "",
       "focus": "Wireless & Network Security"
     },
     {
-      "title": "💪 Resilience & Determination",
+      "title": "Resilience & Determination",
       "description": "Thể hiện tinh thần kiên trì và quyết tâm. Dù gặp khó khăn trong học tập nhưng luôn nỗ lực cải thiện và đạt kết quả tốt trong các lĩnh vực quan trọng.",
       "date": "2022-2025",
       "category": "Personal Quality",
-      "icon": "💪",
+      "icon": "",
       "quality": "Xâm nhập để học, bảo vệ để trưởng thành"
     }
   ],
   "about": {
     "title": "Về tôi",
-    "subtitle": "🛡️ 'Xâm nhập để học, bảo vệ để trưởng thành' - Sinh viên đam mê cybersecurity và Java programming",
-    "description": "Xin chào! Tôi là Khải, sinh viên năm cuối ngành Khoa học Máy tính chuyên ngành An ninh mạng tại Đại học Ngoại ngữ - Tin học TP.HCM. \n\n☕ **Java Programming Enthusiast**: Java là ngôn ngữ lập trình chính của tôi, đặc biệt yêu thích việc ứng dụng Java trong security và network programming.\n\n🛡️ **Cybersecurity Passion**: Đam mê tìm hiểu về network security, penetration testing và các công cụ bảo mật. Luôn áp dụng mindset 'Xâm nhập để học, bảo vệ để trưởng thành'.\n\n🚀 **Hands-on Learner**: Mặc dù GPA hiện tại là 2.88, tôi luôn đạt điểm tối đa trong các đồ án quan trọng và thực hành. Tin rằng học tập thông qua thực hành là cách hiệu quả nhất.\n\n☁️ **Cloud & DevOps**: Có kinh nghiệm thực tế với AWS, Kubernetes, Render, Vercel và các modern deployment practices.\n\n💪 **Growth Mindset**: Luôn tìm cách cải thiện bản thân, học hỏi từ thất bại và không ngừng phát triển kỹ năng technical cũng như soft skills.",
-    "mission": "🎯 Trở thành một cybersecurity professional giỏi, đóng góp vào việc bảo vệ thế giới số",
+    "subtitle": "'Xâm nhập để học, bảo vệ để trưởng thành' - Sinh viên đam mê cybersecurity và Java programming",
+    "description": "Xin chào! Tôi là Khải, sinh viên năm cuối ngành Khoa học Máy tính chuyên ngành An ninh mạng tại Đại học Ngoại ngữ - Tin học TP.HCM. \n\n**Java Programming Enthusiast**: Java là ngôn ngữ lập trình chính của tôi, đặc biệt yêu thích việc ứng dụng Java trong security và network programming.\n\n**Cybersecurity Passion**: Đam mê tìm hiểu về network security, penetration testing và các công cụ bảo mật. Luôn áp dụng mindset 'Xâm nhập để học, bảo vệ để trưởng thành'.\n\n**Hands-on Learner**: Mặc dù GPA hiện tại là 2.88, tôi luôn đạt điểm tối đa trong các đồ án quan trọng và thực hành. Tin rằng học tập thông qua thực hành là cách hiệu quả nhất.\n\n**Cloud & DevOps**: Có kinh nghiệm thực tế với AWS, Kubernetes, Render, Vercel và các modern deployment practices.\n\n**Growth Mindset**: Luôn tìm cách cải thiện bản thân, học hỏi từ thất bại và không ngừng phát triển kỹ năng technical cũng như soft skills.",
+    "mission": "Trở thành một cybersecurity professional giỏi, đóng góp vào việc bảo vệ thế giới số",
     "highlights": [
       {
-        "icon": "🎓",
+        "icon": "",
         "label": "Học tại",
         "value": "ĐH Ngoại ngữ - Tin học TP.HCM"
       },
       {
-        "icon": "📅", 
+        "icon": "", 
         "label": "Năm học",
         "value": "Sinh viên năm 4 (2022-2026)"
       },
       {
-        "icon": "☕",
+        "icon": "",
         "label": "Ngôn ngữ chính",
         "value": "Java Programming"
       },
       {
-        "icon": "🛡️",
+        "icon": "",
         "label": "Chuyên môn",
         "value": "Network Security & Penetration Testing"
       },
       {
-        "icon": "☁️",
+        "icon": "",
         "label": "Kinh nghiệm",
         "value": "AWS, Kubernetes, Cloud Deployment"
       },
       {
-        "icon": "📍",
+        "icon": "",
         "label": "Địa điểm",
         "value": "TP. Hồ Chí Minh"
       },
       {
-        "icon": "🏆",
+        "icon": "",
         "label": "Thành tích",
         "value": "Điểm tối đa 3 đồ án quan trọng"
       },
       {
-        "icon": "�",
+        "icon": "",
         "label": "Phương châm",
         "value": "Xâm nhập để học, bảo vệ để trưởng thành"
       }
@@ -413,32 +413,32 @@
     "description": "Xin chào! Tôi là Khải, sinh viên năm cuối ngành Khoa học Máy tính tại Đại học Ngoại ngữ - Tin học TP.HCM. Với niềm đam mê mãnh liệt về an ninh mạng và bảo mật thông tin, tôi luôn tìm cách học hỏi và khám phá những công nghệ mới.\n\nTrong quá trình học tập, tôi đã tự mình nghiên cứu về wireless security, thực hành với các công cụ như Docker và Kubernetes, cũng như phát triển kỹ năng lập trình Java. Tôi tin rằng việc kết hợp kiến thức lý thuyết với thực hành sẽ giúp tôi trở thành một chuyên gia bảo mật giỏi trong tương lai.\n\nHiện tại, tôi đang tìm kiếm cơ hội thực tập để có thể áp dụng những kiến thức đã học vào thực tế và học hỏi thêm từ các chuyên gia trong ngành.",
     "highlights": [
       {
-        "icon": "🎓",
+        "icon": "",
         "label": "Học tại",
         "value": "ĐH Ngoại ngữ - Tin học TP.HCM"
       },
       {
-        "icon": "�", 
+        "icon": "", 
         "label": "Năm học",
         "value": "Sinh viên năm 4 (2022-2026)"
       },
       {
-        "icon": "💡",
+        "icon": "",
         "label": "Sở thích",
         "value": "Tự học công nghệ mới"
       },
       {
-        "icon": "🎯",
+        "icon": "",
         "label": "Mục tiêu",
         "value": "Trở thành Cybersecurity Expert"
       },
       {
-        "icon": "🔥",
+        "icon": "",
         "label": "Đam mê",
         "value": "An ninh mạng & Bảo mật"
       },
       {
-        "icon": "📍",
+        "icon": "",
         "label": "Khu vực",
         "value": "TP. Hồ Chí Minh"
       }

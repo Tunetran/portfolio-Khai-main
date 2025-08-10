@@ -10,12 +10,12 @@ export default function ModernAboutSection() {
   const { about, stats } = portfolioData;
 
   const iconMap: Record<string, any> = {
-    '🎓': GraduationCap,
-    '📚': GraduationCap,
-    '💡': Target,
-    '🎯': Target,
-    '🔥': Flame,
-    '📍': MapPin,
+    '': Target,
+    '': GraduationCap,
+    '': Target,
+    '': Target,
+    '': Flame,
+    '': MapPin,
   };
 
   const containerVariants = {

@@ -119,7 +119,7 @@ export default function ProfessionalAboutSection() {
               </span>
             </h2>
             <p className="text-base sm:text-xl text-corporate-navy-600 dark:text-corporate-navy-400 max-w-4xl mx-auto leading-relaxed px-4">
-              🎯 Trở thành một cybersecurity professional giỏi, đóng góp vào việc bảo vệ thế giới số
+              Trở thành một cybersecurity professional giỏi, đóng góp vào việc bảo vệ thế giới số
             </p>
           </motion.div>
 
@@ -190,19 +190,19 @@ export default function ProfessionalAboutSection() {
                     </div>
 
                     <p className="text-corporate-navy-700 dark:text-corporate-navy-300 leading-relaxed text-lg mb-6">
-                      <strong className="text-professional-green">☕ Java Programming Enthusiast:</strong> Java là ngôn ngữ lập trình chính của tôi 
+                      <strong className="text-professional-green">Java Programming Enthusiast:</strong> Java là ngôn ngữ lập trình chính của tôi 
                       với 90% proficiency. Tôi đặc biệt yêu thích việc ứng dụng Java trong security và network programming, 
                       đã hoàn thành xuất sắc đồ án <em>"Secure Client-Server Communication using Java & Netty"</em> với điểm tối đa.
                     </p>
 
                     <p className="text-corporate-navy-700 dark:text-corporate-navy-300 leading-relaxed text-lg mb-6">
-                      <strong className="text-professional-purple">🛡️ Cybersecurity Passion:</strong> Đam mê tìm hiểu về network security, 
+                      <strong className="text-professional-purple">Cybersecurity Passion:</strong> Đam mê tìm hiểu về network security, 
                       penetration testing và các công cụ bảo mật. Luôn áp dụng mindset "ethical hacking" để hiểu sâu về vulnerabilities 
                       và cách phòng chống.
                     </p>
 
                     <p className="text-corporate-navy-700 dark:text-corporate-navy-300 leading-relaxed text-lg">
-                      <strong className="text-professional-orange">💪 Growth Mindset:</strong> Mặc dù GPA hiện tại là 2.88, 
+                      <strong className="text-professional-orange">Growth Mindset:</strong> Mặc dù GPA hiện tại là 2.88, 
                       tôi luôn đạt <strong>điểm tối đa trong các đồ án quan trọng</strong> và thực hành. 
                       Tin rằng học tập thông qua thực hành và project-based learning là cách hiệu quả nhất để phát triển kỹ năng thực tế.
                     </p>

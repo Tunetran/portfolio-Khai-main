@@ -126,7 +126,7 @@ export default function ModernHeroSection() {
                 transition={{ delay: 1, type: 'spring' }}
                 className="absolute -top-4 -right-4 bg-gradient-to-r from-professional-green to-professional-blue text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg"
               >
-                🎯 Available
+                Available
               </motion.div>
             </div>
           </motion.div>
