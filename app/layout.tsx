@@ -2,6 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 import ModernHeader from '@/components/ModernHeader';
 import GalaxyBackground from '@/components/GalaxyBackground';
+import CyberEffects from '@/components/CyberEffects';
+import CyberHUD from '@/components/CyberHUD';
 import { ThemeProvider } from '@/components/ThemeProvider';
 
 export const metadata: Metadata = {
@@ -90,6 +92,8 @@ export default function RootLayout({
           storageKey="portfolio-theme"
         >
           <GalaxyBackground />
+          <CyberEffects />
+          <CyberHUD />
           <div className="content-overlay">
             <ModernHeader />
             <main className="min-h-screen">
